@@ -1,0 +1,3643 @@
+
+    body{
+        background: rgb(0,0,0);
+       /* background: linear-gradient(342deg, rgba(0,0,0,1) 25%, rgba(10,9,9,1) 45%, rgba(32,28,28,1) 72%, rgba(73,64,64,1) 100%);*/
+    
+    overflow: hidden;
+    }
+    
+    .container{
+        position: relative;
+    }
+    
+    .logo{
+        width: 11%;
+        margin-left: -1%;
+        margin-top: -1%;
+    }
+    /*__________________________________Social Media____________________________________________*/
+    #facebook{
+      width:2%;
+      display: block;
+      position: absolute;
+      margin-top: -6.1%;
+      margin-left: 33%;
+    
+      
+    }
+    #instagram{
+      width:2.6%;
+      display: block;
+      position: absolute;
+      margin-top: -5.8%;
+      margin-left: 39%;
+    }
+    #twitter{
+      width:3.2%;
+      display: block;
+      position: absolute;
+      margin-top: -5.8%;
+      margin-left: 45.5%;
+      
+    }
+    #linkedin{
+      width:3.1%;
+      display: block;
+      position: absolute;
+      margin-top: -6.4%;
+      margin-left: 51.6%;
+      
+    }
+    #reddit{
+      width:3.3%;
+      display: block;
+      position: absolute;
+      margin-top: -6%;
+      margin-left: 57.4%;
+      
+    }
+    #github{
+      width:2.6%;
+      display: block;
+      position: absolute;
+     
+      margin-top: -6%;
+      margin-left:64.2%;
+      
+    }
+    
+    /*___________________________________________Social media End___________________________________________________*/
+ 
+    .circle {
+        position: absolute;
+        height: 500px;
+        width: 500px;
+        margin-left: 30%;
+        margin-right: auto;
+        margin-top:8%;
+        /*background: rgb(0,0,0);
+        background: linear-gradient(339deg, rgba(0,0,0,1) 0%, rgba(97,84,19,1) 25%, rgba(129,114,34,1) 47%, rgba(97,84,19,1) 66%, rgba(0,0,0,1) 100%);*/
+       /* background: rgb(0,0,0);
+        background: linear-gradient(347deg, rgba(0,0,0,1) 4%, rgba(33,29,7,1) 17%, rgba(97,84,19,1) 29%, rgba(131,115,28,1) 47%, rgba(97,84,19,1) 63%, rgba(27,23,6,1) 80%, rgba(0,0,0,1) 94%);*/
+       /* background: rgb(0,0,0);
+        background: linear-gradient(342deg, rgba(0,0,0,1) 18%, rgba(33,29,7,1) 28%, rgba(97,84,19,1) 45%, rgba(97,84,19,1) 47%, rgba(97,84,19,1) 58%, rgba(27,23,6,1) 79%, rgba(0,0,0,1) 87%);*/
+        background: rgb(0,0,0);
+        background: linear-gradient(315deg, rgba(0,0,0,1) 25%, rgba(10,9,9,1) 45%, rgba(32,28,28,1) 72%, rgba(73,64,64,1) 100%);
+        border-radius: 50%;
+        display: inline-block;
+      }
+    
+      .myimage{
+          margin-left: 14%;
+          width: 70%;
+          margin-top:-1% ;
+          
+          position: absolute;
+      }
+    
+      /*___________________________________________Name and Intro_________________________*/
+    
+      @font-face{
+        font-family: Pirata One;
+        src:url(/fonts/pirata_one.ttf)
+    }
+    @font-face{
+        font-family:Fondamento;
+        src:url(/fonts/Fondamento-Regular.ttf)
+    }
+    @keyframes textclip {
+        to {
+            background-position: 200% center;
+        }
+    }
+    
+      .name{
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    
+          position: absolute;
+          font-family: 'Fondamento';
+          font-size: 4vw;
+          color: #7a7f87;
+          margin-top: 50%;
+          margin-left: -29%;
+          background: linear-gradient(to left, white 10%, yellow 60%, #FFD700 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 2s linear infinite;
+      }
+    
+      .intro{
+    
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 2vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+        margin-top: 56%;
+        margin-left: -28%;
+    }
+    
+    
+    .education{
+        position: absolute;
+        font-family: 'Fondamento';
+        font-size: 4.2vw;
+        color: #7a7f87;
+        margin-top: 50%;
+        margin-left: 43.5%;
+        background: linear-gradient(to left, white 10%, yellow 60%, #FFD700 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 2s linear infinite;
+    }
+    
+    .bit{
+      clear: both;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+    
+      position: absolute;
+      font-family: 'Pirata One', cursive;
+      font-size: 2vw;
+      color: #7a7f87;
+           background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 3s linear infinite;
+      margin-top: 56%;
+      margin-left: 35%;
+    
+    }
+    .course{
+      clear: both;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+    
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 1.8vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+        margin-top: 58.5%;
+        margin-left: 42.2%;
+    
+      }
+      .stream{
+    
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 1.6vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+        margin-top: 60.6%;
+        margin-left: 45%;
+    
+      }
+      .year{
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 1.2vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+                margin-top:62.7%;
+                margin-left:48.9%;
+     
+      }
+    
+     
+      /* ________________________________________Dropdown Content________________________ */
+    
+      
+      .menu_icon{
+       
+        width:3%;
+      display: block;
+      position: absolute;
+      margin-left: 96%;
+      margin-top: 0.8%;
+    
+      }
+    
+      .dropdown{
+        position: relative;
+    }
+    .dropdown-content {
+      margin-top: 0.8%;
+      margin-left: 92%; 
+      display: none;
+      position: absolute;
+      background-color:black;
+      width: 110px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: white;
+      size: 1;
+      padding: 12px 10px;
+      text-decoration: none;
+      display: block;
+      font-size: 22px;
+      font-family: 'Pirata One', cursive;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
+    
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    /*___________________________DropDown end____________________________________________________*/
+    
+    .topbar_mobile{
+      height: 11%;
+      width: 39%;
+      margin-left: 30%;
+      margin-top:-7%;
+      background-color:#1b1a15;
+      
+    }
+    
+    /*_____________________________________DIV____________________________________________*/
+    .intro_text{
+     margin-left: 30%;
+     margin-right: 10%;
+     margin-top: -25%;
+    }
+    
+    
+    /*_____________________________________DIV END__________________________________________*/
+      /*******************************************************************************************************
+  ********************************************************************************************************
+  *********************************************1st***********************************************************
+  **************************************************************************************************
+  ********************************************************************************************************
+  *******************************************************************************************************/
+
+  @media screen and (max-width:1200px){
+      
+    body{
+        background: rgb(0,0,0);
+    
+    overflow: hidden;
+    }
+    
+    .container{
+        position: relative;
+    }
+    
+    .logo{
+        width: 11%;
+        margin-left: -1%;
+        margin-top: -1%;
+    }
+    /*__________________________________Social Media____________________________________________*/
+    #facebook{
+      width:2%;
+      display: block;
+      position: absolute;
+      margin-top: -6.1%;
+      margin-left: 33%;
+    
+      
+    }
+    #instagram{
+      width:2.6%;
+      display: block;
+      position: absolute;
+      margin-top: -5.8%;
+      margin-left: 39%;
+    }
+    #twitter{
+      width:3.2%;
+      display: block;
+      position: absolute;
+      margin-top: -5.8%;
+      margin-left: 45.5%;
+      
+    }
+    #linkedin{
+      width:3.1%;
+      display: block;
+      position: absolute;
+      margin-top: -6.4%;
+      margin-left: 51.6%;
+      
+    }
+    #reddit{
+      width:3.3%;
+      display: block;
+      position: absolute;
+      margin-top: -6%;
+      margin-left: 57.4%;
+      
+    }
+    #github{
+      width:2.6%;
+      display: block;
+      position: absolute;
+     
+      margin-top: -6%;
+      margin-left:64.2%;
+      
+    }
+    
+    /*___________________________________________Social media End___________________________________________________*/
+ 
+    .circle {
+        position: absolute;
+        height: 450px;
+        width: 450px;
+        margin-left: 30%;
+        margin-right: auto;
+        margin-top:12%;
+        background: rgb(0,0,0);
+        background: linear-gradient(315deg, rgba(0,0,0,1) 25%, rgba(10,9,9,1) 45%, rgba(32,28,28,1) 72%, rgba(73,64,64,1) 100%);
+        border-radius: 50%;
+        display: inline-block;
+      }
+    
+      .myimage{
+          margin-left: 16%;
+          width: 68%;
+          margin-top:3.6% ;
+          
+          position: absolute;
+      }
+    
+      /*___________________________________________Name and Intro_________________________*/
+    
+      @font-face{
+        font-family: Pirata One;
+        src:url(/fonts/pirata_one.ttf)
+    }
+    @font-face{
+        font-family:Fondamento;
+        src:url(/fonts/Fondamento-Regular.ttf)
+    }
+    @keyframes textclip {
+        to {
+            background-position: 200% center;
+        }
+    }
+    
+      .name{
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    
+          position: absolute;
+          font-family: 'Fondamento';
+          font-size: 4.2vw;
+          color: #7a7f87;
+          margin-top: 55%;
+          margin-left: -29%;
+          background: linear-gradient(to left, white 10%, yellow 60%, #FFD700 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 2s linear infinite;
+      }
+    
+      .intro{
+    
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 2vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+        margin-top: 61%;
+        margin-left: -28%;
+    }
+    
+    
+    .education{
+        position: absolute;
+        font-family: 'Fondamento';
+        font-size: 4.2vw;
+        color: #7a7f87;
+        margin-top: 55%;
+        margin-left: 43.5%;
+        background: linear-gradient(to left, white 10%, yellow 60%, #FFD700 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 2s linear infinite;
+    }
+    
+    .bit{
+      clear: both;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+    
+      position: absolute;
+      font-family: 'Pirata One', cursive;
+      font-size: 2vw;
+      color: #7a7f87;
+           background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 3s linear infinite;
+      margin-top: 60%;
+      margin-left: 35%;
+    
+    }
+    .course{
+      clear: both;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+    
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 1.8vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+        margin-top: 62.5%;
+        margin-left: 42.2%;
+    
+      }
+      .stream{
+    
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 1.6vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+        margin-top: 64.7%;
+        margin-left: 45%;
+    
+      }
+      .year{
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 1.2vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+                margin-top:67.1%;
+                margin-left:48.9%;
+     
+      }
+    
+     
+      /* ________________________________________Dropdown Content________________________ */
+    
+      
+      .menu_icon{
+       
+        width:3%;
+      display: block;
+      position: absolute;
+      margin-left: 96%;
+      margin-top: 0.8%;
+    
+      }
+    
+      .dropdown{
+        position: relative;
+    }
+    .dropdown-content {
+      margin-top: 0.8%;
+      margin-left: 90%; 
+      display: none;
+      position: absolute;
+      background-color:black;
+      width: 110px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: white;
+      size: 1;
+      padding: 12px 10px;
+      text-decoration: none;
+      display: block;
+      font-size: 22px;
+      font-family: 'Pirata One', cursive;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
+    
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    /*___________________________DropDown end____________________________________________________*/
+    
+    .topbar_mobile{
+      height: 11%;
+      width: 39%;
+      margin-left: 30%;
+      margin-top:-7%;
+      background-color:#1b1a15;
+      
+    }
+    
+    /*_____________________________________DIV____________________________________________*/
+    .intro_text{
+     margin-left: 30%;
+     margin-right: 10%;
+     margin-top: -22%;
+    }
+    
+    
+    /*_____________________________________DIV END__________________________________________*/
+  }
+   /*******************************************************************************************************
+  ********************************************************************************************************
+  *********************************************2nd***********************************************************
+  **************************************************************************************************
+  ********************************************************************************************************
+  *******************************************************************************************************/
+
+  @media screen and (max-width:1100px){
+      
+    body{
+        background: rgb(0,0,0);
+    
+    overflow: hidden;
+    }
+    
+    .container{
+        position: relative;
+    }
+    
+    .logo{
+        width: 11%;
+        margin-left: -1%;
+        margin-top: -1%;
+    }
+    /*__________________________________Social Media____________________________________________*/
+    #facebook{
+      width:2%;
+      display: block;
+      position: absolute;
+      margin-top: -6.1%;
+      margin-left: 33%;
+    
+      
+    }
+    #instagram{
+      width:2.6%;
+      display: block;
+      position: absolute;
+      margin-top: -5.8%;
+      margin-left: 39%;
+    }
+    #twitter{
+      width:3.2%;
+      display: block;
+      position: absolute;
+      margin-top: -5.8%;
+      margin-left: 45.5%;
+      
+    }
+    #linkedin{
+      width:3.1%;
+      display: block;
+      position: absolute;
+      margin-top: -6.4%;
+      margin-left: 51.6%;
+      
+    }
+    #reddit{
+      width:3.3%;
+      display: block;
+      position: absolute;
+      margin-top: -6%;
+      margin-left: 57.4%;
+      
+    }
+    #github{
+      width:2.6%;
+      display: block;
+      position: absolute;
+     
+      margin-top: -6%;
+      margin-left:64.2%;
+      
+    }
+    
+    /*___________________________________________Social media End___________________________________________________*/
+ 
+    .circle {
+        position: absolute;
+        height: 400px;
+        width: 400px;
+        margin-left: 30%;
+        margin-right: auto;
+        margin-top:17%;
+        background: rgb(0,0,0);
+        background: linear-gradient(315deg, rgba(0,0,0,1) 25%, rgba(10,9,9,1) 45%, rgba(32,28,28,1) 72%, rgba(73,64,64,1) 100%);
+        border-radius: 50%;
+        display: inline-block;
+      }
+    
+      .myimage{
+          margin-left: 16%;
+          width: 68%;
+          margin-top:9% ;
+          
+          position: absolute;
+      }
+    
+      /*___________________________________________Name and Intro_________________________*/
+    
+      @font-face{
+        font-family: Pirata One;
+        src:url(/fonts/pirata_one.ttf)
+    }
+    @font-face{
+        font-family:Fondamento;
+        src:url(/fonts/Fondamento-Regular.ttf)
+    }
+    @keyframes textclip {
+        to {
+            background-position: 200% center;
+        }
+    }
+    
+      .name{
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    
+          position: absolute;
+          font-family: 'Fondamento';
+          font-size: 4.2vw;
+          color: #7a7f87;
+          margin-top: 60%;
+          margin-left: -29%;
+          background: linear-gradient(to left, white 10%, yellow 60%, #FFD700 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 2s linear infinite;
+      }
+    
+      .intro{
+    
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 2vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+        margin-top: 66%;
+        margin-left: -28%;
+    }
+    
+    
+    .education{
+        position: absolute;
+        font-family: 'Fondamento';
+        font-size: 4.2vw;
+        color: #7a7f87;
+        margin-top: 60%;
+        margin-left: 43.5%;
+        background: linear-gradient(to left, white 10%, yellow 60%, #FFD700 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 2s linear infinite;
+    }
+    
+    .bit{
+      clear: both;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+    
+      position: absolute;
+      font-family: 'Pirata One', cursive;
+      font-size: 2vw;
+      color: #7a7f87;
+           background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 3s linear infinite;
+      margin-top: 65%;
+      margin-left: 35%;
+    
+    }
+    .course{
+      clear: both;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+    
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 1.8vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+        margin-top: 67.5%;
+        margin-left: 42.2%;
+    
+      }
+      .stream{
+    
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 1.6vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+        margin-top: 69.7%;
+        margin-left: 45%;
+    
+      }
+      .year{
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 1.2vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+                margin-top:72.1%;
+                margin-left:48.9%;
+     
+      }
+    
+     
+      /* ________________________________________Dropdown Content________________________ */
+    
+      
+      .menu_icon{
+       
+        width:3%;
+      display: block;
+      position: absolute;
+      margin-left: 96%;
+      margin-top: 0.8%;
+    
+      }
+    
+      .dropdown{
+        position: relative;
+    }
+    .dropdown-content {
+      margin-top: 0.8%;
+      margin-left: 90%; 
+      display: none;
+      position: absolute;
+      background-color:black;
+      width: 100px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: white;
+      size: 1;
+      padding: 12px 10px;
+      text-decoration: none;
+      display: block;
+      font-size: 17px;
+      font-family: 'Pirata One', cursive;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
+    
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    /*___________________________DropDown end____________________________________________________*/
+    
+    .topbar_mobile{
+      height: 11%;
+      width: 39%;
+      margin-left: 30%;
+      margin-top:-7%;
+      background-color:#1b1a15;
+      
+    }
+    
+    /*_____________________________________DIV____________________________________________*/
+    .intro_text{
+     margin-left: 30%;
+     margin-right: 10%;
+     margin-top: -25%;
+    }
+    
+    
+    /*_____________________________________DIV END__________________________________________*/
+  }
+     /*******************************************************************************************************
+  ********************************************************************************************************
+  *********************************************3rd***********************************************************
+  **************************************************************************************************
+  ********************************************************************************************************
+  *******************************************************************************************************/
+
+  @media screen and (max-width:1000px){
+      
+    body{
+        background: rgb(0,0,0);
+    
+    overflow: hidden;
+    }
+    
+    .container{
+        position: relative;
+    }
+    
+    .logo{
+        width: 11%;
+        margin-left: -1%;
+        margin-top: -1%;
+    }
+    /*__________________________________Social Media____________________________________________*/
+    #facebook{
+      width:2%;
+      display: block;
+      position: absolute;
+      margin-top: -6.1%;
+      margin-left: 33%;
+    
+      
+    }
+    #instagram{
+      width:2.6%;
+      display: block;
+      position: absolute;
+      margin-top: -5.8%;
+      margin-left: 39%;
+    }
+    #twitter{
+      width:3.2%;
+      display: block;
+      position: absolute;
+      margin-top: -5.8%;
+      margin-left: 45.5%;
+      
+    }
+    #linkedin{
+      width:3.1%;
+      display: block;
+      position: absolute;
+      margin-top: -6.4%;
+      margin-left: 51.6%;
+      
+    }
+    #reddit{
+      width:3.3%;
+      display: block;
+      position: absolute;
+      margin-top: -6%;
+      margin-left: 57.4%;
+      
+    }
+    #github{
+      width:2.6%;
+      display: block;
+      position: absolute;
+     
+      margin-top: -6%;
+      margin-left:64.2%;
+      
+    }
+    
+    /*___________________________________________Social media End___________________________________________________*/
+ 
+    .circle {
+        position: absolute;
+        height: 350px;
+        width: 350px;
+        margin-left: 30%;
+        margin-right: auto;
+        margin-top:24%;
+        background: rgb(0,0,0);
+        background: linear-gradient(315deg, rgba(0,0,0,1) 25%, rgba(10,9,9,1) 45%, rgba(32,28,28,1) 72%, rgba(73,64,64,1) 100%);
+        border-radius: 50%;
+        display: inline-block;
+      }
+    
+      .myimage{
+          margin-left: 17.5%;
+          width: 63%;
+          margin-top:20% ;
+          
+          position: absolute;
+      }
+    
+      /*___________________________________________Name and Intro_________________________*/
+    
+      @font-face{
+        font-family: Pirata One;
+        src:url(/fonts/pirata_one.ttf)
+    }
+    @font-face{
+        font-family:Fondamento;
+        src:url(/fonts/Fondamento-Regular.ttf)
+    }
+    @keyframes textclip {
+        to {
+            background-position: 200% center;
+        }
+    }
+    
+      .name{
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    
+          position: absolute;
+          font-family: 'Fondamento';
+          font-size: 4.2vw;
+          color: #7a7f87;
+          margin-top: 65%;
+          margin-left: -29%;
+          background: linear-gradient(to left, white 10%, yellow 60%, #FFD700 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 2s linear infinite;
+      }
+    
+      .intro{
+    
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 2vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+        margin-top: 71%;
+        margin-left: -28%;
+    }
+    
+    
+    .education{
+        position: absolute;
+        font-family: 'Fondamento';
+        font-size: 4.2vw;
+        color: #7a7f87;
+        margin-top: 65%;
+        margin-left: 43.5%;
+        background: linear-gradient(to left, white 10%, yellow 60%, #FFD700 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 2s linear infinite;
+    }
+    
+    .bit{
+      clear: both;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+    
+      position: absolute;
+      font-family: 'Pirata One', cursive;
+      font-size: 2vw;
+      color: #7a7f87;
+           background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 3s linear infinite;
+      margin-top: 70%;
+      margin-left: 35%;
+    
+    }
+    .course{
+      clear: both;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+    
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 1.8vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+        margin-top: 72.5%;
+        margin-left: 42.2%;
+    
+      }
+      .stream{
+    
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 1.6vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+        margin-top: 74.7%;
+        margin-left: 45%;
+    
+      }
+      .year{
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 1.2vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+                margin-top:77.1%;
+                margin-left:48.9%;
+     
+      }
+    
+     
+      /* ________________________________________Dropdown Content________________________ */
+    
+      
+      .menu_icon{
+       
+        width:3%;
+      display: block;
+      position: absolute;
+      margin-left: 96%;
+      margin-top: 0.8%;
+    
+      }
+    
+      .dropdown{
+        position: relative;
+    }
+    .dropdown-content {
+      margin-top: 0.8%;
+      margin-left: 90%; 
+      display: none;
+      position: absolute;
+      background-color:black;
+      width: 100x;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: white;
+      size: 1;
+      padding: 12px 10px;
+      text-decoration: none;
+      display: block;
+      font-size: 15px;
+      font-family: 'Pirata One', cursive;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
+    
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    /*___________________________DropDown end____________________________________________________*/
+    
+    .topbar_mobile{
+      height: 9%;
+      width: 39%;
+      margin-left: 30%;
+      margin-top:-7%;
+      background-color:#1b1a15;
+      
+    }
+    
+    /*_____________________________________DIV____________________________________________*/
+    .intro_text{
+     margin-left: 30%;
+     margin-right: 10%;
+     margin-top: -25%;
+    }
+    
+    
+    /*_____________________________________DIV END__________________________________________*/
+  }
+   /*******************************************************************************************************
+  ********************************************************************************************************
+  *********************************************4th***********************************************************
+  **************************************************************************************************
+  ********************************************************************************************************
+  *******************************************************************************************************/
+
+  @media screen and (max-width:900px){
+      
+    body{
+        background: rgb(0,0,0);
+    
+    overflow: hidden;
+    }
+    
+    .container{
+        position: relative;
+    }
+    
+    .logo{
+        width: 11%;
+        margin-left: -1%;
+        margin-top: -1%;
+    }
+    /*__________________________________Social Media____________________________________________*/
+    #facebook{
+      width:2%;
+      display: block;
+      position: absolute;
+      margin-top: -6.1%;
+      margin-left: 33%;
+    
+      
+    }
+    #instagram{
+      width:2.6%;
+      display: block;
+      position: absolute;
+      margin-top: -5.8%;
+      margin-left: 39%;
+    }
+    #twitter{
+      width:3.2%;
+      display: block;
+      position: absolute;
+      margin-top: -5.8%;
+      margin-left: 45.5%;
+      
+    }
+    #linkedin{
+      width:3.1%;
+      display: block;
+      position: absolute;
+      margin-top: -6.4%;
+      margin-left: 51.6%;
+      
+    }
+    #reddit{
+      width:3.3%;
+      display: block;
+      position: absolute;
+      margin-top: -6%;
+      margin-left: 57.4%;
+      
+    }
+    #github{
+      width:2.6%;
+      display: block;
+      position: absolute;
+     
+      margin-top: -6%;
+      margin-left:64.2%;
+      
+    }
+    
+    /*___________________________________________Social media End___________________________________________________*/
+ 
+    .circle {
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        margin-left: 34%;
+        margin-right: auto;
+        margin-top:32%;
+        background: rgb(0,0,0);
+        background: linear-gradient(315deg, rgba(0,0,0,1) 25%, rgba(10,9,9,1) 45%, rgba(32,28,28,1) 72%, rgba(73,64,64,1) 100%);
+        border-radius: 50%;
+        display: inline-block;
+      }
+    
+      .myimage{
+          margin-left: 22.5%;
+          width: 58%;
+          margin-top:29% ;
+          
+          position: absolute;
+      }
+    
+      /*___________________________________________Name and Intro_________________________*/
+    
+      @font-face{
+        font-family: Pirata One;
+        src:url(/fonts/pirata_one.ttf)
+    }
+    @font-face{
+        font-family:Fondamento;
+        src:url(/fonts/Fondamento-Regular.ttf)
+    }
+    @keyframes textclip {
+        to {
+            background-position: 200% center;
+        }
+    }
+    
+      .name{
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    
+          position: absolute;
+          font-family: 'Fondamento';
+          font-size: 4.2vw;
+          color: #7a7f87;
+          margin-top: 70%;
+          margin-left: -29%;
+          background: linear-gradient(to left, white 10%, yellow 60%, #FFD700 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 2s linear infinite;
+      }
+    
+      .intro{
+    
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 2vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+        margin-top: 76%;
+        margin-left: -28%;
+    }
+    
+    
+    .education{
+        position: absolute;
+        font-family: 'Fondamento';
+        font-size: 4.2vw;
+        color: #7a7f87;
+        margin-top: 70%;
+        margin-left: 43.5%;
+        background: linear-gradient(to left, white 10%, yellow 60%, #FFD700 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 2s linear infinite;
+    }
+    
+    .bit{
+      clear: both;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+    
+      position: absolute;
+      font-family: 'Pirata One', cursive;
+      font-size: 2vw;
+      color: #7a7f87;
+           background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 3s linear infinite;
+      margin-top: 75%;
+      margin-left: 35%;
+    
+    }
+    .course{
+      clear: both;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+    
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 1.8vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+        margin-top: 77.5%;
+        margin-left: 42.2%;
+    
+      }
+      .stream{
+    
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 1.6vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+        margin-top: 79.7%;
+        margin-left: 45%;
+    
+      }
+      .year{
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 1.2vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+                margin-top:82.1%;
+                margin-left:48.9%;
+     
+      }
+    
+     
+      /* ________________________________________Dropdown Content________________________ */
+    
+      
+      .menu_icon{
+       
+        width:3%;
+      display: block;
+      position: absolute;
+      margin-left: 96%;
+      margin-top: 0.8%;
+    
+      }
+    
+      .dropdown{
+        position: relative;
+    }
+    .dropdown-content {
+      margin-top: 0.8%;
+      margin-left: 90%; 
+      display: none;
+      position: absolute;
+      background-color:black;
+      width: 95px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: white;
+      size: 1;
+      padding: 12px 10px;
+      text-decoration: none;
+      display: block;
+      font-size: 13px;
+      font-family: 'Pirata One', cursive;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
+    
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    /*___________________________DropDown end____________________________________________________*/
+    
+    .topbar_mobile{
+      height: 8%;
+      width: 39%;
+      margin-left: 30%;
+      margin-top:-7%;
+      background-color:#1b1a15;
+      
+    }
+    
+    /*_____________________________________DIV____________________________________________*/
+    .intro_text{
+     margin-left: 30%;
+     margin-right: 10%;
+     margin-top: -22%;
+    }
+    
+    
+    /*_____________________________________DIV END__________________________________________*/
+  }
+ /*******************************************************************************************************
+  ********************************************************************************************************
+  *********************************************5th***********************************************************
+  **************************************************************************************************
+  ********************************************************************************************************
+  *******************************************************************************************************/
+
+  @media screen and (max-width:800px){
+      
+    body{
+        background: rgb(0,0,0);
+    
+    overflow: hidden;
+    }
+    
+    .container{
+        position: relative;
+    }
+    
+    .logo{
+        width: 11%;
+        margin-left: -1%;
+        margin-top: -1%;
+    }
+    /*__________________________________Social Media____________________________________________*/
+    #facebook{
+      width:2%;
+      display: block;
+      position: absolute;
+      margin-top: -6.1%;
+      margin-left: 33%;
+    
+      
+    }
+    #instagram{
+      width:2.6%;
+      display: block;
+      position: absolute;
+      margin-top: -5.8%;
+      margin-left: 39%;
+    }
+    #twitter{
+      width:3.2%;
+      display: block;
+      position: absolute;
+      margin-top: -5.8%;
+      margin-left: 45.5%;
+      
+    }
+    #linkedin{
+      width:3.1%;
+      display: block;
+      position: absolute;
+      margin-top: -6.4%;
+      margin-left: 51.6%;
+      
+    }
+    #reddit{
+      width:3.3%;
+      display: block;
+      position: absolute;
+      margin-top: -6%;
+      margin-left: 57.4%;
+      
+    }
+    #github{
+      width:2.6%;
+      display: block;
+      position: absolute;
+     
+      margin-top: -6%;
+      margin-left:64.2%;
+      
+    }
+    
+    /*___________________________________________Social media End___________________________________________________*/
+ 
+    .circle {
+        position: absolute;
+        height: 250px;
+        width: 250px;
+        margin-left: 37%;
+        margin-right: auto;
+        margin-top:41%;
+        background: rgb(0,0,0);
+        background: linear-gradient(315deg, rgba(0,0,0,1) 25%, rgba(10,9,9,1) 45%, rgba(32,28,28,1) 72%, rgba(73,64,64,1) 100%);
+        border-radius: 50%;
+        display: inline-block;
+      }
+    
+      .myimage{
+          margin-left: 24.5%;
+          width: 58%;
+          margin-top:38% ;
+          
+          position: absolute;
+      }
+    
+      /*___________________________________________Name and Intro_________________________*/
+    
+      @font-face{
+        font-family: Pirata One;
+        src:url(/fonts/pirata_one.ttf)
+    }
+    @font-face{
+        font-family:Fondamento;
+        src:url(/fonts/Fondamento-Regular.ttf)
+    }
+    @keyframes textclip {
+        to {
+            background-position: 200% center;
+        }
+    }
+    
+      .name{
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    
+          position: absolute;
+          font-family: 'Fondamento';
+          font-size: 4.2vw;
+          color: #7a7f87;
+          margin-top: 78%;
+          margin-left: -29%;
+          background: linear-gradient(to left, white 10%, yellow 60%, #FFD700 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 2s linear infinite;
+      }
+    
+      .intro{
+    
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 2vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+        margin-top: 84%;
+        margin-left: -28%;
+    }
+    
+    
+    .education{
+        position: absolute;
+        font-family: 'Fondamento';
+        font-size: 4.2vw;
+        color: #7a7f87;
+        margin-top: 78%;
+        margin-left: 43.5%;
+        background: linear-gradient(to left, white 10%, yellow 60%, #FFD700 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 2s linear infinite;
+    }
+    
+    .bit{
+      clear: both;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+    
+      position: absolute;
+      font-family: 'Pirata One', cursive;
+      font-size: 2vw;
+      color: #7a7f87;
+           background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 3s linear infinite;
+      margin-top: 83%;
+      margin-left: 35%;
+    
+    }
+    .course{
+      clear: both;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+    
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 1.8vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+        margin-top: 85.5%;
+        margin-left: 42.2%;
+    
+      }
+      .stream{
+    
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 1.6vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+        margin-top: 87.7%;
+        margin-left: 45%;
+    
+      }
+      .year{
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 1.2vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+                margin-top:90.1%;
+                margin-left:48.9%;
+     
+      }
+    
+     
+      /* ________________________________________Dropdown Content________________________ */
+    
+      
+      .menu_icon{
+       
+        width:3%;
+      display: block;
+      position: absolute;
+      margin-left: 96%;
+      margin-top: 0.8%;
+    
+      }
+    
+      .dropdown{
+        position: relative;
+    }
+    .dropdown-content {
+      margin-top: 0.8%;
+      margin-left: 89%; 
+      display: none;
+      position: absolute;
+      background-color:black;
+      width: 85px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: white;
+      size: 1;
+      padding: 12px 10px;
+      text-decoration: none;
+      display: block;
+      font-size: 12px;
+      font-family: 'Pirata One', cursive;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
+    
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    /*___________________________DropDown end____________________________________________________*/
+    
+    .topbar_mobile{
+      height: 8%;
+      width: 39%;
+      margin-left: 30%;
+      margin-top:-7%;
+      background-color:#1b1a15;
+      
+    }
+    
+    /*_____________________________________DIV____________________________________________*/
+    .intro_text{
+     margin-left: 30%;
+     margin-right: 10%;
+     margin-top: -22%;
+    }
+    
+    
+    /*_____________________________________DIV END__________________________________________*/
+  }
+    /*******************************************************************************************************
+  ********************************************************************************************************
+  *********************************************6th***********************************************************
+  **************************************************************************************************
+  ********************************************************************************************************
+  *******************************************************************************************************/
+
+  @media screen and (max-width:650px){
+      
+    body{
+        background: rgb(0,0,0);
+    
+    overflow: hidden;
+    }
+    
+    .container{
+        position: relative;
+    }
+    
+    .logo{
+        width: 11%;
+        margin-left: -1%;
+        margin-top: -1%;
+    }
+    /*__________________________________Social Media____________________________________________*/
+    #facebook{
+      width:2%;
+      display: block;
+      position: absolute;
+      margin-top: -6.1%;
+      margin-left: 33%;
+    
+      
+    }
+    #instagram{
+      width:2.6%;
+      display: block;
+      position: absolute;
+      margin-top: -5.8%;
+      margin-left: 39%;
+    }
+    #twitter{
+      width:3.2%;
+      display: block;
+      position: absolute;
+      margin-top: -5.8%;
+      margin-left: 45.5%;
+      
+    }
+    #linkedin{
+      width:3.1%;
+      display: block;
+      position: absolute;
+      margin-top: -6.4%;
+      margin-left: 51.6%;
+      
+    }
+    #reddit{
+      width:3.3%;
+      display: block;
+      position: absolute;
+      margin-top: -6%;
+      margin-left: 57.4%;
+      
+    }
+    #github{
+      width:2.6%;
+      display: block;
+      position: absolute;
+     
+      margin-top: -6%;
+      margin-left:64.2%;
+      
+    }
+    
+    /*___________________________________________Social media End___________________________________________________*/
+ 
+    .circle {
+        position: absolute;
+        height: 250px;
+        width: 250px;
+        margin-left: 33%;
+        margin-right: auto;
+        margin-top:52%;
+        background: rgb(0,0,0);
+        background: linear-gradient(315deg, rgba(0,0,0,1) 25%, rgba(10,9,9,1) 45%, rgba(32,28,28,1) 72%, rgba(73,64,64,1) 100%);
+        border-radius: 50%;
+        display: inline-block;
+      }
+    
+      .myimage{
+          margin-left: 21.5%;
+          width: 64%;
+          margin-top:52% ;
+          
+          position: absolute;
+      }
+    
+      /*___________________________________________Name and Intro_________________________*/
+    
+      @font-face{
+        font-family: Pirata One;
+        src:url(/fonts/pirata_one.ttf)
+    }
+    @font-face{
+        font-family:Fondamento;
+        src:url(/fonts/Fondamento-Regular.ttf)
+    }
+    @keyframes textclip {
+        to {
+            background-position: 200% center;
+        }
+    }
+    
+      .name{
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    
+          position: absolute;
+          font-family: 'Fondamento';
+          font-size: 4.2vw;
+          color: #7a7f87;
+          margin-top: 95%;
+          margin-left: -29%;
+          background: linear-gradient(to left, white 10%, yellow 60%, #FFD700 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 2s linear infinite;
+      }
+    
+      .intro{
+    
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 2vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+        margin-top: 101%;
+        margin-left: -28%;
+    }
+    
+    
+    .education{
+        position: absolute;
+        font-family: 'Fondamento';
+        font-size: 4.2vw;
+        color: #7a7f87;
+        margin-top: 94%;
+        margin-left: 43.5%;
+        background: linear-gradient(to left, white 10%, yellow 60%, #FFD700 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 2s linear infinite;
+    }
+    
+    .bit{
+      clear: both;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+    
+      position: absolute;
+      font-family: 'Pirata One', cursive;
+      font-size: 2vw;
+      color: #7a7f87;
+           background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 3s linear infinite;
+      margin-top:100%;
+      margin-left: 35%;
+    
+    }
+    .course{
+      clear: both;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+    
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 1.8vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+        margin-top: 102.5%;
+        margin-left: 42.2%;
+    
+      }
+      .stream{
+    
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 1.6vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+        margin-top: 104.7%;
+        margin-left: 45%;
+    
+      }
+      .year{
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 1.2vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+                margin-top:107.1%;
+                margin-left:48.9%;
+     
+      }
+    
+     
+      /* ________________________________________Dropdown Content________________________ */
+    
+      
+      .menu_icon{
+       
+        width:3%;
+      display: block;
+      position: absolute;
+      margin-left: 96%;
+      margin-top: 0.8%;
+    
+      }
+    
+      .dropdown{
+        position: relative;
+    }
+    .dropdown-content {
+      margin-top: 0.8%;
+      margin-left: 89%; 
+      display: none;
+      position: absolute;
+      background-color:black;
+      width: 85px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: white;
+      size: 1;
+      padding: 12px 10px;
+      text-decoration: none;
+      display: block;
+      font-size: 12px;
+      font-family: 'Pirata One', cursive;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
+    
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    /*___________________________DropDown end____________________________________________________*/
+    
+    .topbar_mobile{
+      height: 8%;
+      width: 39%;
+      margin-left: 30%;
+      margin-top:-7%;
+      background-color:#1b1a15;
+      
+    }
+    
+    /*_____________________________________DIV____________________________________________*/
+    .intro_text{
+     margin-left: 30%;
+     margin-right: 10%;
+     margin-top: -22%;
+    }
+    
+    
+    /*_____________________________________DIV END__________________________________________*/
+  }
+      /*******************************************************************************************************
+  ********************************************************************************************************
+  *********************************************7th last***********************************************************
+  **************************************************************************************************
+  ********************************************************************************************************
+  *******************************************************************************************************/
+
+  @media screen and (max-width:540px){
+      
+    body{
+        background: rgb(0,0,0);
+    
+    overflow: hidden;
+    }
+    
+    .container{
+        position: relative;
+    }
+    
+    .logo{
+        width: 16%;
+        margin-left: -1%;
+        margin-top: -1%;
+    }
+    /*__________________________________Social Media____________________________________________*/
+    #facebook{
+      width:3%;
+      display: block;
+      position: absolute;
+      margin-top: -9.1%;
+      margin-left: 31%;
+    
+      
+    }
+    #instagram{
+      width:3.6%;
+      display: block;
+      position: absolute;
+      margin-top: -8.8%;
+      margin-left: 38%;
+    }
+    #twitter{
+      width:4.2%;
+      display: block;
+      position: absolute;
+      margin-top: -8.8%;
+      margin-left: 45.5%;
+      
+    }
+    #linkedin{
+      width:4.1%;
+      display: block;
+      position: absolute;
+      margin-top: -9.4%;
+      margin-left: 52.6%;
+      
+    }
+    #reddit{
+      width:4.3%;
+      display: block;
+      position: absolute;
+      margin-top: -9%;
+      margin-left: 59.4%;
+      
+    }
+    #github{
+      width:3.6%;
+      display: block;
+      position: absolute;
+     
+      margin-top: -9%;
+      margin-left:67.5%;
+      
+    }
+    
+    /*___________________________________________Social media End___________________________________________________*/
+ 
+    .circle {
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        margin-left: 20%;
+        margin-right: auto;
+        margin-top:52%;
+        background: rgb(0,0,0);
+        background: linear-gradient(315deg, rgba(0,0,0,1) 25%, rgba(10,9,9,1) 45%, rgba(32,28,28,1) 72%, rgba(73,64,64,1) 100%);
+        border-radius: 50%;
+        display: inline-block;
+      }
+    
+      .myimage{
+          margin-left: -7%;
+          width:124%;
+          margin-top:40% ;
+          
+          position: absolute;
+      }
+    
+      /*___________________________________________Name and Intro_________________________*/
+    
+      @font-face{
+        font-family: Pirata One;
+        src:url(/fonts/pirata_one.ttf)
+    }
+    @font-face{
+        font-family:Fondamento;
+        src:url(/fonts/Fondamento-Regular.ttf)
+    }
+    @keyframes textclip {
+        to {
+            background-position: 200% center;
+        }
+    }
+    
+      .name{
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    
+          position: absolute;
+          font-family: 'Fondamento';
+          font-size: 5.2vw;
+          color: #7a7f87;
+          margin-top: 95%;
+          margin-left: -29%;
+          background: linear-gradient(to left, white 10%, yellow 60%, #FFD700 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 2s linear infinite;
+      }
+    
+      .intro{
+    
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 3vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+        margin-top: 102%;
+        margin-left: -28.5%;
+    }
+    
+    
+    .education{
+        position: absolute;
+        font-family: 'Fondamento';
+        font-size: 5.2vw;
+        color: #7a7f87;
+        margin-top: 113%;
+        margin-left: -29%;
+        background: linear-gradient(to left, white 10%, yellow 60%, #FFD700 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 2s linear infinite;
+    }
+    
+    .bit{
+      clear: both;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+    
+      position: absolute;
+      font-family: 'Pirata One', cursive;
+      font-size: 3vw;
+      color: #7a7f87;
+           background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 3s linear infinite;
+      margin-top:119.5%;
+      margin-left: -29%;
+    
+    }
+    .course{
+      clear: both;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+    
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 2.8vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+        margin-top: 123.1%;
+        margin-left: -29%;
+    
+      }
+      .stream{
+    
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 2.6vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+        margin-top: 126.1%;
+        margin-left: -29%;
+    
+      }
+      .year{
+        position: absolute;
+        font-family: 'Pirata One', cursive;
+        font-size: 2.2vw;
+        color: #7a7f87;
+             background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 3s linear infinite;
+                margin-top:129.5%;
+                margin-left:-29%;
+     
+      }
+    
+     
+      /* ________________________________________Dropdown Content________________________ */
+    
+      
+      .menu_icon{
+       
+        width:4.3%;
+      display: block;
+      position: absolute;
+      margin-left: 95.5%;
+      margin-top: 2.5%;
+    
+      }
+    
+      .dropdown{
+        position: relative;
+    }
+    .dropdown-content {
+      margin-top: 2.2%;
+      margin-left: 87%; 
+      display: none;
+      position: absolute;
+      background-color:black;
+      width: 65px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: white;
+      size: 1;
+      padding: 12px 10px;
+      text-decoration: none;
+      display: block;
+      font-size: 10px;
+      font-family: 'Pirata One', cursive;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
+    
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    /*___________________________DropDown end____________________________________________________*/
+    
+    .topbar_mobile{
+      height: 8%;
+      width: 44%;
+      margin-left: 29%;
+      margin-top:-11.5%;
+      background-color:#1b1a15;
+      
+    }
+    
+    /*_____________________________________DIV____________________________________________*/
+    .intro_text{
+     margin-left: 30%;
+     margin-right: 10%;
+     margin-top: -90%;
+    }
+}
+    
+    
+    /*_____________________________________DIV END__________________________________________*/
+  /*******************************************************************************************************
+  ********************************************************************************************************
+  *********************************************Mobile1***********************************************************
+  **************************************************************************************************
+  ********************************************************************************************************
+  *******************************************************************************************************/
+
+@media screen and (max-width:414px)
+{
+  body{
+    background: black;
+    overflow: hidden;
+  }
+
+.container{
+    position: relative;
+}
+
+.logo{
+    width: 15%;
+    margin-left: -1.5%;
+    margin-top: -1.5%;
+}
+/*__________________________________Social Media____________________________________________*/
+#facebook{
+  width:3.5%;
+  display: block;
+  position: absolute;
+  margin-top: -5.7%;
+  margin-left: 15.5%;
+
+  
+}
+#instagram{
+  width:4.5%;
+  display: block;
+  position: absolute;
+  margin-top: -5.5%;
+  margin-left: 22%;
+}
+#twitter{
+  width:5.5%;
+  display: block;
+  position: absolute;
+  margin-top: -5.4%;
+  margin-left: 30%;
+  
+}
+#linkedin{
+  width:5.2%;
+  display: block;
+  position: absolute;
+  margin-top: -6.1%;
+  margin-left: 38%;
+  
+}
+#reddit{
+  width:6%;
+  display: block;
+  position: absolute;
+  margin-top: -5.8%;
+  margin-left: 46%;
+  
+}
+#github{
+  width:4.5%;
+  display: block;
+  position: absolute;
+ 
+  margin-top: -5.8%;
+  margin-left: 55.6%;
+  
+}
+
+/*___________________________________________Social media End___________________________________________________*/
+
+.circle {
+    position: absolute;
+    height: 380px;
+    width: 380px;
+    margin-left:2.2%;
+    margin-right: auto;
+    margin-top:75%;
+    background: rgb(54,51,51);
+    background: linear-gradient(138deg, rgba(54,51,51,1) 0%, rgba(38,37,37,1) 0%, rgba(18,16,16,1) 34%, rgba(0,0,0,1) 58%);
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .myimage{
+      margin-left: -38%;
+      width: 180%;
+      margin-top:50% ;
+      
+      position: absolute;
+  }
+
+  /*___________________________________________Name and Intro_________________________*/
+
+  @font-face{
+    font-family: Pirata One;
+    src:url(/fonts/pirata_one.ttf)
+}
+@font-face{
+    font-family:Fondamento;
+    src:url(/fonts/Fondamento-Regular.ttf)
+}
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+  .name{
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+
+      position: absolute;
+      font-family: 'Fondamento';
+      font-size: 7vw;
+      color: #7a7f87;
+      margin-top: 30%;
+      margin-left: -29%;
+      background: linear-gradient(to left, white 10%, yellow 60%, #FFD700 30%);
+            background-size: auto auto;
+            background-clip: border-box;
+            background-size: 200% auto;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textclip 2s linear infinite;
+  }
+
+  .intro{
+
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+
+    position: absolute;
+    font-family: 'Pirata One', cursive;
+    font-size: 5.25vw;
+    color: #7a7f87;
+         background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+            background-size: auto auto;
+            background-clip: border-box;
+            background-size: 200% auto;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textclip 3s linear infinite;
+    margin-top: 39%;
+    margin-left: -29%;
+}
+
+
+.education{
+    position: absolute;
+    font-family: 'Fondamento';
+    font-size: 7vw;
+    color: #7a7f87;
+    margin-top: 57%;
+    margin-left: -29%;
+    background: linear-gradient(to left, white 10%, yellow 60%, #FFD700 30%);
+          background-size: auto auto;
+          background-clip: border-box;
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 2s linear infinite;
+}
+
+.bit{
+  clear: both;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+
+  position: absolute;
+  font-family: 'Pirata One', cursive;
+  font-size: 5.25vw;
+  color: #7a7f87;
+       background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+          background-size: auto auto;
+          background-clip: border-box;
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 3s linear infinite;
+  margin-top: 65.5%;
+  margin-left: -29%;
+
+}
+.course{
+  clear: both;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+
+    position: absolute;
+    font-family: 'Pirata One', cursive;
+    font-size: 5vw;
+    color: #7a7f87;
+         background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+            background-size: auto auto;
+            background-clip: border-box;
+            background-size: 200% auto;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textclip 3s linear infinite;
+    margin-top: 71.5%;
+    margin-left: -29%;
+
+  }
+  .stream{
+
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+
+    position: absolute;
+    font-family: 'Pirata One', cursive;
+    font-size: 4.8vw;
+    color: #7a7f87;
+         background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+            background-size: auto auto;
+            background-clip: border-box;
+            background-size: 200% auto;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textclip 3s linear infinite;
+    margin-top: 77.4%;
+    margin-left: -29%;
+
+  }
+  .year{
+    position: absolute;
+    font-family: 'Pirata One', cursive;
+    font-size: 3.9vw;
+    color: #7a7f87;
+         background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+            background-size: auto auto;
+            background-clip: border-box;
+            background-size: 200% auto;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textclip 3s linear infinite;
+            margin-top:84%;
+            margin-left: -28.9%;
+ 
+  }
+
+ 
+
+ 
+  /* ________________________________________Dropdown Content________________________ */
+
+  
+  .menu_icon{
+   
+    width:5.3%;
+  display: block;
+  position: absolute;
+  margin-left: 94%;
+  margin-top: 12.3%;
+
+  }
+
+  .dropdown{
+    position: relative;
+}
+.dropdown-content {
+  margin-top: 12.3%;
+  margin-left: 88%; 
+  display: none;
+  position: absolute;
+  background-color:black;
+  width: 55px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  size: 1;
+  padding: 6px 6px;
+  text-decoration: none;
+  display: block;
+  font-size: 10px;
+  font-family: 'Pirata One', cursive;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/*___________________________DropDown end____________________________________________________*/
+
+.topbar_mobile{
+  height: 10.6%;
+  width: 50%;
+  background-color:#1b1a15;
+  margin-top: -21%;
+  margin-left: 26.5%;
+}
+
+/*_____________________________________DIV____________________________________________*/
+.intro_text{
+ margin-left: 30%;
+ margin-right: 10%;
+ margin-top: -22%;
+}
+
+.social_media{
+  margin-left: 14%;
+  margin-top:-3%
+}
+
+
+/*_____________________________________DIV END__________________________________________*/
+
+
+
+}
+
+  /*******************************************************************************************************
+  ********************************************************************************************************
+  *********************************************Mobile2***********************************************************
+  **************************************************************************************************
+  ********************************************************************************************************
+  *******************************************************************************************************/
+
+  @media screen and (max-width:375px)
+  {
+    body{
+      background: black;
+      overflow: hidden;
+    }
+  
+  .container{
+      position: relative;
+  }
+  
+  .logo{
+      width: 15%;
+      margin-left: -1.5%;
+      margin-top: -1.5%;
+  }
+  /*__________________________________Social Media____________________________________________*/
+  #facebook{
+    width:3.5%;
+    display: block;
+    position: absolute;
+    margin-top: -5.7%;
+    margin-left: 15.5%;
+  
+    
+  }
+  #instagram{
+    width:4.5%;
+    display: block;
+    position: absolute;
+    margin-top: -5.5%;
+    margin-left: 22%;
+  }
+  #twitter{
+    width:5.5%;
+    display: block;
+    position: absolute;
+    margin-top: -5.4%;
+    margin-left: 30%;
+    
+  }
+  #linkedin{
+    width:5.2%;
+    display: block;
+    position: absolute;
+    margin-top: -6.1%;
+    margin-left: 38%;
+    
+  }
+  #reddit{
+    width:6%;
+    display: block;
+    position: absolute;
+    margin-top: -5.8%;
+    margin-left: 46%;
+    
+  }
+  #github{
+    width:4.5%;
+    display: block;
+    position: absolute;
+   
+    margin-top: -5.8%;
+    margin-left: 55.6%;
+    
+  }
+  
+  /*___________________________________________Social media End___________________________________________________*/
+  
+  .circle {
+      position: absolute;
+      height: 360px;
+      width: 360px;
+      margin-left:0%;
+      margin-right: auto;
+      margin-top:75%;
+      background: rgb(54,51,51);
+      background: linear-gradient(138deg, rgba(54,51,51,1) 0%, rgba(38,37,37,1) 0%, rgba(18,16,16,1) 34%, rgba(0,0,0,1) 58%);
+      border-radius: 50%;
+      display: inline-block;
+    }
+  
+    .myimage{
+        margin-left: -38%;
+        width: 180%;
+        margin-top:50% ;
+        
+        position: absolute;
+    }
+  
+    /*___________________________________________Name and Intro_________________________*/
+  
+    @font-face{
+      font-family: Pirata One;
+      src:url(/fonts/pirata_one.ttf)
+  }
+  @font-face{
+      font-family:Fondamento;
+      src:url(/fonts/Fondamento-Regular.ttf)
+  }
+  @keyframes textclip {
+      to {
+          background-position: 200% center;
+      }
+  }
+  
+    .name{
+      clear: both;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+  
+        position: absolute;
+        font-family: 'Fondamento';
+        font-size: 7vw;
+        color: #7a7f87;
+        margin-top: 30%;
+        margin-left: -29%;
+        background: linear-gradient(to left, white 10%, yellow 60%, #FFD700 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 2s linear infinite;
+    }
+  
+    .intro{
+  
+      clear: both;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+  
+      position: absolute;
+      font-family: 'Pirata One', cursive;
+      font-size: 5.25vw;
+      color: #7a7f87;
+           background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 3s linear infinite;
+      margin-top: 39%;
+      margin-left: -29%;
+  }
+  
+  
+  .education{
+      position: absolute;
+      font-family: 'Fondamento';
+      font-size: 7vw;
+      color: #7a7f87;
+      margin-top: 57%;
+      margin-left: -29%;
+      background: linear-gradient(to left, white 10%, yellow 60%, #FFD700 30%);
+            background-size: auto auto;
+            background-clip: border-box;
+            background-size: 200% auto;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textclip 2s linear infinite;
+  }
+  
+  .bit{
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+  
+    position: absolute;
+    font-family: 'Pirata One', cursive;
+    font-size: 5.25vw;
+    color: #7a7f87;
+         background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+            background-size: auto auto;
+            background-clip: border-box;
+            background-size: 200% auto;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textclip 3s linear infinite;
+    margin-top: 65.5%;
+    margin-left: -29%;
+  
+  }
+  .course{
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+  
+      position: absolute;
+      font-family: 'Pirata One', cursive;
+      font-size: 5vw;
+      color: #7a7f87;
+           background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 3s linear infinite;
+      margin-top: 71.5%;
+      margin-left: -29%;
+  
+    }
+    .stream{
+  
+      clear: both;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+  
+      position: absolute;
+      font-family: 'Pirata One', cursive;
+      font-size: 4.8vw;
+      color: #7a7f87;
+           background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 3s linear infinite;
+      margin-top: 77.4%;
+      margin-left: -29%;
+  
+    }
+    .year{
+      position: absolute;
+      font-family: 'Pirata One', cursive;
+      font-size: 3.9vw;
+      color: #7a7f87;
+           background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 3s linear infinite;
+              margin-top:84%;
+              margin-left: -28.9%;
+   
+    }
+  
+   
+  
+   
+    /* ________________________________________Dropdown Content________________________ */
+  
+    
+    .menu_icon{
+     
+      width:5%;
+    display: block;
+    position: absolute;
+    margin-left: 94.5%;
+    margin-top: 12.4%;
+  
+    }
+  
+    .dropdown{
+      position: relative;
+  }
+  .dropdown-content {
+    margin-top: -6.7%;
+    margin-left: 88%; 
+    display: none;
+    position: absolute;
+    background-color:black;
+    width: 55px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    size: 1;
+    padding: 6px 6px;
+    text-decoration: none;
+    display: block;
+    font-size: 10px;
+    font-family: 'Pirata One', cursive;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /*___________________________DropDown end____________________________________________________*/
+  
+  .topbar_mobile{
+    height: 10.6%;
+    width: 50%;
+    background-color:#1b1a15;
+    margin-top: -21%;
+    margin-left: 26.5%;
+  }
+  
+  /*_____________________________________DIV____________________________________________*/
+  .intro_text{
+   margin-left: 30%;
+   margin-right: 10%;
+   margin-top: -26.5%;
+  }
+  
+  .social_media{
+    margin-left: 14%;
+    margin-top:-3%
+  }
+  
+  
+  /*_____________________________________DIV END__________________________________________*/
+  
+  
+  
+  }
+  
+  /*******************************************************************************************************
+  ********************************************************************************************************
+  *********************************************Mobile2***********************************************************
+  **************************************************************************************************
+  ********************************************************************************************************
+  *******************************************************************************************************/
+
+  @media screen and (max-width:320px)
+  {
+    body{
+      background: black;
+    
+      overflow: hidden;
+    }
+  
+  .container{
+      position: relative;
+  }
+  
+  .logo{
+      width: 15%;
+      margin-left: -1.5%;
+      margin-top: -1.5%;
+  }
+  /*__________________________________Social Media____________________________________________*/
+  #facebook{
+    width:3.5%;
+    display: block;
+    position: absolute;
+    margin-top: -5.7%;
+    margin-left: 15.5%;
+  
+    
+  }
+  #instagram{
+    width:4.5%;
+    display: block;
+    position: absolute;
+    margin-top: -5.5%;
+    margin-left: 22%;
+  }
+  #twitter{
+    width:5.5%;
+    display: block;
+    position: absolute;
+    margin-top: -5.4%;
+    margin-left: 30%;
+    
+  }
+  #linkedin{
+    width:5.2%;
+    display: block;
+    position: absolute;
+    margin-top: -6.1%;
+    margin-left: 38%;
+    
+  }
+  #reddit{
+    width:6%;
+    display: block;
+    position: absolute;
+    margin-top: -5.8%;
+    margin-left: 46%;
+    
+  }
+  #github{
+    width:4.5%;
+    display: block;
+    position: absolute;
+   
+    margin-top: -5.8%;
+    margin-left: 55.6%;
+    
+  }
+  
+  /*___________________________________________Social media End___________________________________________________*/
+  
+  .circle {
+      position: absolute;
+      height: 300px;
+      width: 300px;
+      margin-left:0.1%;
+      margin-right: auto;
+      margin-top:75%;
+      background: rgb(54,51,51);
+      background: linear-gradient(138deg, rgba(54,51,51,1) 0%, rgba(38,37,37,1) 0%, rgba(18,16,16,1) 34%, rgba(0,0,0,1) 58%);
+      border-radius: 50%;
+      display: inline-block;
+    }
+  
+    .myimage{
+        margin-left: -38%;
+        width: 180%;
+        margin-top:50% ;
+        
+        position: absolute;
+    }
+  
+    /*___________________________________________Name and Intro_________________________*/
+  
+    @font-face{
+      font-family: Pirata One;
+      src:url(/fonts/pirata_one.ttf)
+  }
+  @font-face{
+      font-family:Fondamento;
+      src:url(/fonts/Fondamento-Regular.ttf)
+  }
+  @keyframes textclip {
+      to {
+          background-position: 200% center;
+      }
+  }
+  
+    .name{
+      clear: both;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+  
+        position: absolute;
+        font-family: 'Fondamento';
+        font-size: 7vw;
+        color: #7a7f87;
+        margin-top: 30%;
+        margin-left: -29%;
+        background: linear-gradient(to left, white 10%, yellow 60%, #FFD700 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 2s linear infinite;
+    }
+  
+    .intro{
+  
+      clear: both;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+  
+      position: absolute;
+      font-family: 'Pirata One', cursive;
+      font-size: 5.25vw;
+      color: #7a7f87;
+           background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 3s linear infinite;
+      margin-top: 39%;
+      margin-left: -29%;
+  }
+  
+  
+  .education{
+      position: absolute;
+      font-family: 'Fondamento';
+      font-size: 7vw;
+      color: #7a7f87;
+      margin-top: 57%;
+      margin-left: -29%;
+      background: linear-gradient(to left, white 10%, yellow 60%, #FFD700 30%);
+            background-size: auto auto;
+            background-clip: border-box;
+            background-size: 200% auto;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textclip 2s linear infinite;
+  }
+  
+  .bit{
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+  
+    position: absolute;
+    font-family: 'Pirata One', cursive;
+    font-size: 5.25vw;
+    color: #7a7f87;
+         background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+            background-size: auto auto;
+            background-clip: border-box;
+            background-size: 200% auto;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textclip 3s linear infinite;
+    margin-top: 65.5%;
+    margin-left: -29%;
+  
+  }
+  .course{
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+  
+      position: absolute;
+      font-family: 'Pirata One', cursive;
+      font-size: 5vw;
+      color: #7a7f87;
+           background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 3s linear infinite;
+      margin-top: 71.5%;
+      margin-left: -29%;
+  
+    }
+    .stream{
+  
+      clear: both;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+  
+      position: absolute;
+      font-family: 'Pirata One', cursive;
+      font-size: 4.8vw;
+      color: #7a7f87;
+           background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 3s linear infinite;
+      margin-top: 77.4%;
+      margin-left: -29%;
+  
+    }
+    .year{
+      position: absolute;
+      font-family: 'Pirata One', cursive;
+      font-size: 3.9vw;
+      color: #7a7f87;
+           background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 3s linear infinite;
+              margin-top:84%;
+              margin-left: -28.9%;
+   
+    }
+  
+   
+  
+   
+    /* ________________________________________Dropdown Content________________________ */
+  
+    
+    .menu_icon{
+     
+      width:5.2%;
+    display: block;
+    position: absolute;
+    margin-left: 94.5%;
+    margin-top: 12.33%;
+  
+    }
+    .dropdown{
+      position: relative;
+  }
+  .dropdown-content {
+    margin-top: 12%;
+    margin-left: 84.5%; 
+    display:none;
+    position: absolute;
+    background-color:black;
+    width: 55px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    size: 1;
+    padding: 6px 6px;
+    text-decoration: none;
+    display: block;
+    font-size: 10px;
+    font-family: 'Pirata One', cursive;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /*___________________________DropDown end____________________________________________________*/
+  
+  .topbar_mobile{
+    height: 10.6%;
+    width: 50%;
+    background-color:#1b1a15;
+    margin-top: -21%;
+    margin-left: 26.5%;
+  }
+  
+  /*_____________________________________DIV____________________________________________*/
+  .intro_text{
+   margin-left: 30%;
+   margin-right: 10%;
+   margin-top: -27%;
+  }
+  
+  .social_media{
+    margin-left: 14%;
+    margin-top:-3%
+  }
+  
+  
+  /*_____________________________________DIV END__________________________________________*/
+  
+  
+  
+  }
+   
+   
+
+  /*******************************************************************************************************
+  ********************************************************************************************************
+  ********************************************************************************************************
+  *****************************************END*********************************************************
+  ********************************************************************************************************
+  *******************************************************************************************************/
+
+

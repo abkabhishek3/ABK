@@ -1,0 +1,823 @@
+<!doctype html>
+<html lang="en">
+    <title>ABK</title>
+  <head>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="stylesheet"  href="/CSS/home_page.css">
+ 
+
+    <title>ABK</title>
+
+   
+
+  </head>
+
+  <body onload = "start()" > 
+  <div id="continer">
+      <div id="contained">
+        <img class="banner" src="/images/design/Banner.png">
+        <img class="banner1" src="/images/design/Banner_mobile.jpg">
+   
+     
+       
+         
+
+    
+         <script type = "text/javascript">
+         var c1=0;
+          function displayNextImage() {
+              x = (x === images.length - 1) ? 0 : x + 1;
+              document.getElementById("img").src = images[x];
+              c1+=1;
+              if(c1==12)
+              {
+                document.getElementById("img").src= images[0];
+              }
+              
+          }
+
+         
+
+
+          function startTimer() {
+              setTimeout(displayNextImage, 4000);
+              setTimeout(displayNextImage, 8000);
+              setTimeout(displayNextImage, 12000);
+              setTimeout(displayNextImage, 16000);
+              setTimeout(displayNextImage, 20000);
+              setTimeout(displayNextImage, 24000);
+              setTimeout(displayNextImage, 28000);
+              setTimeout(displayNextImage, 32000);
+              setTimeout(displayNextImage, 36000);
+           
+
+          }
+    
+          var images = [], x = 0;
+          images[0] = "/images/design/img1.png";
+          images[1] = "/images/design/img2.png";
+          images[2] = "/images/design/img3.png";
+
+          var text = "Hello" ,c=0,c1=0;
+       
+      
+          function change1() {  //"Hello"
+        
+                document.getElementById("text1").style.display="none";     
+             
+          }
+          function change2() {
+                document.getElementById("text1").style.display="block";
+                c+=1;
+                if(c==3)
+                {
+                  document.getElementById("text1").innerHTML="HELLO";
+                }
+        
+          }
+
+          function change3() {                   //"I am Abhishek"        
+        
+                document.getElementById("text2").style.display="none";
+             
+          }
+          function change4() {
+                document.getElementById("text2").style.display="block";
+                c1+=1;
+                if(c1==3)
+                {
+                  document.getElementById("text2").innerHTML="&nbsp &nbsp &nbsp I <br>&nbsp &nbsp am<br> Abhishek";
+                }
+        
+          }
+
+           function change5() {                   //"I'm a web developer"        
+        
+            document.getElementById("text3").style.display="none";
+             
+          }
+          function change6() {
+                document.getElementById("text3").style.display="block";
+                c1+=1;
+                if(c1==3)
+                {
+                  document.getElementById("tex3").innerHTML="&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbspI'm a <br>&nbsp &nbsp  Web Developer<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp and <br>Photo & Video editor";
+                }
+        
+          }
+          
+          function change7() {                   //"I'm CSE student"        
+        
+            document.getElementById("text4").style.display="none";
+             
+          }
+          function change8() {
+                document.getElementById("text4").style.display="block";
+                c1+=1;
+                if(c1==3)
+                {
+                  document.getElementById("tex3").innerHTML="&nbsp &nbsp &nbspI'm a <br>CSE student <br>&nbsp &nbsp &nbspfrom<br>&nbspBIT Mesra ";
+                }
+        
+          }
+
+          function mousefunction(){
+            if(onmouseover){
+              document.getElementById("img1").style.display="none";
+
+
+            }
+            
+            if(onmouseout)
+            {
+              document.getElementById("img1").style.display="block";
+            }
+
+          }
+          function mousefunction1(){
+            document.getElementById("img1").style.display="block";
+
+          }
+          /*___________________________Design_____________________________________________________*/
+
+
+          var design_timer=0;
+
+          function line_display1(){           
+            
+            document.getElementById("line_img1").style.display="block";
+            
+          }
+          function line_display2(){           
+            
+            document.getElementById("line_img2").style.display="block";
+            
+          }
+          function line_display3(){           
+            
+            document.getElementById("line_img3").style.display="block";
+            
+          }
+          function line_display4(){           
+            
+            document.getElementById("line_img4").style.display="block";
+            
+          }
+          function line_display5(){           
+            
+            document.getElementById("line_img5").style.display="block";
+            
+          }
+          function line_display6(){           
+            
+            document.getElementById("line_img6").style.display="block";
+            
+          }
+          function line_display7(){           
+            
+            document.getElementById("line_img7").style.display="block";
+
+            
+          }
+
+          
+          
+
+
+          function line_hide1(){                
+            
+            document.getElementById("line_img1").style.display="none";
+            
+          }
+          function line_hide2(){                
+            
+            document.getElementById("line_img2").style.display="none";
+            
+          }
+          function line_hide3(){                
+            
+            document.getElementById("line_img3").style.display="none";
+            
+          }
+          function line_hide4(){                
+            
+            document.getElementById("line_img4").style.display="none";
+            
+          }
+          function line_hide5(){                
+            
+            document.getElementById("line_img5").style.display="none";
+            
+          }
+          function line_hide6(){                
+            
+            document.getElementById("line_img6").style.display="none";
+            
+          }
+          function line_hide7(){                
+            
+            document.getElementById("line_img7").style.display="none";
+            
+          }
+
+          function startTimer2(){                /*deemag ki batti*/
+            setTimeout(line_display1,500);
+            setTimeout(line_display2,1000);
+            setTimeout(line_display3,1500);
+            setTimeout(line_display4,2000);
+            setTimeout(line_display5,2500);
+            setTimeout(line_display6,3000);
+            setTimeout(line_display7,3500);
+
+            setTimeout(line_display7,7500);
+            setTimeout(line_display6,8000);
+            setTimeout(line_display5,8500);
+            setTimeout(line_display4,9000);
+            setTimeout(line_display3,9500);
+            setTimeout(line_display2,10000);
+            setTimeout(line_display1,10500);
+
+            setTimeout(line_display1,14500);
+            setTimeout(line_display2,15000);
+            setTimeout(line_display3,15500);
+            setTimeout(line_display4,16000);
+            setTimeout(line_display5,16500);
+            setTimeout(line_display6,17000);
+            setTimeout(line_display7,17500);
+
+            setTimeout(line_display7,21500);
+            setTimeout(line_display6,22000);
+            setTimeout(line_display5,22500);
+            setTimeout(line_display4,23000);
+            setTimeout(line_display3,23500);
+            setTimeout(line_display2,24000);
+            setTimeout(line_display1,24500);
+
+            setTimeout(line_display1,28500);
+            setTimeout(line_display2,29000);
+            setTimeout(line_display3,29500);
+            setTimeout(line_display4,30000);
+            setTimeout(line_display5,30500);
+            setTimeout(line_display6,31000);
+            setTimeout(line_display7,31500);
+
+            setTimeout(line_display7,35500);
+            setTimeout(line_display6,36000);
+            setTimeout(line_display5,36500);
+            setTimeout(line_display4,37000);
+            setTimeout(line_display3,37500);
+            setTimeout(line_display2,38000);
+            setTimeout(line_display1,38500);
+
+
+            setTimeout(line_hide1,4000);
+            setTimeout(line_hide2,4500);
+            setTimeout(line_hide3,5000);
+            setTimeout(line_hide4,5500);
+            setTimeout(line_hide5,6000);
+            setTimeout(line_hide6,6500);
+            setTimeout(line_hide7,7000);
+
+            setTimeout(line_hide7,11000);
+            setTimeout(line_hide6,11500);
+            setTimeout(line_hide5,12000);
+            setTimeout(line_hide4,12500);
+            setTimeout(line_hide3,13000);
+            setTimeout(line_hide2,13500);
+            setTimeout(line_hide1,14000);
+
+            setTimeout(line_hide1,18000);
+            setTimeout(line_hide2,18500);
+            setTimeout(line_hide3,19000);
+            setTimeout(line_hide4,19500);
+            setTimeout(line_hide5,20000);
+            setTimeout(line_hide6,20500);
+            setTimeout(line_hide7,21000);
+
+            setTimeout(line_hide7,25000);
+            setTimeout(line_hide6,25500);
+            setTimeout(line_hide5,26000);
+            setTimeout(line_hide4,26500);
+            setTimeout(line_hide3,27000);
+            setTimeout(line_hide2,27500);
+            setTimeout(line_hide1,28000);
+
+            setTimeout(line_hide1,32000);
+            setTimeout(line_hide2,32500);
+            setTimeout(line_hide3,33000);
+            setTimeout(line_hide4,33500);
+            setTimeout(line_hide5,34000);
+            setTimeout(line_hide6,34500);
+            setTimeout(line_hide7,35000);
+
+          
+
+            
+           
+          }
+
+
+            function avatar_lying(){
+              document.getElementById("avatar_lying").src="/images/design/avatar_lying.png"
+            }
+            function avatar_lying1(){
+              document.getElementById("avatar_lying").src="/images/design/avatar_lying1.png"
+            }
+          /*function avatar_lying_display(){
+              document.getElementById("avatar_lying").style.display="block";
+            }
+
+            function avatar_lying1_display(){
+              document.getElementById("avatar_lying1").style.display="block";
+            }
+
+            function avatar_lying1_hide(){
+              document.getElementById("avatar_lying1").style.display="none";
+            }*/
+
+            function startTimer5(){
+              setInterval(avatar_lying1,1500);
+              setInterval(avatar_lying,3000);
+              
+             
+         
+            }
+
+
+          
+          function moveCursor(){
+            document.getElementById("cursor_icon").style.display="block";
+          }
+          function moveCursor1(){
+            document.getElementById("cursor_icon1").style.display="block";
+          }
+          function moveCursor2(){
+            document.getElementById("cursor_icon2").style.display="block";
+          }
+          function moveCursor3(){
+            document.getElementById("cursor_icon3").style.display="block";
+          }
+          function moveCursor4(){
+            document.getElementById("cursor_icon4").style.display="block";
+          }
+          function moveCursor5(){
+            document.getElementById("cursor_icon5").style.display="block";
+          }
+          function moveCursor6(){
+            document.getElementById("cursor_icon6").style.display="block";
+          }
+          function moveCursor7(){
+            document.getElementById("cursor_icon7").style.display="block";
+          }
+          function moveCursor8(){
+            document.getElementById("cursor_icon8").style.display="block";
+          }
+          function moveCursor9(){
+            document.getElementById("cursor_icon9").style.display="block";
+          }
+          function moveCursor10(){
+            document.getElementById("cursor_icon10").style.display="block";
+          }
+
+          function hideCursor(){
+            document.getElementById("cursor_icon").style.display="none";
+          }
+          function hideCursor1(){
+            document.getElementById("cursor_icon1").style.display="none";
+          }
+          function hideCursor2(){
+            document.getElementById("cursor_icon2").style.display="none";
+          }
+          function hideCursor3(){
+            document.getElementById("cursor_icon3").style.display="none";
+          }
+          function hideCursor4(){
+            document.getElementById("cursor_icon4").style.display="none";
+          }
+          function hideCursor5(){
+            document.getElementById("cursor_icon5").style.display="none";
+          }
+          function hideCursor6(){
+            document.getElementById("cursor_icon6").style.display="none";
+          }
+          function hideCursor7(){
+            document.getElementById("cursor_icon7").style.display="none";
+          }
+          function hideCursor8(){
+            document.getElementById("cursor_icon8").style.display="none";
+          }
+          function hideCursor9(){
+            document.getElementById("cursor_icon9").style.display="none";
+          }
+          function hideCursor10(){
+            document.getElementById("cursor_icon10").style.display="none";
+          }
+
+
+          function startTimer3(){
+
+            setTimeout(moveCursor1,200);
+            setTimeout(moveCursor2,400);
+            setTimeout(moveCursor3,600);
+            setTimeout(moveCursor4,800);
+            setTimeout(moveCursor5,1000);
+            setTimeout(moveCursor6,1200);
+            setTimeout(moveCursor7,1400);
+            setTimeout(moveCursor8,1600);
+            setTimeout(moveCursor9,1800);
+            setTimeout(moveCursor10,2000);
+
+            setTimeout(hideCursor,200);
+            setTimeout(hideCursor1,400);
+            setTimeout(hideCursor2,600);
+            setTimeout(hideCursor3,800);
+            setTimeout(hideCursor4,1000);
+            setTimeout(hideCursor5,1200);
+            setTimeout(hideCursor6,1400);
+            setTimeout(hideCursor7,1600);
+            setTimeout(hideCursor8,1800);
+            setTimeout(hideCursor9,2000);
+            setTimeout(hideCursor10,2200);
+          /*________________________________*/
+            setTimeout(moveCursor1,2200);
+            setTimeout(moveCursor2,2400);
+            setTimeout(moveCursor3,2600);
+            setTimeout(moveCursor4,2800);
+            setTimeout(moveCursor5,3000);
+            setTimeout(moveCursor6,3200);
+            setTimeout(moveCursor7,3400);
+            setTimeout(moveCursor8,3600);
+            setTimeout(moveCursor9,3800);
+            setTimeout(moveCursor10,4000);
+
+            setTimeout(hideCursor,2200);
+            setTimeout(hideCursor1,2400);
+            setTimeout(hideCursor2,2600);
+            setTimeout(hideCursor3,2800);
+            setTimeout(hideCursor4,3000);
+            setTimeout(hideCursor5,3200);
+            setTimeout(hideCursor6,3400);
+            setTimeout(hideCursor7,3600);
+            setTimeout(hideCursor8,3800);
+            setTimeout(hideCursor9,4000);
+            setTimeout(hideCursor10,4200);
+            /*________________________________*/
+            setTimeout(moveCursor1,4200);
+            setTimeout(moveCursor2,4400);
+            setTimeout(moveCursor3,4600);
+            setTimeout(moveCursor4,4800);
+            setTimeout(moveCursor5,5000);
+            setTimeout(moveCursor6,5200);
+            setTimeout(moveCursor7,5400);
+            setTimeout(moveCursor8,5600);
+            setTimeout(moveCursor9,5800);
+            setTimeout(moveCursor10,6000);
+
+            setTimeout(hideCursor,4200);
+            setTimeout(hideCursor1,4400);
+            setTimeout(hideCursor2,4600);
+            setTimeout(hideCursor3,4800);
+            setTimeout(hideCursor4,5000);
+            setTimeout(hideCursor5,5200);
+            setTimeout(hideCursor6,5400);
+            setTimeout(hideCursor7,5600);
+            setTimeout(hideCursor8,5800);
+            setTimeout(hideCursor9,6000);
+            setTimeout(hideCursor10,6200);
+            /*________________________________*/
+            setTimeout(moveCursor1,6200);
+            setTimeout(moveCursor2,6400);
+            setTimeout(moveCursor3,6600);
+            setTimeout(moveCursor4,6800);
+            setTimeout(moveCursor5,7000);
+            setTimeout(moveCursor6,7200);
+            setTimeout(moveCursor7,7400);
+            setTimeout(moveCursor8,7600);
+            setTimeout(moveCursor9,7800);
+            setTimeout(moveCursor10,8000);
+
+            setTimeout(hideCursor,6200);
+            setTimeout(hideCursor1,6400);
+            setTimeout(hideCursor2,6600);
+            setTimeout(hideCursor3,6800);
+            setTimeout(hideCursor4,7000);
+            setTimeout(hideCursor5,7200);
+            setTimeout(hideCursor6,7400);
+            setTimeout(hideCursor7,7600);
+            setTimeout(hideCursor8,7800);
+            setTimeout(hideCursor9,8000);
+            setTimeout(hideCursor10,8200);
+            /*________________________________*/
+            setTimeout(moveCursor1,8200);
+            setTimeout(moveCursor2,8400);
+            setTimeout(moveCursor3,8600);
+            setTimeout(moveCursor4,8800);
+            setTimeout(moveCursor5,9000);
+            setTimeout(moveCursor6,9200);
+            setTimeout(moveCursor7,9400);
+            setTimeout(moveCursor8,9600);
+            setTimeout(moveCursor9,9800);
+            setTimeout(moveCursor10,10000);
+
+            setTimeout(hideCursor,8200);
+            setTimeout(hideCursor1,8400);
+            setTimeout(hideCursor2,8600);
+            setTimeout(hideCursor3,8800);
+            setTimeout(hideCursor4,9000);
+            setTimeout(hideCursor5,9200);
+            setTimeout(hideCursor6,9400);
+            setTimeout(hideCursor7,9600);
+            setTimeout(hideCursor8,9800);
+            setTimeout(hideCursor9,10000);
+            setTimeout(hideCursor10,10200);
+            /*________________________________*/
+            setTimeout(moveCursor1,10200);
+            setTimeout(moveCursor2,10400);
+            setTimeout(moveCursor3,10600);
+            setTimeout(moveCursor4,10800);
+            setTimeout(moveCursor5,11000);
+            setTimeout(moveCursor6,11200);
+            setTimeout(moveCursor7,11400);
+            setTimeout(moveCursor8,11600);
+            setTimeout(moveCursor9,11800);
+            setTimeout(moveCursor10,12000);
+
+            setTimeout(hideCursor,10200);
+            setTimeout(hideCursor1,10400);
+            setTimeout(hideCursor2,10600);
+            setTimeout(hideCursor3,10800);
+            setTimeout(hideCursor4,11000);
+            setTimeout(hideCursor5,11200);
+            setTimeout(hideCursor6,11400);
+            setTimeout(hideCursor7,11600);
+            setTimeout(hideCursor8,11800);
+            setTimeout(hideCursor9,12000);
+            setTimeout(hideCursor10,12200);
+            /*__________________________________*/
+
+            setTimeout(moveCursor1,12200);
+            setTimeout(moveCursor2,12400);
+            setTimeout(moveCursor3,12600);
+            setTimeout(moveCursor4,12800);
+            setTimeout(moveCursor5,13000);
+            setTimeout(moveCursor6,13200);
+            setTimeout(moveCursor7,13400);
+            setTimeout(moveCursor8,13600);
+            setTimeout(moveCursor9,13800);
+            setTimeout(moveCursor10,14000);
+
+            setTimeout(hideCursor,12200);
+            setTimeout(hideCursor1,12400);
+            setTimeout(hideCursor2,12600);
+            setTimeout(hideCursor3,12800);
+            setTimeout(hideCursor4,13000);
+            setTimeout(hideCursor5,13200);
+            setTimeout(hideCursor6,13400);
+            setTimeout(hideCursor7,13600);
+            setTimeout(hideCursor8, 13800);
+            setTimeout(hideCursor9,14000);
+            setTimeout(hideCursor10,14200);
+            /*__________________________________*/
+
+            setTimeout(moveCursor1,14200);
+            setTimeout(moveCursor2,14400);
+            setTimeout(moveCursor3,14600);
+            setTimeout(moveCursor4,14800);
+            setTimeout(moveCursor5,15000);
+            setTimeout(moveCursor6,15200);
+            setTimeout(moveCursor7,15400);
+            setTimeout(moveCursor8,15600);
+            setTimeout(moveCursor9,15800);
+            setTimeout(moveCursor10,16000);
+
+            setTimeout(hideCursor,14200);
+            setTimeout(hideCursor1,14400);
+            setTimeout(hideCursor2,14600);
+            setTimeout(hideCursor3,14800);
+            setTimeout(hideCursor4,15000);
+            setTimeout(hideCursor5,15200);
+            setTimeout(hideCursor6,15400);
+            setTimeout(hideCursor7,15600);
+            setTimeout(hideCursor8,15800);
+            setTimeout(hideCursor9,16000);
+            setTimeout(hideCursor10,16200);
+            /*_________________________________________________*/
+            setTimeout(moveCursor1,16200);
+            setTimeout(moveCursor2,16400);
+            setTimeout(moveCursor3,16600);
+            setTimeout(moveCursor4,16800);
+            setTimeout(moveCursor5,17000);
+            setTimeout(moveCursor6,17200);
+            setTimeout(moveCursor7,17400);
+            setTimeout(moveCursor8,17600);
+            setTimeout(moveCursor9,17800);
+            setTimeout(moveCursor10,18000);
+
+            setTimeout(hideCursor,16200);
+            setTimeout(hideCursor1,16400);
+            setTimeout(hideCursor2,16600);
+            setTimeout(hideCursor3,16800);
+            setTimeout(hideCursor4,17000);
+            setTimeout(hideCursor5,17200);
+            setTimeout(hideCursor6,17400);
+            setTimeout(hideCursor7,17600);
+            setTimeout(hideCursor8,17800);
+            setTimeout(hideCursor9,18000);
+            setTimeout(hideCursor10,18500);
+            /*_____________________________________________________*/
+            setTimeout(moveCursor1,18200);
+            setTimeout(moveCursor2,18400);
+            setTimeout(moveCursor3,18600);
+            setTimeout(moveCursor4,18800);
+            setTimeout(moveCursor5,19000);
+            setTimeout(moveCursor6,19200);
+            setTimeout(moveCursor7,19400);
+            setTimeout(moveCursor8,19600);
+            setTimeout(moveCursor9,19800);
+            setTimeout(moveCursor10,20000);
+
+            setTimeout(hideCursor, 18200);
+            setTimeout(hideCursor1,18400);
+            setTimeout(hideCursor2,18600);
+            setTimeout(hideCursor3,18800);
+            setTimeout(hideCursor4,19000);
+            setTimeout(hideCursor5,19200);
+            setTimeout(hideCursor6,19400);
+            setTimeout(hideCursor7,19600);
+            setTimeout(hideCursor8,19800);
+            setTimeout(hideCursor9,20000);
+    
+          }
+            /*_____________________________________________________*/
+
+
+          
+          
+
+
+
+
+        
+
+
+         
+         
+
+          /*Plus Icon Animation*/
+          
+         /* function plus_icon(){
+            document.getElementById("plus_icon").style.display="block";
+          }
+          function plus_icon_hide(){
+            document.getElementById("plus_icon").style.display="none";
+          }
+          function fix_plus(){
+            document.getElementById("plus_icon1").style.display="block";
+          }
+          function fix_plus_hide(){
+            document.getElementById("plus_icon1").style.display="none";
+          }
+          function startTimer4(){
+            setInterval(plus_icon,350);
+            setInterval(plus_icon_hide,700);
+            setTimeout(fix_plus,25000);
+            setTimeout(fix_plus_hide,1);
+          }*/
+
+         
+
+
+         /*_______________________________________Design End_____________________________________________________*/
+
+         
+         function startTimer1(){  
+          setTimeout(change2,12000);
+          setTimeout(change2,24000);
+          setTimeout(change2,36000);
+         
+          
+          setTimeout(change1,4000);
+          setTimeout(change1,16000);
+          setTimeout(change1,28000);
+    
+        //________________________________//
+          setTimeout(change4,12000);
+          setTimeout(change4,24000);
+          setTimeout(change4,36000);
+        
+          
+          setTimeout(change3,4000);
+          setTimeout(change3,16000);
+          setTimeout(change3,28000);
+        
+       //________________________________//  
+          setTimeout(change5,8000);
+          setTimeout(change5,20000);
+          setTimeout(change5,32000);
+        
+          
+          setTimeout(change6,4000);
+          setTimeout(change6,16000);
+          setTimeout(change6,28000);
+     
+        //________________________________//
+          setTimeout(change7,12000);
+          setTimeout(change7,24000);
+          setTimeout(change7,36000);
+      
+          
+          setTimeout(change8,8000);
+          setTimeout(change8,20000);
+          setTimeout(change8,32000);
+        
+         }
+         function start(){
+          
+            startTimer();
+            startTimer1();
+            startTimer2();
+            startTimer3();
+       
+            startTimer5();
+         
+       
+          }
+
+      </script>
+      
+      
+
+       <img id="img" src="/images/design/img1.png">
+
+       <img id="line_img1" src="/images/design/line1.png">
+       <img id="line_img2" src="/images/design/line2.png">
+       <img id="line_img3" src="/images/design/line3.png">
+       <img id="line_img4" src="/images/design/line4.png">
+       <img id="line_img5" src="/images/design/line5.png">
+       <img id="line_img6" src="/images/design/line6.png">
+       <img id="line_img7" src="/images/design/line7.png">
+
+       <img id="cursor_icon" src="/images/design/cursor_icon.png">
+       <img id="cursor_icon1" src="/images/design/cursor_icon.png">
+       <img id="cursor_icon2" src="/images/design/cursor_icon.png">
+       <img id="cursor_icon3" src="/images/design/cursor_icon.png">
+       <img id="cursor_icon4" src="/images/design/cursor_icon.png">
+       <img id="cursor_icon5" src="/images/design/cursor_icon.png">
+       <img id="cursor_icon6" src="/images/design/cursor_icon.png">
+       <img id="cursor_icon7" src="/images/design/cursor_icon.png">
+       <img id="cursor_icon8" src="/images/design/cursor_icon.png">
+       <img id="cursor_icon9" src="/images/design/cursor_icon.png">
+       <img id="cursor_icon10" src="/images/design/cursor_icon.png">
+
+       <!--<img id="plus_icon" src="/images/plus_icon.png">
+       <img id="plus_icon1" src="/images/plus_icon.png"> -->
+
+       <div class="dropdown"> 
+        <a id="menu_a" ><img id="img1"  src="/images/design/hamburger1.png"></a>
+        <div class="dropdown-content">
+          <a href="/Pages/About.html">About</a>
+          <a href="/Pages/Skills.html">Skills</a>
+          <a href="/Pages/Works.html">Works</a>
+          <a href="#">Contact</a>
+        </div>
+       </div>    
+
+       <img id="avatar_lying" src="/images/design/avatar_lying.png">
+
+     <div class="social_media">
+       <a href="https://www.facebook.com/abkabhishek/"><img id="facebook" src="/images/Social media/facebook.png"></a>
+       <a href="https://www.instagram.com/abk.abhishek/"><img id="instagram" src="/images/Social media/instagram.png"></a>
+       <a href="https://twitter.com/abk_abhishek3"><img id="twitter" src="/images/Social media/twitter.png"></a>
+       <a href="https://www.linkedin.com/in/abhishek-kumar-774b97189/"><img id="linkedin" src="/images/Social media/linkedin.png"></a>
+       <a href="https://github.com/abkabhishek3"><img id="github" src="/images/Social media/github.png"></a>
+       <a href="https://www.reddit.com/user/abkabhishek"><img id="reddit" src="/images/Social media/reddit.png"></a>
+      </div>
+     
+       
+       
+    
+       
+     
+       <div class=TextContainer">
+        <div ><p id="text1">HELLO</p> </div>
+        <div ><p id="text2">&nbsp &nbsp &nbsp I <br>&nbsp &nbsp am<br>Abhishek</p> </div>
+        <div><p id="text3">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbspI'm a <br>&nbsp &nbsp  Web Developer<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp and <br> &nbsp &nbsp &nbsp Photo & Video <br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Editor </p></div>
+        <div><p id="text4">&nbsp Currently pursuing <br> &nbsp &nbsp &nbsp BE degree in <br> &nbsp &nbsp &nbsp &nbsp CSE from<br> &nbsp &nbsp &nbsp &nbspBIT Mesra </p></div>
+       </div>
+     
+       
+      
+      
+      </div>
+    </div>
+
+    
+    
+
+
+
+  </body>
+</html>

@@ -1,0 +1,3087 @@
+body{
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+}
+#logo{
+    width:9%;
+    float: left;
+    margin-top: -0.3%;
+    margin-left: -98%;
+}
+
+.column1 {
+    float: left;
+    width: 440px;
+    height: 550px;
+    margin-top: 7.6%;
+    margin-left: -13.5%;
+  }
+  .column2 {
+    float: left;
+    width: 440px;
+    height: 550px;
+    margin-top: 7.6%;
+    margin-left: 0.5%;
+  }
+  .column3 {
+    float: left;
+    width: 440px;
+    height: 550px;
+    margin-top: 7.6%;
+    margin-left: 0.8%;
+  }
+  #row{
+      margin-left: 12.3%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /*_________________________Works Content Start____________________________________________________*/
+ #portfolio{
+     position: absolute;
+     width:30%;
+     margin-left:-97%;
+     margin-top:11.1%
+ }
+ #meme{
+  position: absolute;
+  width:30%;
+  margin-left:-97%;
+  margin-top:29.1%
+}
+#music{
+  width:30%;
+  position: absolute;
+  margin-left: -63.95%;
+  margin-top: 14%;
+}
+#mnews{
+  width:25%;
+  position: absolute;
+  margin-left: -28.5%;
+  margin-top: 11.2%;
+}
+#bob{
+  width:25%;
+  position: absolute;
+  margin-left: -28.5%;
+  margin-top: 28.8%;
+}
+ /*___________________________________Buttons____________________________________________________*/
+#orange_button{
+  height: 6%;  
+  width: 6%;                                                           
+  position: absolute;
+  margin-left: 13%;
+  margin-top: 18.5%;                                               /*ORANGE BUTTON*/
+  border-radius: 8px;
+  transition: all 0.5s;
+
+  font-family: Fondamento;
+  font-size: 140%;
+  background-color: #fb5d2d;
+  color: azure;
+  display: none;
+}
+  #orange_button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  #orange_button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  #orange_button:hover span {
+    padding-right: 25px;
+  }
+  #orange_button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+  #orange_button1{
+    height: 6%;  
+    width: 6%;                      
+    position: absolute;
+    margin-left: 13%;
+    margin-top: 35.5%;
+    border-radius: 8px;
+    transition: all 0.5s;
+
+    font-family: Fondamento;
+    font-size: 140%;
+    background-color: #fb5d2d;
+    color: azure;
+    display: none;
+  }
+  #orange_button1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  #orange_button1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  #orange_button1:hover span {
+    padding-right: 25px;
+  }
+  #orange_button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+  #blue_button{                                 /*BLUE BUTTON*/
+    height: 6%;  
+    width: 7%;                      
+    position: absolute;
+    margin-left: 46%;
+    margin-top: 28.5%;
+    border-radius: 8px;
+    transition: all 0.5s;
+
+    font-family: Fondamento;
+    font-size: 140%;
+    background-color: #12dcf7;
+    color: azure;
+    display: none;
+  }
+  #blue_button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  #blue_button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  #blue_button:hover span {
+    padding-right: 25px;
+  }
+  #blue_button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  #green_button{                                 /*GREEN BUTTON*/
+    height: 6%;  
+    width: 11%;                      
+    position: absolute;
+    margin-left: 76.7%;
+    margin-top: 19%;
+    border-radius: 8px;
+    transition: all 0.5s;
+
+    font-family: Fondamento;
+    font-size: 110%;
+    background-color: #00ff18;
+    color: azure;
+    display: none;
+  }
+  #green_button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  #green_button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  #green_button:hover span {
+    padding-right: 25px;
+  }
+  #green_button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  #green_button1{                                 /*GREEN BUTTON1*/
+    height: 6%;  
+    width: 11%;                      
+    position: absolute;
+    margin-left: 76.7%;
+    margin-top: 37%;
+    border-radius: 8px;
+    transition: all 0.5s;
+
+    font-family: Fondamento;
+    font-size: 110%;
+    background-color: #00ff18;
+    color: azure;
+    display: none;
+  }
+  #green_button1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  #green_button1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  #green_button1:hover span {
+    padding-right: 25px;
+  }
+  #green_button1:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+   /*___________________________________Buttons End____________________________________________________*/
+  
+
+
+@font-face{
+  font-family: Pirata One;
+  src:url(/fonts/pirata_one.ttf)
+}
+@font-face{
+  font-family:Fondamento;
+  src:url(/fonts/Fondamento-Regular.ttf)
+}
+@keyframes textclip {
+  to {
+      background-position: 200% center;
+  }
+}
+
+#webd_text{                                            /*TEXTS*/
+  position: absolute;
+  font-family: 'Fondamento';
+  font-size: 3vw;
+  color: #7a7f87;
+  margin-top: 7%;
+  margin-left: 6.8%;
+  background: linear-gradient(to left, 
+  #fa3a00 10%, #faa300 60%, #facd00 30%);
+        background-size: auto auto; 
+        background-clip: border-box;
+        background-size: 200% auto;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textclip 2s linear infinite;
+}
+#android_text{
+  position: absolute;
+  font-family: 'Fondamento';
+  font-size: 3vw;
+  color: #7a7f87;
+  margin-top: 7%;
+  margin-left: 40.8%;
+  background: linear-gradient(to left, 
+          #00f9fa 10%, #0090fa 60%, #009cfa 30%);
+        background-size: auto auto; 
+        background-clip: border-box;
+        background-size: 200% auto;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textclip 2s linear infinite;
+}
+#editing_text{
+  position: absolute;
+  font-family: 'Fondamento';
+  font-size: 3vw;
+  color: #7a7f87;
+  margin-top: 7%;
+  margin-left: 77.8%;
+  background: linear-gradient(to left, 
+  #65fa00 10%, #98fa00 40%, #dffa00 50%);
+        background-size: auto auto; 
+        background-clip: border-box;
+        background-size: 200% auto;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textclip 2s linear infinite;
+}
+/*___________________________DropDown Start____________________________________________________*/
+#menu_icon{
+    float: right;
+    width:3.5%;
+    margin-top:-46.9%;
+    margin-right: 1%;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-content {
+    position: absolute;
+    width:32.5%;
+    margin-top: 0%;
+    margin-left: 92%;
+  display: none;
+
+  background-color:black;
+  width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  size: 1;
+  padding: 10px 12px;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  font-family: 'Pirata One', cursive;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover { background: rgb(33,150,217);
+    background: linear-gradient(138deg, rgba(33,150,217,1) 0%, rgba(0,156,250,1) 30%, rgba(0,250,33,1) 68%);}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/*___________________________DropDown end____________________________________________________*/
+
+ /*******************************************************************************************************
+  *******************************************************************************************************
+  ********************************************************************************************************
+  *********************************************1st***********************************************************
+  ********************************************************************************************************
+  ********************************************************************************************************
+  *******************************************************************************************************/
+  @media screen and (max-width:1360px)
+  {
+    body{
+      background: rgb(0, 0, 0);
+      overflow: hidden;
+  }
+  #logo{
+      width:8.3%;
+      float: left;
+      margin-top: -0.3%;
+      margin-left: -97%;
+  }
+  
+  .column1 {
+      float: left;
+      width: 420px;
+      height: 550px;
+      margin-top: 7.6%;
+      margin-left: -13.5%;
+    }
+    .column2 {
+      float: left;
+      width: 420px;
+      height: 550px;
+      margin-top: 7.6%;
+      margin-left: 0.5%;
+    }
+    .column3 {
+      float: left;
+      width: 420px;
+      height: 550px;
+      margin-top: 7.6%;
+      margin-left: 0.8%;
+    }
+    #row{
+        margin-left: 14.3%;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  
+    /*_________________________Works Content Start____________________________________________________*/
+   #portfolio{
+       position: absolute;
+       width:29%;
+       margin-left:-93.1%;
+       margin-top:11%
+   }
+   #meme{
+    position: absolute;
+    width:29%;
+    margin-left:-93.1%;
+    margin-top:29.1%
+  }
+  #music{
+    width:29%;
+    position: absolute;
+    margin-left: -61.5%;
+    margin-top: 14%;
+  }
+  #mnews{
+    width:25%;
+    position: absolute;
+    margin-left: -28.5%;
+    margin-top: 11.2%;
+  }
+  #bob{
+    width:25%;
+    position: absolute;
+    margin-left: -28.5%;
+    margin-top: 28.8%;
+  }
+   /*___________________________________Buttons____________________________________________________*/
+  #orange_button{
+    height: 6%;  
+    width: 6%;                                                           
+    position: absolute;
+    margin-left: 14.5%;
+    margin-top: 18.5%;                                               /*ORANGE BUTTON*/
+    border-radius: 8px;
+    transition: all 0.5s;
+  
+    font-family: Fondamento;
+    font-size: 140%;
+    background-color: #fb5d2d;
+    color: azure;
+    display: none;
+  }
+    #orange_button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #orange_button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #orange_button:hover span {
+      padding-right: 25px;
+    }
+    #orange_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+  
+    #orange_button1{
+      height: 6%;  
+      width: 6%;                      
+      position: absolute;
+      margin-left: 14.5%;
+      margin-top: 35.5%;
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 140%;
+      background-color: #fb5d2d;
+      color: azure;
+      display: none;
+    }
+    #orange_button1 span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #orange_button1 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #orange_button1:hover span {
+      padding-right: 25px;
+    }
+    #orange_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+  
+    #blue_button{                                 /*BLUE BUTTON*/
+      height: 6%;  
+      width: 7%;                      
+      position: absolute;
+      margin-left: 46%;
+      margin-top: 28.5%;
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 140%;
+      background-color: #12dcf7;
+      color: azure;
+      display: none;
+    }
+    #blue_button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #blue_button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #blue_button:hover span {
+      padding-right: 25px;
+    }
+    #blue_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+    #green_button{                                 /*GREEN BUTTON*/
+      height: 6%;  
+      width: 11%;                      
+      position: absolute;
+      margin-left: 75%;
+      margin-top: 19%;
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 110%;
+      background-color: #00ff18;
+      color: azure;
+      display: none;
+    }
+    #green_button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #green_button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #green_button:hover span {
+      padding-right: 25px;
+    }
+    #green_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+    #green_button1{                                 /*GREEN BUTTON1*/
+      height: 6%;  
+      width: 11%;                      
+      position: absolute;
+      margin-left: 75%;
+      margin-top: 37%;
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 110%;
+      background-color: #00ff18;
+      color: azure;
+      display: none;
+    }
+    #green_button1 span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #green_button1 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #green_button1:hover span {
+      padding-right: 25px;
+    }
+    #green_button1:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+     /*___________________________________Buttons End____________________________________________________*/
+    
+  
+  
+  @font-face{
+    font-family: Pirata One;
+    src:url(/fonts/pirata_one.ttf)
+  }
+  @font-face{
+    font-family:Fondamento;
+    src:url(/fonts/Fondamento-Regular.ttf)
+  }
+  @keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+  }
+  
+  #webd_text{                                            /*TEXTS*/
+    position: absolute;
+    font-family: 'Fondamento';
+    font-size: 3vw;
+    color: #7a7f87;
+    margin-top: 7%;
+    margin-left: 6.8%;
+    background: linear-gradient(to left, 
+    #fa3a00 10%, #faa300 60%, #facd00 30%);
+          background-size: auto auto; 
+          background-clip: border-box;
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 2s linear infinite;
+  }
+  #android_text{
+    position: absolute;
+    font-family: 'Fondamento';
+    font-size: 3vw;
+    color: #7a7f87;
+    margin-top: 7%;
+    margin-left: 40.8%;
+    background: linear-gradient(to left, 
+            #00f9fa 10%, #0090fa 60%, #009cfa 30%);
+          background-size: auto auto; 
+          background-clip: border-box;
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 2s linear infinite;
+  }
+  #editing_text{
+    position: absolute;
+    font-family: 'Fondamento';
+    font-size: 3vw;
+    color: #7a7f87;
+    margin-top: 7%;
+    margin-left: 77.8%;
+    background: linear-gradient(to left, 
+    #65fa00 10%, #98fa00 40%, #dffa00 50%);
+          background-size: auto auto; 
+          background-clip: border-box;
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 2s linear infinite;
+  }
+  /*___________________________DropDown Start____________________________________________________*/
+  #menu_icon{
+      float: right;
+      width:3%;
+      margin-top:-46.9%;
+      margin-right: 1%;
+  }
+  .dropdown{
+      position: relative;
+  }
+  .dropdown-content {
+      position: absolute;
+      width:32.5%;
+      margin-top: 0%;
+      margin-left: 92%;
+    display: none;
+  
+    background-color:black;
+    width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    size: 1;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    font-family: 'Pirata One', cursive;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover { background: rgb(33,150,217);
+      background: linear-gradient(138deg, rgba(33,150,217,1) 0%, rgba(0,156,250,1) 30%, rgba(0,250,33,1) 68%);}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /*___________________________DropDown end____________________________________________________*/
+  }
+
+ /*******************************************************************************************************
+  *******************************************************************************************************
+  ********************************************************************************************************
+  *********************************************2nd***********************************************************
+  ********************************************************************************************************
+  ********************************************************************************************************
+  *******************************************************************************************************/
+  @media screen and (max-width:1310px)
+  {
+    body{
+      background: rgb(0, 0, 0);
+      overflow: hidden;
+  }
+  #logo{
+      width:8.3%;
+      float: left;
+      margin-top: -0.3%;
+      margin-left: -90%;
+  }
+  
+  .column1 {
+      float: left;
+      width: 360px;
+      height: 550px;
+      margin-top: 7.6%;
+      margin-left: -13.5%;
+    }
+    .column2 {
+      float: left;
+      width: 360px;
+      height: 550px;
+      margin-top: 7.6%;
+      margin-left: 0.5%;
+    }
+    .column3 {
+      float: left;
+      width: 360px;
+      height: 550px;
+      margin-top: 7.6%;
+      margin-left: 0.8%;
+    }
+    #row{
+        margin-left: 17.3%;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  
+    /*_________________________Works Content Start____________________________________________________*/
+   #portfolio{
+       position: absolute;
+       width:25%;
+       margin-left:-83.1%;
+       margin-top:11%
+   }
+   #meme{
+    position: absolute;
+    width:25%;
+    margin-left:-83.1%;
+    margin-top:31.1%
+  }
+  #music{
+    width:25%;
+    position: absolute;
+    margin-left: -54.5%;
+    margin-top: 16%;
+  }
+  #mnews{
+    width:24%;
+    position: absolute;
+    margin-left: -25.8%;
+    margin-top: 11.2%;
+  }
+  #bob{
+    width:24%;
+    position: absolute;
+    margin-left: -25.8%;
+    margin-top: 29.8%;
+  }
+   /*___________________________________Buttons____________________________________________________*/
+  #orange_button{
+    height: 6%;  
+    width: 6%;                                                           
+    position: absolute;
+    margin-left: 16.5%;
+    margin-top: 17%;                                               /*ORANGE BUTTON*/
+    border-radius: 8px;
+    transition: all 0.5s;
+  
+    font-family: Fondamento;
+    font-size: 140%;
+    background-color: #fb5d2d;
+    color: azure;
+    display: none;
+  }
+    #orange_button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #orange_button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #orange_button:hover span {
+      padding-right: 25px;
+    }
+    #orange_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+  
+    #orange_button1{
+      height: 6%;  
+      width: 6%;                      
+      position: absolute;
+      margin-left: 16.5%;
+      margin-top: 36.3%;
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 140%;
+      background-color: #fb5d2d;
+      color: azure;
+      display: none;
+    }
+    #orange_button1 span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #orange_button1 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #orange_button1:hover span {
+      padding-right: 25px;
+    }
+    #orange_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+  
+    #blue_button{                                 /*BLUE BUTTON*/
+      height: 6%;  
+      width: 7%;                      
+      position: absolute;
+      margin-left: 45%;
+      margin-top: 28%;
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 140%;
+      background-color: #12dcf7;
+      color: azure;
+      display: none;
+    }
+    #blue_button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #blue_button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #blue_button:hover span {
+      padding-right: 25px;
+    }
+    #blue_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+    #green_button{                                 /*GREEN BUTTON*/
+      height: 6%;  
+      width: 11%;                      
+      position: absolute;
+      margin-left: 71%;
+      margin-top: 18%;
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 110%;
+      background-color: #00ff18;
+      color: azure;
+      display: none;
+    }
+    #green_button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #green_button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #green_button:hover span {
+      padding-right: 25px;
+    }
+    #green_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+    #green_button1{                                 /*GREEN BUTTON1*/
+      height: 6%;  
+      width: 11%;                      
+      position: absolute;
+      margin-left: 71%;
+      margin-top: 37%;
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 110%;
+      background-color: #00ff18;
+      color: azure;
+      display: none;
+    }
+    #green_button1 span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #green_button1 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #green_button1:hover span {
+      padding-right: 25px;
+    }
+    #green_button1:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+     /*___________________________________Buttons End____________________________________________________*/
+    
+  
+  
+  @font-face{
+    font-family: Pirata One;
+    src:url(/fonts/pirata_one.ttf)
+  }
+  @font-face{
+    font-family:Fondamento;
+    src:url(/fonts/Fondamento-Regular.ttf)
+  }
+  @keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+  }
+  
+  #webd_text{                                            /*TEXTS*/
+    position: absolute;
+    font-family: 'Fondamento';
+    font-size: 3vw;
+    color: #7a7f87;
+    margin-top: 7%;
+    margin-left: 6.8%;
+    background: linear-gradient(to left, 
+    #fa3a00 10%, #faa300 60%, #facd00 30%);
+          background-size: auto auto; 
+          background-clip: border-box;
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 2s linear infinite;
+  }
+  #android_text{
+    position: absolute;
+    font-family: 'Fondamento';
+    font-size: 3vw;
+    color: #7a7f87;
+    margin-top: 7%;
+    margin-left: 40.8%;
+    background: linear-gradient(to left, 
+            #00f9fa 10%, #0090fa 60%, #009cfa 30%);
+          background-size: auto auto; 
+          background-clip: border-box;
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 2s linear infinite;
+  }
+  #editing_text{
+    position: absolute;
+    font-family: 'Fondamento';
+    font-size: 3vw;
+    color: #7a7f87;
+    margin-top: 7%;
+    margin-left: 77.8%;
+    background: linear-gradient(to left, 
+    #65fa00 10%, #98fa00 40%, #dffa00 50%);
+          background-size: auto auto; 
+          background-clip: border-box;
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 2s linear infinite;
+  }
+  /*___________________________DropDown Start____________________________________________________*/
+  #menu_icon{
+      float: right;
+      width:3%;
+      margin-top: 0.9%;
+      margin-right: 1%;
+  }
+  .dropdown{
+      position: relative;
+  }
+  .dropdown-content {
+      position: absolute;
+      width:32.5%;
+      margin-top: 0%;
+      margin-left: 92%;
+    display: none;
+  
+    background-color:black;
+    width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    size: 1;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    font-family: 'Pirata One', cursive;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover { background: rgb(33,150,217);
+      background: linear-gradient(138deg, rgba(33,150,217,1) 0%, rgba(0,156,250,1) 30%, rgba(0,250,33,1) 68%);}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /*___________________________DropDown end____________________________________________________*/
+  }
+
+ /*******************************************************************************************************
+  *******************************************************************************************************
+  ********************************************************************************************************
+  *********************************************3rd***********************************************************
+  ********************************************************************************************************
+  ********************************************************************************************************
+  *******************************************************************************************************/
+  @media screen and (max-width:1170px)
+  {
+    body{
+      background: rgb(0, 0, 0);
+      overflow: hidden;
+  }
+  #logo{
+      width:8.3%;
+      float: left;
+      margin-top: -4.3%;
+      margin-left: -90%;
+  }
+  
+  .column1 {
+      float: left;
+      width: 300px;
+      height: 450px;
+      margin-top: 7.6%;
+      margin-left: -14.5%;
+    }
+    .column2 {
+      float: left;
+      width: 300px;
+      height: 450px;
+      margin-top: 7.6%;
+      margin-left: 5.5%;
+    }
+    .column3 {
+      float: left;
+      width: 300px;
+      height: 450px;
+      margin-top: 7.6%;
+      margin-left: 5.8%;
+    }
+    #row{
+    
+        margin-left: 17.3%;
+        margin-top: 5%;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  
+    /*_________________________Works Content Start____________________________________________________*/
+   #portfolio{
+       position: absolute;
+       width:23%;
+       height: 26%;
+       margin-left:-85.1%;
+       margin-top:11%
+   }
+   #meme{
+    position: absolute;
+    width:23%;
+    height:26%;
+    margin-left:-85%;
+    margin-top:28.1%
+  }
+  #music{
+    width:23%;
+    height: 50%;
+    position: absolute;
+    margin-left: -54.6%;
+    margin-top: 14%;
+  }
+  #mnews{
+    width:23%;
+    position: absolute;
+    margin-left: -24.3%;
+    margin-top: 11.1%;
+  }
+  #bob{
+    width:23%;
+    position: absolute;
+    margin-left: -24.3%;
+    margin-top: 27.5%;
+  }
+   /*___________________________________Buttons____________________________________________________*/
+  #orange_button{
+    height: 6%;  
+    width: 6%;                                                           
+    position: absolute;
+    margin-left: 14.5%;
+    margin-top: 17%;                                               /*ORANGE BUTTON*/
+    border-radius: 8px;
+    transition: all 0.5s;
+  
+    font-family: Fondamento;
+    font-size: 90%;
+    background-color: #fb5d2d;
+    color: azure;
+    display: none;
+  }
+    #orange_button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #orange_button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #orange_button:hover span {
+      padding-right: 25px;
+    }
+    #orange_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+  
+    #orange_button1{
+      height: 6%;  
+      width: 6%;                      
+      position: absolute;
+      margin-left: 14.5%;
+      margin-top: 33.3%;
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 90%;
+      background-color: #fb5d2d;
+      color: azure;
+      display: none;
+    }
+    #orange_button1 span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #orange_button1 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #orange_button1:hover span {
+      padding-right: 25px;
+    }
+    #orange_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+  
+    #blue_button{                                 /*BLUE BUTTON*/
+      height: 6%;  
+      width: 7%;                      
+      position: absolute;
+      margin-left: 45%;
+      margin-top: 26.5%;
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 100%;
+      background-color: #12dcf7;
+      color: azure;
+      display: none;
+    }
+    #blue_button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #blue_button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #blue_button:hover span {
+      padding-right: 25px;
+    }
+    #blue_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+    #green_button{                                 /*GREEN BUTTON*/
+      height: 6%;  
+      width: 11%;                      
+      position: absolute;
+      margin-left: 73%;
+      margin-top: 18%;
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 90%;
+      background-color: #00ff18;
+      color: azure;
+      display: none;
+    }
+    #green_button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #green_button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #green_button:hover span {
+      padding-right: 25px;
+    }
+    #green_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+    #green_button1{                                 /*GREEN BUTTON1*/
+      height: 6%;  
+      width: 11%;                      
+      position: absolute;
+      margin-left: 73%;
+      margin-top: 35%;
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 90%;
+      background-color: #00ff18;
+      color: azure;
+      display: none;
+    }
+    #green_button1 span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #green_button1 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #green_button1:hover span {
+      padding-right: 25px;
+    }
+    #green_button1:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+     /*___________________________________Buttons End____________________________________________________*/
+    
+  
+  
+  @font-face{
+    font-family: Pirata One;
+    src:url(/fonts/pirata_one.ttf)
+  }
+  @font-face{
+    font-family:Fondamento;
+    src:url(/fonts/Fondamento-Regular.ttf)
+  }
+  @keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+  }
+  
+  #webd_text{                                            /*TEXTS*/
+    position: absolute;
+    font-family: 'Fondamento';
+    font-size: 2.5vw;
+    color: #7a7f87;
+    margin-top: 7%;
+    margin-left: 9.8%;
+    background: linear-gradient(to left, 
+    #fa3a00 10%, #faa300 60%, #facd00 30%);
+          background-size: auto auto; 
+          background-clip: border-box;
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 2s linear infinite;
+  }
+  #android_text{
+    position: absolute;
+    font-family: 'Fondamento';
+    font-size: 2.5vw;
+    color: #7a7f87;
+    margin-top: 7%;
+    margin-left: 41.5%;
+    background: linear-gradient(to left, 
+            #00f9fa 10%, #0090fa 60%, #009cfa 30%);
+          background-size: auto auto; 
+          background-clip: border-box;
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 2s linear infinite;
+  }
+  #editing_text{
+    position: absolute;
+    font-family: 'Fondamento';
+    font-size: 2.5vw;
+    color: #7a7f87;
+    margin-top: 6.8%;
+    margin-left: 74.5%;
+    background: linear-gradient(to left, 
+    #65fa00 10%, #98fa00 40%, #dffa00 50%);
+          background-size: auto auto; 
+          background-clip: border-box;
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 2s linear infinite;
+  }
+  /*___________________________DropDown Start____________________________________________________*/
+  #menu_icon{
+      float: right;
+      width:3%;
+      margin-top: -3.9%;
+      margin-right: 1%;
+  }
+  .dropdown{
+      position: relative;
+  }
+  .dropdown-content {
+      position: absolute;
+      width:32.5%;
+      margin-top: -4%;
+      margin-left: 93%;
+    display: none;
+  
+    background-color:black;
+    width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    size: 1;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    font-family: 'Pirata One', cursive;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover { background: rgb(33,150,217);
+      background: linear-gradient(138deg, rgba(33,150,217,1) 0%, rgba(0,156,250,1) 30%, rgba(0,250,33,1) 68%);}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /*___________________________DropDown end____________________________________________________*/
+  }
+
+
+ /*******************************************************************************************************
+  *******************************************************************************************************
+  ********************************************************************************************************
+  *********************************************4th***********************************************************
+  ********************************************************************************************************
+  ********************************************************************************************************
+  *******************************************************************************************************/
+  @media screen and (max-width:1000px)
+  {
+    body{
+      background: rgb(0, 0, 0);
+      overflow: hidden;
+  }
+  #logo{
+      width:8.3%;
+      float: left;
+      margin-top: -11.3%;
+      margin-left: -90%;
+  }
+  
+  .column1 {
+      float: left;
+      width: 250px;
+      height: 380px;
+      margin-top: 7.6%;
+      margin-left: -18.5%;
+    }
+    .column2 {
+      float: left;
+      width: 250px;
+      height: 380px;
+      margin-top: 7.6%;
+      margin-left: 1.5%;
+    }
+    .column3 {
+      float: left;
+      width: 250px;
+      height: 380px;
+      margin-top: 7.6%;
+      margin-left: 2.8%;
+    }
+    #row{
+    
+        margin-left: 22.3%;
+        margin-top:13%;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  
+    /*_________________________Works Content Start____________________________________________________*/
+   #portfolio{
+       position: absolute;
+       width:23%;
+       height: 22%;
+       margin-left:-81.1%;
+       margin-top:11%
+   }
+   #meme{
+    position: absolute;
+    width:23%;
+    height:22%;
+    margin-left:-80.6%;
+    margin-top:29.1%
+  }
+  #music{
+    width:23%;
+    height: 40%;
+    position: absolute;
+    margin-left: -53%;
+    margin-top: 15%;
+  }
+  #mnews{
+    width:23%;
+    position: absolute;
+    margin-left: -24.6%;
+    margin-top: 11.1%;
+  }
+  #bob{
+    width:23%;
+    position: absolute;
+    margin-left: -24.6%;
+    margin-top: 27.5%;
+  }
+   /*___________________________________Buttons____________________________________________________*/
+  #orange_button{
+    height: 6%;  
+    width: 7%;                                                           
+    position: absolute;
+    margin-left: 11.5%;
+    margin-top: 17%;                                               /*ORANGE BUTTON*/
+    border-radius: 8px;
+    transition: all 0.5s;
+  
+    font-family: Fondamento;
+    font-size: 90%;
+    background-color: #fb5d2d;
+    color: azure;
+    display: none;
+  }
+    #orange_button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #orange_button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #orange_button:hover span {
+      padding-right: 25px;
+    }
+    #orange_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+  
+    #orange_button1{
+      height: 6%;  
+      width: 7%;                      
+      position: absolute;
+      margin-left: 11.5%;
+      margin-top: 34.3%;
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 90%;
+      background-color: #fb5d2d;
+      color: azure;
+      display: none;
+    }
+    #orange_button1 span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #orange_button1 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #orange_button1:hover span {
+      padding-right: 25px;
+    }
+    #orange_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+  
+    #blue_button{                                 /*BLUE BUTTON*/
+      height: 6%;  
+      width: 8.5%;                      
+      position: absolute;
+      margin-left: 38.5%;
+      margin-top: 27%;
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 100%;
+      background-color: #12dcf7;
+      color: azure;
+      display: none;
+    }
+    #blue_button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #blue_button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #blue_button:hover span {
+      padding-right: 25px;
+    }
+    #blue_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+    #green_button{                                 /*GREEN BUTTON*/
+      height: 5%;  
+      width: 13%;                      
+      position: absolute;
+      margin-left: 64%;
+      margin-top: 18%;
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 90%;
+      background-color: #00ff18;
+      color: azure;
+      display: none;
+    }
+    #green_button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #green_button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #green_button:hover span {
+      padding-right: 25px;
+    }
+    #green_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+    #green_button1{                                 /*GREEN BUTTON1*/
+      height: 5%;  
+      width: 13%;                      
+      position: absolute;
+      margin-left: 65%;
+      margin-top: 35%;
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 90%;
+      background-color: #00ff18;
+      color: azure;
+      display: none;
+    }
+    #green_button1 span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #green_button1 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #green_button1:hover span {
+      padding-right: 25px;
+    }
+    #green_button1:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+     /*___________________________________Buttons End____________________________________________________*/
+    
+  
+  
+  @font-face{
+    font-family: Pirata One;
+    src:url(/fonts/pirata_one.ttf)
+  }
+  @font-face{
+    font-family:Fondamento;
+    src:url(/fonts/Fondamento-Regular.ttf)
+  }
+  @keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+  }
+  
+  #webd_text{                                            /*TEXTS*/
+    position: absolute;
+    font-family: 'Fondamento';
+    font-size: 2.5vw;
+    color: #7a7f87;
+    margin-top: 6.5%;
+    margin-left:12.8%;
+    background: linear-gradient(to left, 
+    #fa3a00 10%, #faa300 60%, #facd00 30%);
+          background-size: auto auto; 
+          background-clip: border-box;
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 2s linear infinite;
+  }
+  #android_text{
+    position: absolute;
+    font-family: 'Fondamento';
+    font-size: 2.5vw;
+    color: #7a7f87;
+    margin-top: 6.5%;
+    margin-left: 40.5%;
+    background: linear-gradient(to left, 
+            #00f9fa 10%, #0090fa 60%, #009cfa 30%);
+          background-size: auto auto; 
+          background-clip: border-box;
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 2s linear infinite;
+  }
+  #editing_text{
+    position: absolute;
+    font-family: 'Fondamento';
+    font-size: 2.5vw;
+    color: #7a7f87;
+    margin-top: 6.4%;
+    margin-left: 72.5%;
+    background: linear-gradient(to left, 
+    #65fa00 10%, #98fa00 40%, #dffa00 50%);
+          background-size: auto auto; 
+          background-clip: border-box;
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 2s linear infinite;
+  }
+  /*___________________________DropDown Start____________________________________________________*/
+  #menu_icon{
+      float: right;
+      width:3%;
+      margin-top: -11%;
+      margin-right: 1%;
+  }
+  .dropdown{
+      position: relative;
+  }
+  .dropdown-content {
+      position: absolute;
+      width:32.5%;
+      margin-top: -11%;
+      margin-left: 91%;
+    display: none;
+  
+    background-color:black;
+    width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    size: 1;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    font-family: 'Pirata One', cursive;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover { background: rgb(33,150,217);
+      background: linear-gradient(138deg, rgba(33,150,217,1) 0%, rgba(0,156,250,1) 30%, rgba(0,250,33,1) 68%);}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /*___________________________DropDown end____________________________________________________*/
+  }
+
+
+ /*******************************************************************************************************
+  *******************************************************************************************************
+  ********************************************************************************************************
+  *********************************************5th***********************************************************
+  ********************************************************************************************************
+  ********************************************************************************************************
+  *******************************************************************************************************/
+  @media screen and (max-width:860px)
+  {
+    body{
+      background: rgb(0, 0, 0);
+     overflow-y: auto;
+  }
+  #logo{
+      width:8.3%;
+      float: left;
+      margin-top: -68.3%;
+      margin-left: -67%;
+  }
+  
+  .column1 {
+      float: left;
+      width: 320px;
+      height: 420px;
+      margin-top: 7.6%;
+      margin-left: -18.5%;
+    }
+    .column2 {
+      float: left;
+      width: 320px;
+      height: 420px;
+      margin-top: 7.6%;
+      margin-left: 6.5%;
+    }
+    .column3 {
+      float: left;
+      width: 320px;
+      height: 420px;
+      margin-top: 6%;
+      margin-left:8.8%;
+    }
+    #row{
+    
+        margin-left: 22.3%;
+        margin-top:13%;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  
+    /*_________________________Works Content Start____________________________________________________*/
+   #portfolio{
+       position: absolute;
+       width:35.5%;
+       height:28%;
+       margin-left:-79.8%;
+       margin-top:11.5%
+   }
+   #meme{
+    position: absolute;
+    width:35.5%;
+    height:28%;
+    margin-left:-79.8%;
+    margin-top:32.4%
+  }
+  #music{
+    width:35%;
+    height: 50%;
+    position: absolute;
+    margin-left: -36.3%;
+    margin-top: 14%;
+  }
+  #mnews{
+    width:33%;
+    height: 25%;
+    position: absolute;
+    margin-left: -57.8%;
+    margin-top: 68.1%;
+  }
+  #bob{
+    width:33%;
+    height: 25%;
+    position: absolute;
+    margin-left: -57.8%;
+    margin-top: 88.1%;
+  }
+   /*___________________________________Buttons____________________________________________________*/
+  #orange_button{
+    height: 5%;  
+    width: 8%;                                                           
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 20%;                                               /*ORANGE BUTTON*/
+    border-radius: 8px;
+    transition: all 0.5s;
+  
+    font-family: Fondamento;
+    font-size: 90%;
+    background-color: #fb5d2d;
+    color: azure;
+    display: none;
+  }
+    #orange_button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #orange_button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #orange_button:hover span {
+      padding-right: 25px;
+    }
+    #orange_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+  
+    #orange_button1{
+      height: 5%;  
+      width: 8%;                      
+      position: absolute;
+      margin-left: 22%;
+      margin-top: 40%;
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 90%;
+      background-color: #fb5d2d;
+      color: azure;
+      display: none;
+    }
+    #orange_button1 span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #orange_button1 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #orange_button1:hover span {
+      padding-right: 25px;
+    }
+    #orange_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+  
+    #blue_button{                                 /*BLUE BUTTON*/
+      height: 5%;  
+      width: 10%;                      
+      position: absolute;
+      margin-left: 65.5%;
+      margin-top: 32%;
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 100%;
+      background-color: #12dcf7;
+      color: azure;
+      display: none;
+    }
+    #blue_button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #blue_button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #blue_button:hover span {
+      padding-right: 25px;
+    }
+    #blue_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+    #green_button{                                 /*GREEN BUTTON*/
+      height: 4%;  
+      width: 15%;                      
+      position: absolute;
+      margin-left: 40%;
+      margin-top: 76%;
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 90%;
+      background-color: #00ff18;
+      color: azure;
+      display: none;
+    }
+    #green_button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #green_button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #green_button:hover span {
+      padding-right: 25px;
+    }
+    #green_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+    #green_button1{                                 /*GREEN BUTTON1*/
+      height: 4%;  
+      width: 15%;                      
+      position: absolute;
+      margin-left: 40%;
+      margin-top: 97%;
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 90%;
+      background-color: #00ff18;
+      color: azure;
+      display: none;
+    }
+    #green_button1 span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #green_button1 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #green_button1:hover span {
+      padding-right: 25px;
+    }
+    #green_button1:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+     /*___________________________________Buttons End____________________________________________________*/
+    
+  
+  
+  @font-face{
+    font-family: Pirata One;
+    src:url(/fonts/pirata_one.ttf)
+  }
+  @font-face{
+    font-family:Fondamento;
+    src:url(/fonts/Fondamento-Regular.ttf)
+  }
+  @keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+  }
+  
+  #webd_text{                                            /*TEXTS*/
+    position: absolute;
+    font-family: 'Fondamento';
+    font-size: 3vw;
+    color: #7a7f87;
+    margin-top: 6.5%;
+    margin-left:16.6%;
+    background: linear-gradient(to left, 
+    #fa3a00 10%, #faa300 60%, #facd00 30%);
+          background-size: auto auto; 
+          background-clip: border-box;
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 2s linear infinite;
+  }
+  #android_text{
+    position: absolute;
+    font-family: 'Fondamento';
+    font-size: 3vw;
+    color: #7a7f87;
+    margin-top: 6.5%;
+    margin-left: 60.5%;
+    background: linear-gradient(to left, 
+            #00f9fa 10%, #0090fa 60%, #009cfa 30%);
+          background-size: auto auto; 
+          background-clip: border-box;
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 2s linear infinite;
+  }
+  #editing_text{
+    position: absolute;
+    font-family: 'Fondamento';
+    font-size: 3vw;
+    color: #7a7f87;
+    margin-top: 61%;
+    margin-left: 42.5%;
+    background: linear-gradient(to left, 
+    #65fa00 10%, #98fa00 40%, #dffa00 50%);
+          background-size: auto auto; 
+          background-clip: border-box;
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 2s linear infinite;
+  }
+  /*___________________________DropDown Start____________________________________________________*/
+  #menu_icon{
+      float: right;
+      width:3%;
+      margin-top: -68%;
+      margin-right: 1%;
+  }
+  .dropdown{
+      position: relative;
+  }
+  .dropdown-content {
+      position: absolute;
+      width:32.5%;
+      margin-top: -11.5%;
+      margin-left: 89%;
+    display: none;
+  
+    background-color:black;
+    width: 90px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    size: 1;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    font-family: 'Pirata One', cursive;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover { background: rgb(33,150,217);
+      background: linear-gradient(138deg, rgba(33,150,217,1) 0%, rgba(0,156,250,1) 30%, rgba(0,250,33,1) 68%);}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /*___________________________DropDown end____________________________________________________*/
+  }
+
+
+ /*******************************************************************************************************
+  *******************************************************************************************************
+  ********************************************************************************************************
+  *********************************************6th LAST***********************************************************
+  ********************************************************************************************************
+  ********************************************************************************************************
+  *******************************************************************************************************/
+  @media screen and (max-width:660px)
+  {
+    body{
+      background: rgb(0, 0, 0);
+     overflow-y: auto;
+  }
+  #logo{
+      width:12.3%;
+      float: left;
+      margin-top: -237.3%;
+      margin-left: -87.5%;
+  }
+  
+  .column1 {
+      float: left;
+      width: 350px;
+      height: 500px;
+      margin-top: 7.6%;
+      margin-left: -11.5%;
+    }
+    .column2 {
+      float: left;
+      width: 350px;
+      height: 500px;
+      margin-top: 7.6%;
+      margin-left: -11.5%;
+    }
+    .column3 {
+      float: left;
+      width: 350px;
+      height: 500px;
+      margin-top: 7.6%;
+      margin-left: -11.5%;
+    }
+    #row{
+    
+        margin-left: 22.3%;
+        margin-top:13%;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  
+    /*_________________________Works Content Start____________________________________________________*/
+   #portfolio{
+       position: absolute;
+       width:68.4%;
+       height:31%;
+       margin-left:-70.6%;
+       margin-top:17.3%
+   }
+   #meme{
+    position: absolute;
+    width:68.4%;
+    height:31%;
+    margin-left:-70.6%;
+    margin-top:63.3%
+  }
+  #music{
+    width:68.0%;
+    height: 60%;
+    position: absolute;
+    margin-left: -70.6%;
+    margin-top: 130%;
+  }
+  #mnews{
+    width:63%;
+    height: 32%;
+    position: absolute;
+    margin-left: -67.8%;
+    margin-top: 236.1%;
+  }
+  #bob{
+    width:63%;
+    height: 32%;
+    position: absolute;
+    margin-left: -67.8%;
+    margin-top: 281.1%;
+  }
+   /*___________________________________Buttons____________________________________________________*/
+  #orange_button{
+    height: 5%;  
+    width: 14%;                                                           
+    position: absolute;
+    margin-left: 42%;
+    margin-top: 35%;                                               /*ORANGE BUTTON*/
+    border-radius: 8px;
+    transition: all 0.5s;
+  
+    font-family: Fondamento;
+    font-size: 90%;
+    background-color: #fb5d2d;
+    color: azure;
+    display: none;
+  }
+    #orange_button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #orange_button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #orange_button:hover span {
+      padding-right: 25px;
+    }
+    #orange_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+  
+    #orange_button1{
+      height: 5%;  
+    width: 14%;                                                           
+    position: absolute;
+    margin-left: 42%;
+    margin-top: 78%;   
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 90%;
+      background-color: #fb5d2d;
+      color: azure;
+      display: none;
+    }
+    #orange_button1 span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #orange_button1 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #orange_button1:hover span {
+      padding-right: 25px;
+    }
+    #orange_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+  
+    #blue_button{                                 /*BLUE BUTTON*/
+      height: 5%;  
+      width: 17%;                                                           
+      position: absolute;
+      margin-left: 42%;
+      margin-top: 169%;   
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 100%;
+      background-color: #12dcf7;
+      color: azure;
+      display: none;
+    }
+    #blue_button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #blue_button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #blue_button:hover span {
+      padding-right: 25px;
+    }
+    #blue_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+    #green_button{                                 /*GREEN BUTTON*/
+      height: 5%;  
+      width: 27%;                                                           
+      position: absolute;
+      margin-left: 35%;
+      margin-top: 255%;   
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 90%;
+      background-color: #00ff18;
+      color: azure;
+      display: none;
+    }
+    #green_button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #green_button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #green_button:hover span {
+      padding-right: 25px;
+    }
+    #green_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+    #green_button1{                                 /*GREEN BUTTON1*/
+      height: 5%;  
+      width: 27%;                                                           
+      position: absolute;
+      margin-left: 35%;
+      margin-top: 301%;   
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 90%;
+      background-color: #00ff18;
+      color: azure;
+      display: none;
+    }
+    #green_button1 span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #green_button1 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #green_button1:hover span {
+      padding-right: 25px;
+    }
+    #green_button1:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+     /*___________________________________Buttons End____________________________________________________*/
+    
+  
+  
+  @font-face{
+    font-family: Pirata One;
+    src:url(/fonts/pirata_one.ttf)
+  }
+  @font-face{
+    font-family:Fondamento;
+    src:url(/fonts/Fondamento-Regular.ttf)
+  }
+  @keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+  }
+  
+  #webd_text{                                            /*TEXTS*/
+    position: absolute;
+    font-family: 'Fondamento';
+    font-size:6vw;
+    color: #7a7f87;
+    margin-top: 7.5%;
+    margin-left:27.6%;
+    background: linear-gradient(to left, 
+    #fa3a00 10%, #faa300 60%, #facd00 30%);
+          background-size: auto auto; 
+          background-clip: border-box;
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 2s linear infinite;
+  }
+  #android_text{
+    position: absolute;
+    font-family: 'Fondamento';
+    font-size: 7vw;
+    color: #7a7f87;
+    margin-top: 116%;
+    margin-left: 27%;
+    background: linear-gradient(to left, 
+            #00f9fa 10%, #0090fa 60%, #009cfa 30%);
+          background-size: auto auto; 
+          background-clip: border-box;
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 2s linear infinite;
+  }
+  #editing_text{
+    position: absolute;
+    font-family: 'Fondamento';
+    font-size: 7.5vw;
+    color: #7a7f87;
+    margin-top: 224.5%;
+    margin-left: 36%;
+    background: linear-gradient(to left, 
+    #65fa00 10%, #98fa00 40%, #dffa00 50%);
+          background-size: auto auto; 
+          background-clip: border-box;
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 2s linear infinite;
+  }
+  /*___________________________DropDown Start____________________________________________________*/
+  #menu_icon{
+      float: right;
+      width:5%;
+      margin-top: -237%;
+      margin-right: 1%;
+  }
+  .dropdown{
+      position: relative;
+  }
+  .dropdown-content {
+      position: absolute;
+      width:32.5%;
+      margin-top: -11.5%;
+      margin-left: 87%;
+    display: none;
+  
+    background-color:black;
+    width: 90px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    size: 1;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    font-family: 'Pirata One', cursive;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover { background: rgb(33,150,217);
+      background: linear-gradient(138deg, rgba(33,150,217,1) 0%, rgba(0,156,250,1) 30%, rgba(0,250,33,1) 68%);}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /*___________________________DropDown end____________________________________________________*/
+  }
+
+/*******************************************************************************************************
+  *******************************************************************************************************
+  ********************************************************************************************************
+  *********************************************Mobile***********************************************************
+  ********************************************************************************************************
+  ********************************************************************************************************
+  *******************************************************************************************************/
+  @media screen and (max-width:414px)
+  {
+    body{
+      background: rgb(0, 0, 0);
+     overflow-y: auto;
+  }
+  #logo{
+      width:18.3%;
+      float: left;
+      margin-top: -282.3%;
+      margin-left: -93.5%;
+  }
+  
+  .column1 {
+      float: left;
+      width: 350px;
+      height: 500px;
+      margin-top: 7.6%;
+      margin-left: -11.5%;
+    }
+    .column2 {
+      float: left;
+      width: 350px;
+      height: 500px;
+      margin-top: 7.6%;
+      margin-left: -11.5%;
+    }
+    .column3 {
+      float: left;
+      width: 350px;
+      height: 500px;
+      margin-top: 7.6%;
+      margin-left: -11.5%;
+    }
+    #row{
+    
+        margin-left: 15.6%;
+        margin-top:20%;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  
+    /*_________________________Works Content Start____________________________________________________*/
+   #portfolio{
+       position: absolute;
+       width:80%;
+       height:25%;
+       margin-left:-82.5%;
+       margin-top:19.7%
+   }
+   #meme{
+    position: absolute;
+    width:80%;
+    height:25%;
+    margin-left:-82.5%;
+    margin-top:69.7%
+  }
+  #music{
+    width:80.0%;
+    height: 50%;
+    position: absolute;
+    margin-left: -82.6%;
+    margin-top: 155%;
+  }
+  #mnews{
+    width:80%;
+    height: 29%;
+    position: absolute;
+    margin-left: -82.5%;
+    margin-top: 273%;
+  }
+  #bob{
+    width:80%;
+    height: 29%;
+    position: absolute;
+    margin-left: -82.5%;
+    margin-top: 324%;
+  }
+   /*___________________________________Buttons____________________________________________________*/
+  #orange_button{
+    height: 5%;  
+    width: 14%;                                                           
+    position: absolute;
+    margin-left: 42%;
+    margin-top: 38%;                                                /*ORANGE BUTTON*/
+    border-radius: 8px;
+    transition: all 0.5s;
+  
+    font-family: Fondamento;
+    font-size: 90%;
+    background-color: #fb5d2d;
+    color: azure;
+    display: block;
+  }
+    #orange_button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #orange_button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #orange_button:hover span {
+      padding-right: 25px;
+    }
+    #orange_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+  
+    #orange_button1{
+      height: 5%;  
+    width: 14%;                                                           
+    position: absolute;
+    margin-left: 42%;
+    margin-top: 88%;   
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 90%;
+      background-color: #fb5d2d;
+      color: azure;
+      display: block;
+    }
+    #orange_button1 span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #orange_button1 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #orange_button1:hover span {
+      padding-right: 25px;
+    }
+    #orange_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+  
+    #blue_button{                                 /*BLUE BUTTON*/
+      height: 5%;  
+      width: 17%;                                                           
+      position: absolute;
+      margin-left: 42%;
+      margin-top: 192%;   
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 100%;
+      background-color: #12dcf7;
+      color: azure;
+      display: block;
+    }
+    #blue_button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #blue_button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #blue_button:hover span {
+      padding-right: 25px;
+    }
+    #blue_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+    #green_button{                                 /*GREEN BUTTON*/
+      height: 5%;  
+      width: 27%;                                                           
+      position: absolute;
+      margin-left: 35%;
+      margin-top: 295%;   
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 90%;
+      background-color: #00ff18;
+      color: azure;
+      display: block;
+    }
+    #green_button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #green_button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #green_button:hover span {
+      padding-right: 25px;
+    }
+    #green_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+    #green_button1{                                 /*GREEN BUTTON1*/
+      height: 5%;  
+      width: 27%;                                                           
+      position: absolute;
+      margin-left: 35%;
+      margin-top: 345%;   
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 90%;
+      background-color: #00ff18;
+      color: azure;
+      display: block;
+    }
+    #green_button1 span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #green_button1 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #green_button1:hover span {
+      padding-right: 25px;
+    }
+    #green_button1:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+     /*___________________________________Buttons End____________________________________________________*/
+    
+  
+  
+  @font-face{
+    font-family: Pirata One;
+    src:url(/fonts/pirata_one.ttf)
+  }
+  @font-face{
+    font-family:Fondamento;
+    src:url(/fonts/Fondamento-Regular.ttf)
+  }
+  @keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+  }
+  
+  #webd_text{                                            /*TEXTS*/
+    position: absolute;
+    font-family: 'Fondamento';
+    font-size:8vw;
+    color: #7a7f87;
+    margin-top: 7.5%;
+    margin-left:23.6%;
+    background: linear-gradient(to left, 
+    #fa3a00 10%, #faa300 60%, #facd00 30%);
+          background-size: auto auto; 
+          background-clip: border-box;
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 2s linear infinite;
+  }
+  #android_text{
+    position: absolute;
+    font-family: 'Fondamento';
+    font-size: 9vw;
+    color: #7a7f87;
+    margin-top: 134%;
+    margin-left: 22.8%;
+    background: linear-gradient(to left, 
+            #00f9fa 10%, #0090fa 60%, #009cfa 30%);
+          background-size: auto auto; 
+          background-clip: border-box;
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 2s linear infinite;
+  }
+  #editing_text{
+    position: absolute;
+    font-family: 'Fondamento';
+    font-size: 9.5vw;
+    color: #7a7f87;
+    margin-top: 260%;
+    margin-left: 33%;
+    background: linear-gradient(to left, 
+    #65fa00 10%, #98fa00 40%, #dffa00 50%);
+          background-size: auto auto; 
+          background-clip: border-box;
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 2s linear infinite;
+  }
+  /*___________________________DropDown Start____________________________________________________*/
+  #menu_icon{
+      float: right;
+      width:7.5%;
+      margin-top: -413%;
+      margin-right: auto;
+  }
+  .dropdown{
+      position: relative;
+  }
+  .dropdown-content {
+      position: absolute;
+      width:32.5%;
+      margin-top: -17.5%;
+      margin-left: 84%;
+    display: none;
+  
+    background-color:black;
+    width: 90px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    size: 1;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    font-family: 'Pirata One', cursive;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover { background: rgb(33,150,217);
+      background: linear-gradient(138deg, rgba(33,150,217,1) 0%, rgba(0,156,250,1) 30%, rgba(0,250,33,1) 68%);}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /*___________________________DropDown end____________________________________________________*/
+  }

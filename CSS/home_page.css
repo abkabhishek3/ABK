@@ -1,0 +1,2681 @@
+    
+  
+    body{
+        background-color: black;
+        height: 100%;
+        background-size: cover;
+     
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #continer{
+        position: relative;
+       
+    }
+    #avatar_lying{
+        display: none;
+    }
+    #avatar_lying1{
+        display: none;
+    }
+    
+
+
+    /*______________________________Social Media_________________________*/
+    #facebook{
+        width:1.5%;
+        display: block;
+        position: absolute;
+        margin-top: -17.6%;
+        margin-left: 7%;
+    
+        
+    }
+    #instagram{
+        width:2%;
+        display: block;
+        position: absolute;
+        margin-top: -14.6%;
+        margin-left: 6.6%;
+    }
+    #twitter{
+        width:2.3%;
+        display: block;
+        position: absolute;
+        margin-top: -11.9%;
+        margin-left: 6.5%;
+        
+    }
+    #linkedin{
+        width:2.1%;
+        display: block;
+        position: absolute;
+        margin-top: -9.7%;
+        margin-left: 6.5%;
+        
+    }
+    #github{
+        width:2.1%;
+        display: block;
+        position: absolute;
+        margin-top: -6.9%;
+        margin-left: 6.5%;
+        
+    }
+    #reddit{
+        width:2.1%;
+        display: block;
+        position: absolute;
+        margin-top: -4.1%;
+        margin-left: 6.5%;
+        
+    }
+    /*________________________________________Social Media End____________________*/
+
+
+    h1{
+        color: white;
+        size: 100px;
+    }
+    .banner{
+        position: relative;
+      
+        display: block;
+        margin-top: -1%;
+                                  /*Home Page Banner*/
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;    
+    }
+    .banner1{
+        position: relative;
+      
+        display: none;
+
+        margin-top: -21%;
+                                  /*Home Page Banner*/
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;    
+    }
+    /*___________________________________Line Image start___________________________________________*/
+    #line_img1{
+        position: absolute;
+      
+        display: none;
+        margin-top: -20.8%;
+                                 
+        margin-left:9.85%;
+        margin-right: 39.5%;
+        width: 80%; 
+    }
+     #line_img2{
+        position: absolute;
+      
+        display: none;
+        margin-top: -20.8%;
+                                  
+        margin-left:9.85%;
+        margin-right: 39.5%;
+        width: 80%; 
+    }
+    #line_img3{
+        position: absolute;
+      
+        display: none;
+        margin-top: -20.8%;
+                                
+        margin-left:9.85%;
+        margin-right: 39.5%;
+        width: 80%; 
+    }
+    #line_img4{
+        position: absolute;
+      
+        display: none;
+        margin-top: -20.8%;
+        margin-left:9.85%;
+        margin-right: 39.5%;
+        width: 80%; 
+    }
+    #line_img5{
+        position: absolute;
+      
+        display: none;
+        margin-top: -20.8%;
+                                  
+        margin-left:9.85%;
+        margin-right: 39.5%;
+        width: 80%; 
+    }
+    #line_img6{
+        position: absolute;
+      
+        display: none;
+        margin-top: -20.8%;
+                                 
+        margin-left:9.85%;
+        margin-right: 39.5%;
+        width: 80%; 
+    }
+    #line_img7{
+        position: absolute;
+      
+        display: none;
+        margin-top: -20.8%;
+                                  
+        margin-left:9.85%;
+        margin-right: 39.5%;
+        width: 80%; 
+    }
+    /*______________________________________Line Image end_________________________________________________*/
+  
+
+    /*________________________________________Cursor Icon_______________________________________________*/
+    #cursor_icon{
+        position: absolute;
+      
+        display: block;
+        margin-top: -10.8%;
+                                  /*design*/
+        margin-left:24.3%;
+        margin-right: 39.5%;
+        width: 1%; 
+    }
+    #cursor_icon1{
+        position: absolute;
+      
+        display: none;
+        margin-top: -10.8%;
+                                  /*design*/
+        margin-left:23.3%;
+        margin-right: 39.5%;
+        width: 1%; 
+    }
+    #cursor_icon2{
+        position: absolute;
+      
+        display: none;
+        margin-top: -10.8%;
+                                  /*design*/
+        margin-left:22.3%;
+        margin-right: 39.5%;
+        width: 1%; 
+    }
+    #cursor_icon3{
+        position: absolute;
+      
+        display: none;
+        margin-top: -10.8%;
+                                  /*design*/
+        margin-left:21.3%;
+        margin-right: 39.5%;
+        width: 1%; 
+    }
+    #cursor_icon4{
+        position: absolute;
+      
+        display: none;
+        margin-top: -11.8%;
+                                  /*design*/
+        margin-left:21.3%;
+        margin-right: 39.5%;
+        width: 1%; 
+    }
+    #cursor_icon5{
+        position: absolute;
+      
+        display: none;
+        margin-top: -12.8%;
+                                  /*design*/
+        margin-left:21.3%;
+        margin-right: 39.5%;
+        width: 1%; 
+    }
+    #cursor_icon6{
+        position: absolute;
+      
+        display: none;
+        margin-top: -12.8%;
+                                  /*design*/
+        margin-left:22.3%;
+        margin-right: 39.5%;
+        width: 1%; 
+    }
+    #cursor_icon7{
+        position: absolute;
+      
+        display: none;
+        margin-top: -12.8%;
+                                  /*design*/
+        margin-left:23.3%;
+        margin-right: 39.5%;
+        width: 1%; 
+    }
+
+    
+    #cursor_icon8{
+        position: absolute;
+      
+        display: none;
+        margin-top: -12.8%;
+                                  /*design*/
+        margin-left:24.3%;
+        margin-right: 39.5%;
+        width: 1%; 
+    }
+    #cursor_icon9{
+        position: absolute;
+      
+        display: none;
+        margin-top: -11.8%;
+                                  /*design*/
+        margin-left:24.3%;
+        margin-right: 39.5%;
+        width: 1%; 
+    }
+    #cursor_icon10{
+        position: absolute;
+      
+        display: none;
+        margin-top: -10.8%;
+                                  /*design*/
+        margin-left:24.3%;
+        margin-right: 39.5%;
+        width: 1%; 
+    }
+   /*______________________________________________Cursor Icon end_____________________________*/
+
+   #plus_icon{
+    position: absolute;
+  
+    display: block;
+    margin-top: -22.8%;
+                              /*design*/
+    margin-left:4.3%;
+    margin-right: 39.5%;
+    width: 100%; 
+}
+#plus_icon1{
+    position: absolute;
+  
+    display: block;
+    margin-top: -22.8%;
+                              /*design*/
+    margin-left:4.3%;
+    margin-right: 39.5%;
+    width: 100%; 
+}
+
+    #img{
+        position: absolute;
+    
+        display: block;
+        margin-top: -3%;
+        margin-left: 43%;         /*Avatar Images*/
+        margin-right: 50%;
+        width: 14%
+    }
+    #img1{
+        position: absolute;
+     
+        margin-top: -13%;
+        margin-left: 83%;       
+        margin-right: 20%;
+        width:2%;
+    }
+
+
+    @font-face{
+        font-family: Pirata One;
+        src:url(/fonts/pirata_one.ttf)
+    }
+    
+    
+    
+            
+    @keyframes textclip {
+        to {
+            background-position: 200% center;
+        }
+    }
+
+
+    #text1{
+    
+        display: block;
+        font-size: 3vw;
+        float: left;
+                                 /*HELLO*/    
+        margin-top: 2.7%;         
+        /*_*/
+        
+            
+            
+           
+            
+            font-family: 'Pirata One', cursive;
+          
+            background: linear-gradient(to left, white 10%, red 60%, rgb(236, 236, 104) 30%);
+            background-size: auto auto;
+            background-clip: border-box;
+            background-size: 200% auto;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textclip 1.5s linear infinite;
+           
+
+        /*__*/
+        margin-left: 32%;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+    
+    }
+
+    /*font-family: 'Pirata One', cursive;
+        color: #c80000; /*#F7971E;*|
+        stroke: antiquewhite*/
+
+    #text2{
+        float: right;
+        margin-right: 22%;
+        margin-top: 3.4%;
+        display: block;
+        font-size: 4.5vw;           /*Im Abhishek*/
+        font-weight: 50px;
+         /*_*/
+        
+            
+            
+        
+            
+         font-family: 'Pirata One', cursive;
+       
+         background: linear-gradient(to left, white 10%, red 60%, rgb(236, 236, 104) 30%);
+         background-size: auto auto;
+         background-clip: border-box;
+         background-size: 200% auto;
+         background-clip: text;
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+         animation: textclip 1.5s linear infinite;
+      
+
+     /*__*/
+     
+     
+        
+    }
+    #text3{
+        float: left;
+        font-size:3vw;
+        font-weight: 50px;          /*Im a web developer*/
+             /*_*/
+        
+            
+            
+            
+            
+             font-family: 'Pirata One', cursive;
+           
+             background: linear-gradient(to left, white 10%, red 60%, rgb(236, 236, 104) 30%);
+             background-size: auto auto;
+             background-clip: border-box;
+             background-size: 200% auto;
+             background-clip: text;
+             -webkit-background-clip: text;
+             -webkit-text-fill-color: transparent;
+             animation: textclip 1.7s linear infinite;
+          
+    
+         /*__*/
+         margin-top: 2%;
+     
+        margin-left: 14%;  
+       
+        display: none;
+     
+    
+    }
+    #text4{
+        float: right;
+        display: block;
+        font-size: 3vw;
+        font-weight: 50px;          /*Im a CSE student*/
+             /*_*/
+        
+            
+            
+             
+            
+             font-family: 'Pirata One', cursive;
+           
+             background: linear-gradient(to left, white 10%, red 60%, rgb(236, 236, 104) 30%);
+             background-size: auto auto;
+             background-clip: border-box;
+             background-size: 200% auto;
+             background-clip: text;
+             -webkit-background-clip: text;
+             -webkit-text-fill-color: transparent;
+             animation: textclip 1.7s linear infinite;
+          
+    
+         /*__*/
+    
+        margin-right: 15%;  
+        display: none;
+      
+     
+    
+    }
+
+  .menu_icon{
+    display: block;
+
+    float: right;
+    width: 60px;
+    margin-right: 10%;
+    margin-top: -2%;
+    
+}
+
+
+
+
+
+  
+  /* ________________________________________Dropdown Content________________________ */
+
+  .dropdown{
+      position: relative;
+  }
+  .dropdown-content {
+    margin-top: -13.3%;
+    margin-left: 78%; 
+    display: none;
+    position: absolute;
+    background-color:#1a1a1a;
+    width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    size: 1;
+    padding: 8px 9px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    font-family: 'Pirata One', cursive;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color:	#c80000;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+
+  /*___________________________DropDown end____________________________________________________*/
+
+
+  /*******************************************************************************************************
+  ********************************************************************************************************
+  ********************************************************************************************************
+  *****************************************TABLET*********************************************************
+  ********************************************************************************************************
+  *******************************************************************************************************/
+
+
+
+  @media screen and (max-width: 1000px) {               /*TABLET*/
+          
+  
+    body{
+        background-color: black;
+        height: 100%;
+        background-size: cover;
+     
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #continer{
+        position: relative;
+       
+    }
+    #avatar_lying1{
+        display: none;
+    }
+    #avatar_lying{
+        display: none;
+    }
+    /*______________________________Social Media_________________________*/
+    #facebook{
+        width:1.5%;
+        display: block;
+        position: absolute;
+        margin-top: .6%;
+        margin-left: 0%;
+    
+        
+    }
+    #instagram{
+        width:2%;
+        display: block;
+        position: absolute;
+        margin-top: .8%;
+        margin-left: 3%;
+    
+    }
+    #twitter{
+        width:2.3%;
+        display: block;
+        position: absolute;
+        margin-top: .8%;
+        margin-left: 7%;
+        
+    }
+    #linkedin{
+        width:2.1%;
+        display: block;
+        position: absolute;
+        margin-top: 4%;
+        margin-left: 0%;
+        
+    }
+    #github{
+        width:2%;
+        display: block;
+        position: absolute;
+        margin-top: 4%;
+        margin-left: 3.1%;
+        
+    }
+    #reddit{
+        width:2.4%;
+        display: block;
+        position: absolute;
+        margin-top: 4%;
+        margin-left: 6.6%;
+        
+    }
+    /*________________________________________Social Media End____________________*/
+
+
+    h1{
+        color: white;
+        size: 100px;
+    }
+    .banner{
+        position: relative;
+      
+        display: block;
+        margin-top: -1%;
+                                  /*Home Page Banner*/
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;    
+    }
+    .banner1{
+        position: relative;
+      
+        display: none;
+
+        margin-top: -21%;
+                                  /*Home Page Banner*/
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;    
+    }
+    /*___________________________________Line Image start___________________________________________*/
+    #line_img1{
+        position: absolute;
+      
+        display: none;
+        margin-top: -25.8%;
+                                 
+        margin-left:0%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+    #line_img2{
+        position: absolute;
+      
+        display: none;
+        margin-top: -25.8%;
+                                 
+        margin-left:0%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+    #line_img3{
+        position: absolute;
+      
+        display: none;
+        margin-top: -25.8%;
+                                 
+        margin-left:0%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+    #line_img4{
+        position: absolute;
+      
+        display: none;
+        margin-top: -25.8%;
+                                 
+        margin-left:0%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+    #line_img5{
+        position: absolute;
+      
+        display: none;
+        margin-top: -25.8%;
+                                 
+        margin-left:0%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+    #line_img6{
+        position: absolute;
+      
+        display: none;
+        margin-top: -25.8%;
+                                 
+        margin-left:0%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+    #line_img7{
+        position: absolute;
+      
+        display: none;
+        margin-top: -25.8%;
+                                 
+        margin-left:0%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+ 
+     
+    /*______________________________________Line Image end_________________________________________________*/
+  
+
+    /*________________________________________Cursor Icon_______________________________________________*/
+    #cursor_icon{
+        position: absolute;
+      
+        display: block;
+        margin-top: -12.8%;
+                                  /*design*/
+        margin-left:18.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon1{
+        position: absolute;
+      
+        display: none;
+        margin-top: -12.8%;
+                                  /*design*/
+        margin-left:17.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon2{
+        position: absolute;
+      
+        display: none;
+        margin-top: -12.8%;
+                                  /*design*/
+        margin-left:16.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon3{
+        position: absolute;
+      
+        display: none;
+        margin-top: -12.8%;
+                                  /*design*/
+        margin-left:15.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon4{
+        position: absolute;
+      
+        display: none;
+        margin-top: -13.8%;
+                                  /*design*/
+        margin-left:15.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon5{
+        position: absolute;
+      
+        display: none;
+        margin-top: -14.8%;
+                                  /*design*/
+        margin-left:15.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon6{
+        position: absolute;
+      
+        display: none;
+        margin-top: -14.8%;
+                                  /*design*/
+        margin-left:16.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon7{
+        position: absolute;
+      
+        display: none;
+        margin-top: -14.8%;
+                                  /*design*/
+        margin-left:18.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+
+    
+    #cursor_icon8{
+        position: absolute;
+      
+        display: none;
+        margin-top: -14.8%;
+                                  /*design*/
+        margin-left:18.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon9{
+        position: absolute;
+      
+        display: none;
+        margin-top: -13.8%;
+                                  /*design*/
+        margin-left:18.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon10{
+        position: absolute;
+      
+        display: none;
+        margin-top: -12.8%;
+                                  /*design*/
+        margin-left:18.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+   /*______________________________________________Cursor Icon end_____________________________*/
+
+   #plus_icon{
+    position: absolute;
+  
+    display: block;
+    margin-top: -22.8%;
+                              /*design*/
+    margin-left:4.3%;
+    margin-right: 39.5%;
+    width: 100%; 
+}
+#plus_icon1{
+    position: absolute;
+  
+    display: block;
+    margin-top: -22.8%;
+                              /*design*/
+    margin-left:4.3%;
+    margin-right: 39.5%;
+    width: 100%; 
+}
+
+    #img{
+        position: absolute;
+    
+        display: block;
+        margin-top: -3%;
+        margin-left: 43%;         /*Avatar Images*/
+        margin-right: 50%;
+        width: 17%
+    }
+    #img1{
+        position: absolute;
+     
+        margin-top: -17%;
+        margin-left: 92%;     
+        margin-right: 1%;
+        width:2.2%;
+    }
+
+    #menu_a:hover{
+        background-image: url("/images/hamburger2.png");
+    }
+ 
+    @font-face{
+        font-family: Pirata One;
+        src:url(/fonts/pirata_one.ttf)
+    }
+    
+    
+            
+    @keyframes textclip {
+        to {
+            background-position: 200% center;
+        }
+    }
+
+
+    #text1{
+    
+        display: block;
+        font-size: 3.7vw;
+        float: left;
+                                 /*HELLO*/    
+        margin-top: 2.7%;         
+        /*_*/
+        
+            
+            
+           
+            
+            font-family: 'Pirata One', cursive;
+          
+            background: linear-gradient(to left, white 10%, red 60%, rgb(236, 236, 104) 30%);
+            background-size: auto auto;
+            background-clip: border-box;
+            background-size: 200% auto;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textclip 1.5s linear infinite;
+           
+
+        /*__*/
+        margin-left: 28%;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+    
+    }
+
+    /*font-family: 'Pirata One', cursive;
+        color: #c80000; /*#F7971E;*|
+        stroke: antiquewhite*/
+
+    #text2{
+        float: right;
+        margin-right: 10%;
+        margin-top: 3.4%;
+        display: block;
+        font-size: 6vw;           /*Im Abhishek*/
+        font-weight: 50px;
+         /*_*/
+        
+            
+            
+        
+            
+         font-family: 'Pirata One', cursive;
+       
+         background: linear-gradient(to left, white 10%, red 60%, rgb(236, 236, 104) 30%);
+         background-size: auto auto;
+         background-clip: border-box;
+         background-size: 200% auto;
+         background-clip: text;
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+         animation: textclip 1.5s linear infinite;
+      
+
+     /*__*/
+     
+     
+        
+    }
+    #text3{
+        float: left;
+        font-size:3.5vw;
+        font-weight: 50px;          /*Im a web developer*/
+             /*_*/
+        
+            
+            
+            
+            
+             font-family: 'Pirata One', cursive;
+           
+             background: linear-gradient(to left, white 10%, red 60%, rgb(236, 236, 104) 30%);
+             background-size: auto auto;
+             background-clip: border-box;
+             background-size: 200% auto;
+             background-clip: text;
+             -webkit-background-clip: text;
+             -webkit-text-fill-color: transparent;
+             animation: textclip 1.7s linear infinite;
+          
+    
+         /*__*/
+         margin-top: 2%;
+     
+        margin-left: 6%;  
+       
+        display: none;
+     
+    
+    }
+    #text4{
+        float: right;
+        display: block;
+        font-size: 3.7vw;
+        font-weight: 50px;          /*Im a CSE student*/
+             /*_*/
+        
+            
+            
+             
+            
+             font-family: 'Pirata One', cursive;
+           
+             background: linear-gradient(to left, white 10%, red 60%, rgb(236, 236, 104) 30%);
+             background-size: auto auto;
+             background-clip: border-box;
+             background-size: 200% auto;
+             background-clip: text;
+             -webkit-background-clip: text;
+             -webkit-text-fill-color: transparent;
+             animation: textclip 1.7s linear infinite;
+          
+    
+         /*__*/
+    
+        margin-right: 5%;  
+        display: none;
+      
+     
+    
+    }
+
+  .menu_icon{
+    display: block;
+
+    float: right;
+    width: 60px;
+    margin-right: 10%;
+    margin-top: -2%;
+    
+}
+
+
+
+
+
+  
+  /* ________________________________________Dropdown Content________________________ */
+
+  .dropdown{
+      position: relative;
+  }
+  .dropdown-content {
+    margin-top: -17%;
+    margin-left: 88%; 
+    display: none;
+    position: absolute;
+    background-color:#1a1a1a;
+    width: 110px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    size: 1;
+    padding:5px 4px;
+    text-decoration: none;
+    display: block;
+    font-size: 19px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color:	#c80000;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+
+  /*___________________________DropDown end____________________________________________________*/
+
+
+   }
+
+  /*******************************************************************************************************
+  ********************************************************************************************************
+  ********************************************************************************************************
+  *****************************************Nothing*********************************************************
+  ********************************************************************************************************
+  *******************************************************************************************************/
+
+
+   @media screen and (max-width: 800px){
+
+    body{
+        background-color: black;
+        height: 100%;
+        background-size: cover;
+     
+        overflow-x: hidden;
+    }
+    #continer{
+        position: relative;
+       
+    }
+    #avatar_lying{
+        display:none;
+    }
+
+    /*___________________Social Media_______________________*/
+    #facebook{
+        width:2%;
+        display: block;
+        position: absolute;
+        margin-left: 0.6%;
+        margin-top: 2%;
+        
+    }
+    #instagram{
+        width:2.7%;
+        display: block;
+        position: absolute;
+        margin-left: 5%;
+        margin-top: 2.3%;
+        
+    }
+    #twitter{
+        width:3.6%;
+        display: block;
+        position: absolute;
+        margin-left: 10.1%;
+        margin-top: 2%;
+        
+    }
+    #linkedin{
+        width:3.2%;
+        display: block;
+        position: absolute;
+        margin-left: .5%;
+        margin-top: 6%;
+        
+    }
+    #github{
+        width:3.1%;
+        display: block;
+        position: absolute;
+        margin-left: 5%;
+        margin-top: 6.1%;
+        
+    }
+    #reddit{
+        width:4.2%;
+        display: block;
+        position: absolute;
+        margin-left: 9.5%;
+        margin-top: 5.8%;
+        
+    }
+    /*___________Social Media END____________*/
+
+
+    h1{
+        color: white;
+        size: 100px;
+    }
+    #main-image{
+        background-image: url("/images/Banner_mobile.jpg");
+    }
+    .banner{
+        position: relative;
+      
+        display: none;
+      
+        margin-top: -0.6%;
+                                  /*Home Page Banner*/
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;    
+        height: 100%;
+    }
+    .banner1{
+        position: relative;
+      
+        display: block;
+
+        margin-top: -2%;
+                                  /*Home Page Banner*/
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;    
+    }
+    /*___________________________________Line Image start___________________________________________*/
+    #line_img1{
+        position: absolute;
+      
+        display: none;
+        margin-top: -25.8%;
+                                 
+        margin-left:0.8%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+    #line_img2{
+        position: absolute;
+      
+        display: none;
+        margin-top: -26.5%;
+                                 
+        margin-left:1%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+    #line_img3{
+        position: absolute;
+      
+        display: none;
+        margin-top: -26.8%;
+                                 
+        margin-left:0.8%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+    #line_img4{
+        position: absolute;
+      
+        display: none;
+        margin-top: -27.1%;
+                                 
+        margin-left:2.2%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+    #line_img5{
+        position: absolute;
+      
+        display: none;
+        margin-top: -26.8%;
+                                 
+        margin-left:4%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+    #line_img6{
+        position: absolute;
+      
+        display: none;
+        margin-top: -26.3%;
+                                 
+        margin-left:4%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+    #line_img7{
+        position: absolute;
+      
+        display: none;
+        margin-top: -25.8%;
+                                 
+        margin-left:4%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+ 
+     
+    /*______________________________________Line Image end_________________________________________________*/
+  
+
+    /*________________________________________Cursor Icon_______________________________________________*/
+    #cursor_icon{
+        position: absolute;
+      
+        display: block;
+        margin-top: -34.8%;
+                                  /*design*/
+        margin-left:19.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon1{
+        position: absolute;
+      
+        display: none;
+        margin-top: -34.8%;
+                                  /*design*/
+        margin-left:18.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon2{
+        position: absolute;
+      
+        display: none;
+        margin-top: -34.8%;
+                                  /*design*/
+        margin-left:17.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon3{
+        position: absolute;
+      
+        display: none;
+        margin-top: -34.8%;
+                                  /*design*/
+        margin-left:16.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon4{
+        position: absolute;
+      
+        display: none;
+        margin-top: -35.8%;
+                                  /*design*/
+        margin-left:16.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon5{
+        position: absolute;
+      
+        display: none;
+        margin-top: -36.8%;
+                                  /*design*/
+        margin-left:16.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon6{
+        position: absolute;
+      
+        display: none;
+        margin-top: -36.8%;
+                                  /*design*/
+        margin-left:17.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon7{
+        position: absolute;
+      
+        display: none;
+        margin-top: -36.8%;
+                                  /*design*/
+        margin-left:19.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+
+    
+    #cursor_icon8{
+        position: absolute;
+      
+        display: none;
+        margin-top: -36.8%;
+                                  /*design*/
+        margin-left:19.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon9{
+        position: absolute;
+      
+        display: none;
+        margin-top: -35.8%;
+                                  /*design*/
+        margin-left:19.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon10{
+        position: absolute;
+      
+        display: none;
+        margin-top: -34.8%;
+                                  /*design*/
+        margin-left:19.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+   /*______________________________________________Cursor Icon end_____________________________*/
+
+   #plus_icon{
+    position: absolute;
+  
+    display: block;
+    margin-top: -22.8%;
+                              /*design*/
+    margin-left:4.3%;
+    margin-right: 39.5%;
+    width: 100%; 
+}
+#plus_icon1{
+    position: absolute;
+  
+    display: block;
+    margin-top: -22.8%;
+                              /*design*/
+    margin-left:4.3%;
+    margin-right: 39.5%;
+    width: 100%; 
+}
+
+    #img{
+        position: absolute;
+    
+        display: block;
+        margin-top: 1%;
+        margin-left: 43%;         /*Avatar Images*/
+        margin-right: 50%;
+        width: 20%
+    }
+    #img1{
+        position: absolute;
+     
+        margin-top: -33%;
+        margin-left: 91%;     
+        margin-right: 1%;
+        width:2.2%;
+    }
+
+    #menu_a:hover{
+        background-image: url("/images/hamburger2.png");
+    }
+ 
+    @font-face{
+        font-family: Pirata One;
+        src:url(/fonts/pirata_one.ttf)
+    }
+    
+    
+            
+    @keyframes textclip {
+        to {
+            background-position: 200% center;
+        }
+    }
+
+
+    #text1{
+    
+        display: block;
+        font-size: 4.5vw;
+        float: left;
+                                 /*HELLO*/    
+        margin-top: 8%;         
+        /*_*/
+        
+            
+            
+           
+            
+            font-family: 'Pirata One', cursive;
+          
+            background: linear-gradient(to left, white 10%, red 60%, rgb(236, 236, 104) 30%);
+            background-size: auto auto;
+            background-clip: border-box;
+            background-size: 200% auto;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textclip 1.5s linear infinite;
+           
+
+        /*__*/
+        margin-left: 28%;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+    
+    }
+
+    /*font-family: 'Pirata One', cursive;
+        color: #c80000; /*#F7971E;*|
+        stroke: antiquewhite*/
+
+    #text2{
+        float: right;
+        margin-right: 10%;
+        margin-top: 10%;
+        display: block;
+        font-size: 6.5vw;           /*Im Abhishek*/
+        font-weight: 50px;
+         /*_*/
+        
+            
+            
+        
+            
+         font-family: 'Pirata One', cursive;
+       
+         background: linear-gradient(to left, white 10%, red 60%, rgb(236, 236, 104) 30%);
+         background-size: auto auto;
+         background-clip: border-box;
+         background-size: 200% auto;
+         background-clip: text;
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+         animation: textclip 1.5s linear infinite;
+      
+
+     /*__*/
+     
+     
+        
+    }
+    #text3{
+        float: left;
+        font-size:4vw;
+        font-weight: 50px;          /*Im a web developer*/
+             /*_*/
+        
+            
+            
+            
+            
+             font-family: 'Pirata One', cursive;
+           
+             background: linear-gradient(to left, white 10%, red 60%, rgb(236, 236, 104) 30%);
+             background-size: auto auto;
+             background-clip: border-box;
+             background-size: 200% auto;
+             background-clip: text;
+             -webkit-background-clip: text;
+             -webkit-text-fill-color: transparent;
+             animation: textclip 1.7s linear infinite;
+          
+    
+         /*__*/
+         margin-top: 9%;
+     
+        margin-left: 6%;  
+       
+        display: none;
+     
+    
+    }
+    #text4{
+        float: right;
+        display: block;
+        font-size: 4vw;
+        font-weight: 50px;          /*Im a CSE student*/
+             /*_*/
+        
+            
+            
+             
+            
+             font-family: 'Pirata One', cursive;
+           
+             background: linear-gradient(to left, white 10%, red 60%, rgb(236, 236, 104) 30%);
+             background-size: auto auto;
+             background-clip: border-box;
+             background-size: 200% auto;
+             background-clip: text;
+             -webkit-background-clip: text;
+             -webkit-text-fill-color: transparent;
+             animation: textclip 1.7s linear infinite;
+          
+    
+         /*__*/
+    
+        margin-right: 5%;  
+        display: none;
+      
+     
+    
+    }
+
+  .menu_icon{
+    display: block;
+
+    float: right;
+    width: 60px;
+    margin-right: 10%;
+    margin-top: -2%;
+    
+}
+
+
+
+
+
+  
+  /* ________________________________________Dropdown Content________________________ */
+
+  .dropdown{
+      position: relative;
+  }
+  .dropdown-content {
+    margin-top: -33%;
+    margin-left: 86%; 
+    display: none;
+    position: absolute;
+    background-color:#1a1a1a;
+    width: 105px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    size: 1;
+    padding: 6px 1px;
+    text-decoration: none;
+    display: block;
+    font-size: 19px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color:	#c80000;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+
+  /*___________________________DropDown end____________________________________________________*/
+      
+
+   }
+
+    /*******************************************************************************************************
+  ********************************************************************************************************
+  ********************************************************************************************************
+  *****************************************Mobile (Desktop)*********************************************************
+  ********************************************************************************************************
+  *******************************************************************************************************/
+
+
+  @media screen and (max-width: 600px){
+
+    body{
+        background-color: black;
+        height: 100%;
+        background-size: cover;
+     
+        overflow-x: hidden;
+    }
+    #continer{
+        position: relative;
+       
+    }
+    #avatar_lying{
+        position: absolute;
+        display: block;
+        width:45%;
+        margin-top: 57%;
+        margin-left: 4%;
+    }
+    .social_media{
+        margin-top: 8%;
+        margin-left: -8%;
+    }
+
+    /*___________________Social Media_______________________*/
+    #facebook{
+        width:4%;
+        display: block;
+        position: absolute;
+        margin-left: 60%;
+        margin-top: 50%;
+        
+    }
+    #instagram{
+        width:5.4%;
+        display: block;
+        position: absolute;
+        margin-left: 70.2%;
+        margin-top: 50.7%;
+        
+    }
+    #twitter{
+        width:6.5%;
+        display: block;
+        position: absolute;
+        margin-left: 81.6%;
+        margin-top: 50.5%;
+        
+    }
+    #linkedin{
+        width:5.5%;
+        display: block;
+        position: absolute;
+        margin-left: 60%;
+        margin-top: 60%;
+        
+    }
+    #github{
+        width:5%;
+        display: block;
+        position: absolute;
+        margin-left: 70.5%;
+        margin-top: 60.5%;
+        
+    }
+    #reddit{
+        width:6.4%;
+        display: block;
+        position: absolute;
+        margin-left: 81%;
+        margin-top: 60%;
+        
+    }
+    /*___________Social Media END____________*/
+
+
+    h1{
+        color: white;
+        size: 100px;
+    }
+    #main-image{
+        background-image: url("/images/Banner_mobile.jpg");
+    }
+    .banner{
+        position: relative;
+      
+        display: none;
+      
+        margin-top: -0.6%;
+                                  /*Home Page Banner*/
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;    
+        height: 100%;
+    }
+    .banner1{
+        position: relative;
+      
+        display: block;
+
+        margin-top: -2%;
+                                  /*Home Page Banner*/
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;    
+    }
+    /*___________________________________Line Image start___________________________________________*/
+    #line_img1{
+        position: absolute;
+      
+        display: none;
+        margin-top: -25.8%;
+                                 
+        margin-left:0.8%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+    #line_img2{
+        position: absolute;
+      
+        display: none;
+        margin-top: -26.5%;
+                                 
+        margin-left:1%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+    #line_img3{
+        position: absolute;
+      
+        display: none;
+        margin-top: -26.8%;
+                                 
+        margin-left:0.8%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+    #line_img4{
+        position: absolute;
+      
+        display: none;
+        margin-top: -27.1%;
+                                 
+        margin-left:2.2%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+    #line_img5{
+        position: absolute;
+      
+        display: none;
+        margin-top: -26.8%;
+                                 
+        margin-left:4%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+    #line_img6{
+        position: absolute;
+      
+        display: none;
+        margin-top: -26.3%;
+                                 
+        margin-left:4%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+    #line_img7{
+        position: absolute;
+      
+        display: none;
+        margin-top: -25.8%;
+                                 
+        margin-left:4%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+ 
+     
+    /*______________________________________Line Image end_________________________________________________*/
+  
+
+    /*________________________________________Cursor Icon_______________________________________________*/
+    #cursor_icon{
+        position: absolute;
+      
+        display: block;
+        margin-top: -34.8%;
+                                  /*design*/
+        margin-left:19.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon1{
+        position: absolute;
+      
+        display: none;
+        margin-top: -34.8%;
+                                  /*design*/
+        margin-left:18.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon2{
+        position: absolute;
+      
+        display: none;
+        margin-top: -34.8%;
+                                  /*design*/
+        margin-left:17.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon3{
+        position: absolute;
+      
+        display: none;
+        margin-top: -34.8%;
+                                  /*design*/
+        margin-left:16.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon4{
+        position: absolute;
+      
+        display: none;
+        margin-top: -35.8%;
+                                  /*design*/
+        margin-left:16.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon5{
+        position: absolute;
+      
+        display: none;
+        margin-top: -36.8%;
+                                  /*design*/
+        margin-left:16.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon6{
+        position: absolute;
+      
+        display: none;
+        margin-top: -36.8%;
+                                  /*design*/
+        margin-left:17.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon7{
+        position: absolute;
+      
+        display: none;
+        margin-top: -36.8%;
+                                  /*design*/
+        margin-left:19.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+
+    
+    #cursor_icon8{
+        position: absolute;
+      
+        display: none;
+        margin-top: -36.8%;
+                                  /*design*/
+        margin-left:19.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon9{
+        position: absolute;
+      
+        display: none;
+        margin-top: -35.8%;
+                                  /*design*/
+        margin-left:19.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon10{
+        position: absolute;
+      
+        display: none;
+        margin-top: -34.8%;
+                                  /*design*/
+        margin-left:19.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+   /*______________________________________________Cursor Icon end_____________________________*/
+
+   #plus_icon{
+    position: absolute;
+  
+    display: block;
+    margin-top: -22.8%;
+                              /*design*/
+    margin-left:4.3%;
+    margin-right: 39.5%;
+    width: 100%; 
+}
+#plus_icon1{
+    position: absolute;
+  
+    display: block;
+    margin-top: -22.8%;
+                              /*design*/
+    margin-left:4.3%;
+    margin-right: 39.5%;
+    width: 100%; 
+}
+
+    #img{
+        position: absolute;
+    
+        display: block;
+        margin-top: -3%;
+        margin-left: 38%;         /*Avatar Images*/
+        margin-right: 50%;
+        width: 25%;
+    }
+    #img1{
+        position: absolute;
+     
+        margin-top: -33%;
+        margin-left: 91%;     
+        margin-right: 1%;
+        width:2.2%;
+    }
+
+    #menu_a:hover{
+        background-image: url("/images/hamburger2.png");
+    }
+ 
+    @font-face{
+        font-family: Pirata One;
+        src:url(/fonts/pirata_one.ttf)
+    }
+    
+            
+    @keyframes textclip {
+        to {
+            background-position: 200% center;
+        }
+    }
+
+
+    #text1{
+    
+        display: block;
+        font-size: 4.5vw;
+        float: left;
+                                 /*HELLO*/    
+        margin-top: 4%;         
+        /*_*/
+            
+            font-family: 'Pirata One', cursive;
+          
+            background: linear-gradient(to left, white 10%, red 60%, rgb(236, 236, 104) 30%);
+            background-size: auto auto;
+            background-clip: border-box;
+            background-size: 200% auto;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textclip 1.5s linear infinite;
+           
+
+        /*__*/
+        margin-left: 26%;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+    
+    }
+
+    /*font-family: 'Pirata One', cursive;
+        color: #c80000; /*#F7971E;*|
+        stroke: antiquewhite*/
+
+    #text2{
+        float: right;
+        margin-right: 6%;
+        margin-top: 6.5%;
+        display: block;
+        font-size: 7vw;           /*Im Abhishek*/
+        font-weight: 50px;
+         /*_*/
+        
+            
+            
+        
+            
+         font-family: 'Pirata One', cursive;
+       
+         background: linear-gradient(to left, white 10%, red 60%, rgb(236, 236, 104) 30%);
+         background-size: auto auto;
+         background-clip: border-box;
+         background-size: 200% auto;
+         background-clip: text;
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+         animation: textclip 1.5s linear infinite;
+      
+
+     /*__*/
+     
+     
+        
+    }
+    #text3{
+        float: left;
+        font-size:4vw;
+        font-weight: 50px;          /*Im a web developer*/
+             /*_*/
+        
+            
+            
+            
+            
+             font-family: 'Pirata One', cursive;
+           
+             background: linear-gradient(to left, white 10%, red 60%, rgb(236, 236, 104) 30%);
+             background-size: auto auto;
+             background-clip: border-box;
+             background-size: 200% auto;
+             background-clip: text;
+             -webkit-background-clip: text;
+             -webkit-text-fill-color: transparent;
+             animation: textclip 1.7s linear infinite;
+          
+    
+         /*__*/
+         margin-top: 2%;
+     
+        margin-left: 3%;  
+       
+        display: none;
+     
+    
+    }
+    #text4{
+        float: right;
+        display: block;
+        font-size: 4vw;
+        font-weight: 50px;          /*Im a CSE student*/
+             /*_*/
+        
+            
+            
+             
+            
+             font-family: 'Pirata One', cursive;
+           
+             background: linear-gradient(to left, white 10%, red 60%, rgb(236, 236, 104) 30%);
+             background-size: auto auto;
+             background-clip: border-box;
+             background-size: 200% auto;
+             background-clip: text;
+             -webkit-background-clip: text;
+             -webkit-text-fill-color: transparent;
+             animation: textclip 1.7s linear infinite;
+          
+    
+         /*__*/
+    
+        margin-right: 3%;  
+        margin-top: -2%;
+        display: none;
+      
+     
+    
+    }
+
+  .menu_icon{
+    display: block;
+
+    float: right;
+    width: 60px;
+    margin-right: 10%;
+    margin-top: -2%;
+    
+}
+
+
+
+
+
+  
+  /* ________________________________________Dropdown Content________________________ */
+
+  .dropdown{
+      position: relative;
+  }
+  .dropdown-content {
+    margin-top: -33%;
+    margin-left: 85%; 
+    display: none;
+    position: absolute;
+    background-color:#1a1a1a;
+    width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    size: 1;
+    padding: 5px 1px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color:	#c80000;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+
+  /*___________________________DropDown end____________________________________________________*/
+      
+
+   }
+
+
+
+     /*******************************************************************************************************
+  ********************************************************************************************************
+  ********************************************************************************************************
+  *****************************************Mobile1*********************************************************
+  ********************************************************************************************************
+  *******************************************************************************************************/
+
+
+ 
+
+  @media screen and (max-width:414px){
+    body{
+        background-color: black;
+        height: 100%;
+        background-size: cover;
+     
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #continer{
+        position: relative;
+       
+    }
+    #avatar_lying{
+        position: absolute;
+        display: block;
+        width:60%;
+        margin-top: 95%;
+        margin-left: 4%;
+    }
+    /*_______________________________Social Media__________________________*/
+    #facebook{
+        width:5%;
+        display: block;
+        position: absolute;
+        margin-left: 60%;
+        margin-top: 100%;
+        
+    }
+    #instagram{
+        width:6%;
+        display: block;
+        position: absolute;
+        margin-left: 70%;
+        margin-top: 101%;
+        
+    }
+    #twitter{
+        width:7.5%;
+        display: block;
+        position: absolute;
+        margin-left: 81.6%;
+        margin-top: 100.5%;
+        
+    }
+    #linkedin{
+        width:6.5%;
+        display: block;
+        position: absolute;
+        margin-left: 60%;
+        margin-top: 110%;
+        
+    }
+    #github{
+        width:6%;
+        display: block;
+        position: absolute;
+        margin-left: 70.5%;
+        margin-top: 110%;
+        
+    }
+    #reddit{
+        width:7.4%;
+        display: block;
+        position: absolute;
+        margin-left: 81%;
+        margin-top: 110%;
+        
+    }
+    .social_media{
+        margin-left: -8%;
+        margin-top: -5%;
+    }
+
+    /*_________________________Social Media END________________________________*/
+
+
+    h1{
+        color: white;
+        size: 100px;
+    }
+    #main-image{
+        background-image: url("/images/Banner_mobile.jpg");
+    }
+    .banner{
+        position: relative;
+      
+        display: block;
+      
+        margin-top: -0.6%;
+                                  /*Home Page Banner*/
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;    
+        height: 150%;
+    }
+    .banner1{
+        position: relative;
+      
+        display: block;
+
+        margin-top: -27%;
+                                  /*Home Page Banner*/
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;    
+    }
+    /*___________________________________Line Image start___________________________________________*/
+    #line_img1{
+        position: absolute;
+      
+        display: none;
+        margin-top: -25.8%;
+                                 
+        margin-left:0.8%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+    #line_img2{
+        position: absolute;
+      
+        display: none;
+        margin-top: -26.5%;
+                                 
+        margin-left:1%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+    #line_img3{
+        position: absolute;
+      
+        display: none;
+        margin-top: -26.8%;
+                                 
+        margin-left:0.8%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+    #line_img4{
+        position: absolute;
+      
+        display: none;
+        margin-top: -27.1%;
+                                 
+        margin-left:2.2%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+    #line_img5{
+        position: absolute;
+      
+        display: none;
+        margin-top: -26.8%;
+                                 
+        margin-left:4%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+    #line_img6{
+        position: absolute;
+      
+        display: none;
+        margin-top: -26.3%;
+                                 
+        margin-left:4%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+    #line_img7{
+        position: absolute;
+      
+        display: none;
+        margin-top: -25.8%;
+                                 
+        margin-left:4%;
+        margin-right: 50.5%;
+        width: 100%; 
+    }
+ 
+     
+    /*______________________________________Line Image end_________________________________________________*/
+  
+
+    /*________________________________________Cursor Icon_______________________________________________*/
+    #cursor_icon{
+        position: absolute;
+      
+        display: block;
+        margin-top: -34.8%;
+                                  /*design*/
+        margin-left:19.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon1{
+        position: absolute;
+      
+        display: none;
+        margin-top: -34.8%;
+                                  /*design*/
+        margin-left:18.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon2{
+        position: absolute;
+      
+        display: none;
+        margin-top: -34.8%;
+                                  /*design*/
+        margin-left:17.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon3{
+        position: absolute;
+      
+        display: none;
+        margin-top: -34.8%;
+                                  /*design*/
+        margin-left:16.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon4{
+        position: absolute;
+      
+        display: none;
+        margin-top: -35.8%;
+                                  /*design*/
+        margin-left:16.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon5{
+        position: absolute;
+      
+        display: none;
+        margin-top: -36.8%;
+                                  /*design*/
+        margin-left:16.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon6{
+        position: absolute;
+      
+        display: none;
+        margin-top: -36.8%;
+                                  /*design*/
+        margin-left:17.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon7{
+        position: absolute;
+      
+        display: none;
+        margin-top: -36.8%;
+                                  /*design*/
+        margin-left:19.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+
+    
+    #cursor_icon8{
+        position: absolute;
+      
+        display: none;
+        margin-top: -36.8%;
+                                  /*design*/
+        margin-left:19.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon9{
+        position: absolute;
+      
+        display: none;
+        margin-top: -35.8%;
+                                  /*design*/
+        margin-left:19.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+    #cursor_icon10{
+        position: absolute;
+      
+        display: none;
+        margin-top: -34.8%;
+                                  /*design*/
+        margin-left:19.3%;
+        margin-right: 39.5%;
+        width: 1.2%; 
+    }
+   /*______________________________________________Cursor Icon end_____________________________*/
+
+   #plus_icon{
+    position: absolute;
+  
+    display: block;
+    margin-top: -22.8%;
+                              /*design*/
+    margin-left:4.3%;
+    margin-right: 39.5%;
+    width: 100%; 
+}
+#plus_icon1{
+    position: absolute;
+  
+    display: block;
+    margin-top: -22.8%;
+                              /*design*/
+    margin-left:4.3%;
+    margin-right: 39.5%;
+    width: 100%; 
+}
+
+    #img{
+        position: absolute;
+    
+        display: block;
+        margin-top: 6%;
+        margin-left: 31%;         /*Avatar Images*/
+        margin-right: 50%;
+        width: 35%;
+    }
+    #img1{
+        position: absolute;
+     
+        margin-top: -33%;
+        margin-left: 91%;     
+        margin-right: 1%;
+        width:2.2%;
+    }
+
+    #menu_a:hover{
+        background-image: url("/images/hamburger2.png");
+    }
+ 
+    @font-face{
+        font-family: Pirata One;
+        src:url(/fonts/pirata_one.ttf)
+    }
+    
+            
+    @keyframes textclip {
+        to {
+            background-position: 200% center;
+        }
+    }
+
+
+    #text1{
+    
+        display: block;
+        font-size: 8vw;
+        float: left;
+                                 /*HELLO*/    
+        margin-top: 17.4%;         
+        /*_*/
+        
+            
+            
+           
+            
+            font-family: 'Pirata One', cursive;
+          
+            background: linear-gradient(to left, white 10%, red 60%, rgb(236, 236, 104) 30%);
+            background-size: auto auto;
+            background-clip: border-box;
+            background-size: 200% auto;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textclip 1.5s linear infinite;
+           
+
+        /*__*/
+        margin-left: 13%;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+    
+    }
+
+    /*font-family: 'Pirata One', cursive;
+        color: #c80000; /*#F7971E;*|
+        stroke: antiquewhite*/
+
+    #text2{
+        float: right;
+        margin-right: 2%;
+        margin-top: 28%;
+        display: block;
+        font-size:9vw;           /*Im Abhishek*/
+        font-weight: 50px;
+         /*_*/
+        
+            
+            
+        
+            
+         font-family: 'Pirata One', cursive;
+       
+         background: linear-gradient(to left, white 10%, red 60%, rgb(236, 236, 104) 30%);
+         background-size: auto auto;
+         background-clip: border-box;
+         background-size: 200% auto;
+         background-clip: text;
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+         animation: textclip 1.5s linear infinite;
+      
+
+     /*__*/
+     
+     
+        
+    }
+    #text3{
+        float: left;
+        font-size:5vw;
+        font-weight: 50px;          /*Im a web developer*/
+             /*_*/
+        
+            
+            
+            
+            
+             font-family: 'Pirata One', cursive;
+           
+             background: linear-gradient(to left, white 10%, red 60%, rgb(236, 236, 104) 30%);
+             background-size: auto auto;
+             background-clip: border-box;
+             background-size: 200% auto;
+             background-clip: text;
+             -webkit-background-clip: text;
+             -webkit-text-fill-color: transparent;
+             animation: textclip 1.7s linear infinite;
+          
+    
+         /*__*/
+         margin-top: 28%;
+     
+        margin-left: -7%;  
+       
+        display: none;
+     
+    
+    }
+    #text4{
+        float: right;
+        display: block;
+        font-size: 4.7vw;
+        font-weight: 50px;          /*Im a CSE student*/
+             /*_*/
+        
+            
+            
+             
+            
+             font-family: 'Pirata One', cursive;
+           
+             background: linear-gradient(to left, white 10%, red 60%, rgb(236, 236, 104) 30%);
+             background-size: auto auto;
+             background-clip: border-box;
+             background-size: 200% auto;
+             background-clip: text;
+             -webkit-background-clip: text;
+             -webkit-text-fill-color: transparent;
+             animation: textclip 1.7s linear infinite;
+          
+    
+         /*__*/
+    
+        margin-right: -2%;  
+        margin-top: 10%;
+        display: none;
+      
+     
+    
+    }
+
+  .menu_icon{
+    display: block;
+
+    float: right;
+    width: 60px;
+    margin-right: 10%;
+    margin-top: -2%;
+    
+}
+
+
+
+
+
+  
+  /* ________________________________________Dropdown Content________________________ */
+
+  .dropdown{
+      position: relative;
+  }
+  .dropdown-content {
+    margin-top: -33%;
+    margin-left: 87%; 
+    display: none;
+    position: absolute;
+    background-color:#1a1a1a;
+    width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    size: 1;
+    padding: 2px 5px;
+    text-decoration: none;
+    display: block;
+    font-size: 10px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color:	#c80000;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+
+  /*___________________________DropDown end____________________________________________________*/
+   }

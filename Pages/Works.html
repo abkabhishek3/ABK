@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/CSS/Works.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Works</title>
+    </head>
+    <body onload="start()">
+        <script>
+            function start(){
+                /*ONE*/
+                document.getElementById("portfolio").onmouseover=function button(params) {
+                    document.getElementById("orange_button").style.display="block";
+                    document.getElementById("portfolio").style.opacity="50%";
+                    document.getElementById("portfolio").src="/images/works/portfolio1.png";
+
+                    document.getElementById("meme").style.opacity="20%";
+                }
+                document.getElementById("portfolio").onmouseleave=function button1(params) {
+                    document.getElementById("orange_button").style.display="none";
+                    document.getElementById("portfolio").style.opacity="100%";
+                    document.getElementById("portfolio").src="/images/works/portfolio.png";
+                    document.getElementById("meme").style.opacity="100%";
+                }
+                document.getElementById("orange_button").onmouseover=function button2(params){
+                    document.getElementById("orange_button").style.display="block";
+                    document.getElementById("portfolio").style.opacity="50%";
+                    document.getElementById("portfolio").src="/images/works/portfolio1.png";
+                    document.getElementById("meme").style.opacity="20%";
+
+                }
+                /*TWO*/
+                document.getElementById("meme").onmouseover=function button3(params) {
+                    document.getElementById("orange_button1").style.display="block";
+                    document.getElementById("meme").style.opacity="20%";
+                    document.getElementById("meme").src="/images/works/meme1.png";
+
+                    document.getElementById("portfolio").style.opacity="20%";
+                }
+                document.getElementById("meme").onmouseleave=function button4(params) {
+                    document.getElementById("orange_button1").style.display="none";
+                    document.getElementById("meme").style.opacity="100%";
+                    document.getElementById("meme").src="/images/works/meme.png";
+
+                    document.getElementById("portfolio").style.opacity="100%";
+                }
+                document.getElementById("orange_button1").onmouseover=function button5(params){
+                    document.getElementById("orange_button1").style.display="block";
+                    document.getElementById("meme").style.opacity="20%";
+                    document.getElementById("meme").src="/images/works/meme1.png";
+                    document.getElementById("portfolio").style.opacity="20%";
+
+                }
+                document.getElementById("orange_button1").onclick=function alert(params){
+                    window.alert("Coming Soon!");
+
+                }
+                  /*THREE*/
+                  document.getElementById("music").onmouseover=function button6(params) {
+                    document.getElementById("blue_button").style.display="block";
+                    document.getElementById("music").style.opacity="20%";
+                    document.getElementById("music").src="/images/works/music1.png";
+                }
+                document.getElementById("music").onmouseleave=function button7(params) {
+                    document.getElementById("blue_button").style.display="none";
+                    document.getElementById("music").style.opacity="100%";
+                    document.getElementById("music").src="/images/works/music.png";
+                }
+                document.getElementById("blue_button").onmouseover=function button8(params){
+                    document.getElementById("blue_button").style.display="block";
+                    document.getElementById("music").style.opacity="20%";
+                    document.getElementById("music").src="/images/works/music1.png";
+
+                }
+                document.getElementById("blue_button").onclick=function alert(params){
+                    window.alert("Coming Soon!");
+
+                }
+                    /*FOUR*/
+                    document.getElementById("mnews").onmouseover=function button9(params) {
+                    document.getElementById("green_button").style.display="block";
+                    document.getElementById("mnews").style.opacity="40%";
+                    document.getElementById("mnews").src="/images/works/mnews1.png";
+
+                    document.getElementById("bob").style.opacity="20%";
+                }
+                document.getElementById("mnews").onmouseleave=function button7(params) {
+                    document.getElementById("green_button").style.display="none";
+                    document.getElementById("mnews").style.opacity="100%";
+                    document.getElementById("mnews").src="/images/works/mnews.png";
+
+                    document.getElementById("bob").style.opacity="100%";
+                }
+                   
+                document.getElementById("green_button").onmouseover=function button11(params){
+                    document.getElementById("green_button").style.display="block";
+                    document.getElementById("mnews").style.opacity="40%";
+                    document.getElementById("mnews").src="/images/works/mnews1.png";
+                    document.getElementById("bob").style.opacity="20%";
+
+                }
+                       /*FIVE*/
+                       document.getElementById("bob").onmouseover=function button12(params) {
+                    document.getElementById("green_button1").style.display="block";
+                    document.getElementById("bob").style.opacity="40%";
+                    document.getElementById("bob").src="/images/works/bob1.png";
+
+                    document.getElementById("mnews").style.opacity="20%";
+                }
+                document.getElementById("bob").onmouseleave=function button13(params) {
+                    document.getElementById("green_button1").style.display="none";
+                    document.getElementById("bob").style.opacity="100%";
+                    document.getElementById("bob").src="/images/works/bob.png";
+                    document.getElementById("mnews").style.opacity="100%";
+                }
+                   
+                document.getElementById("green_button1").onmouseover=function button14(params){
+                    document.getElementById("green_button1").style.display="block";
+                    document.getElementById("bob").style.opacity="40%";
+                    document.getElementById("bob").src="/images/works/bob1.png";
+                    document.getElementById("mnews").style.opacity="20%";
+
+                }
+    
+            }
+          
+        </script>
+     
+        <div id="row">
+            <img class="column1" src="/images/works/orange.png">
+            <img class="column2" src="/images/works/blue.png">
+            <img class="column3" src="/images/works/green.png">
+           </div>
+
+           <img id="portfolio" src="/images/works/portfolio.png">    <!--Coding/WebD-->
+           <p id="webd_text">Coding/WebD</p>
+         <a href="/home_page.html"><button id="orange_button"><span id="button_mouse">Visit</span></button></a> 
+
+         <img id="meme" src="/images/works/meme.png">
+         <a ><button id="orange_button1"><span id="button_mouse">Visit</span></button></a> 
+
+         <img id="music" src="/images/works/music.png">            <!--Android-->
+         <p id="android_text">Android App</p>
+         <a ><button id="blue_button"><span id="button_mouse">Install</span></button></a> 
+
+         <img id="mnews" src="/images/works/mnews.png">            <!--Editing-->
+         <p id="editing_text">Editing</p>
+         <a href="https://www.youtube.com/channel/UCZ6eTP1MGlLNIVIBHj8kjZQ"><button id="green_button"><span id="button_mouse">Visit Channel</span></button></a> 
+         <img id="bob" src="/images/works/bob.png">
+         <a href="https://www.instagram.com/bob.dickerson3/"><button id="green_button1"><span id="button_mouse">Visit Page</span></button></a> 
+
+         <div id="topbar">
+            <a href="/home_page.html"><img id="logo" src="/images/skills/logo.png"></a>
+            <div class="dropdown"> 
+                <a id="menu_a" ><img id="menu_icon"  src="/images/skills/hamburger.png"></a>
+                <div class="dropdown-content">
+                  <a href="/Pages/About.html">About</a>
+                  <a href="/Pages/Skills.html">Skills</a>
+                  <a href="/Pages/Works.html">Works</a>
+                  <a href="#">Contact</a>
+                </div>
+               </div>  
+               <div class="rectangle"></div>
+        </div>
+    
+
+
+    </body>
+
+</html>
