@@ -3385,11 +3385,11 @@
   
   .circle {
       position: absolute;
-      height: 320px;
-      width: 320px;
-      margin-left:4%;
+      height: 280px;
+      width: 280px;
+      margin-left:12%;
       margin-right: auto;
-      margin-top:200%;
+      margin-top:180%;
       background: rgb(54,51,51);
       background: linear-gradient(138deg, rgba(54,51,51,1) 0%, rgba(38,37,37,1) 0%, rgba(18,16,16,1) 34%, rgba(0,0,0,1) 58%);
       border-radius: 50%;
@@ -3397,9 +3397,9 @@
     }
   
     .myimage{
-        margin-left: -92%;
-        width: 450%;
-        margin-top:155% ;
+        margin-left: -82%;
+        width: 420%;
+        margin-top:125% ;
         
         position: absolute;
     }
@@ -3428,7 +3428,7 @@
   
         position: absolute;
         font-family: 'Fondamento';
-        font-size: 8vw;
+        font-size: 7vw;
         color: #7a7f87;
         margin-top: 45%;
         margin-left: -29%;
@@ -3451,7 +3451,7 @@
   
       position: absolute;
       font-family: 'Pirata One', cursive;
-      font-size: 5vw;
+      font-size: 4vw;
       color: #7a7f87;
            background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
               background-size: auto auto;
@@ -3469,9 +3469,9 @@
   .education{
       position: absolute;
       font-family: 'Fondamento';
-      font-size: 8.5vw;
+      font-size: 7.5vw;
       color: #7a7f87;
-      margin-top: 125%;
+      margin-top: 115%;
       margin-left: -29%;
       background: linear-gradient(to left, white 10%, yellow 60%, #FFD700 30%);
             background-size: auto auto;
@@ -3491,7 +3491,7 @@
   
     position: absolute;
     font-family: 'Pirata One', cursive;
-    font-size: 5vw;
+    font-size: 4vw;
     color: #7a7f87;
          background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
             background-size: auto auto;
@@ -3501,7 +3501,7 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             animation: textclip 3s linear infinite;
-    margin-top: 154.7%;
+    margin-top: 144.7%;
     margin-left: -29%;
   
   }
@@ -3511,46 +3511,6 @@
     overflow: hidden;
     white-space: nowrap;
   
-      position: absolute;
-      font-family: 'Pirata One', cursive;
-      font-size: 4.5vw;
-      color: #7a7f87;
-           background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
-              background-size: auto auto;
-              background-clip: border-box;
-              background-size: 200% auto;
-              background-clip: text;
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
-              animation: textclip 3s linear infinite;
-      margin-top: 171.5%;
-      margin-left: -29%;
-  
-    }
-    .stream{
-  
-      clear: both;
-      display: inline-block;
-      overflow: hidden;
-      white-space: nowrap;
-  
-      position: absolute;
-      font-family: 'Pirata One', cursive;
-      font-size: 4.2vw;
-      color: #7a7f87;
-           background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
-              background-size: auto auto;
-              background-clip: border-box;
-              background-size: 200% auto;
-              background-clip: text;
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
-              animation: textclip 3s linear infinite;
-      margin-top: 188.4%;
-      margin-left: -29%;
-  
-    }
-    .year{
       position: absolute;
       font-family: 'Pirata One', cursive;
       font-size: 3.5vw;
@@ -3563,7 +3523,47 @@
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;
               animation: textclip 3s linear infinite;
-              margin-top:205%;
+      margin-top: 161.5%;
+      margin-left: -29%;
+  
+    }
+    .stream{
+  
+      clear: both;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+  
+      position: absolute;
+      font-family: 'Pirata One', cursive;
+      font-size: 3.2vw;
+      color: #7a7f87;
+           background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 3s linear infinite;
+      margin-top: 175.4%;
+      margin-left: -29%;
+  
+    }
+    .year{
+      position: absolute;
+      font-family: 'Pirata One', cursive;
+      font-size: 2.5vw;
+      color: #7a7f87;
+           background: linear-gradient(to left, white 10%, #7a7f87 60%, #d3d3d3 30%);
+              background-size: auto auto;
+              background-clip: border-box;
+              background-size: 200% auto;
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              animation: textclip 3s linear infinite;
+              margin-top:190%;
               margin-left: -28.9%;
    
     }
