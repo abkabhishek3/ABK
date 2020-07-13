@@ -2704,7 +2704,7 @@
   
   }
 
-  .dropdown-content-mobile {
+  #dropdown-content-mobile {
     margin-top: -30.3%;
     margin-left: 78%; 
     display: none;
@@ -2716,7 +2716,7 @@
   }
   
   /* Links inside the dropdown */
-  .dropdown-content-mobile a {
+  #dropdown-content-mobile a {
     color: white;
     size: 1;
     padding: 10px 10px;
