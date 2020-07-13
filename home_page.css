@@ -2652,7 +2652,7 @@
 
   
   /* Links inside the dropdown */
-  .dropdown-content-mobile a {
+  .dropdown-content-a {
     color: white;
     size: 1;
     padding: 10px 10px;
@@ -2662,7 +2662,7 @@
   }
   
   /* Change color of dropdown links on hover */
-  #dropdown-content-mobile a:hover {background-color:	#c80000;}
+  #dropdown-content a:hover {background-color:	#c80000;}
 
 
   /*___________________________DropDown end____________________________________________________*/
