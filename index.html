@@ -18,7 +18,7 @@
   <body onload = "start()" > 
   <div id="continer">
       <div id="contained">
-        <img class="banner" src="images/design/Banner.png">
+        <img id="banner" class="banner" src="images/design/Banner.png">
         <img class="banner1" src="images/design/Banner_mobile.jpg">
    
      
@@ -44,7 +44,8 @@
   *****************************************Main Function*********************************************************
   ********************************************************************************************************
   *******************************************************************************************************/
-         
+
+                var click_counter=0;
 
 
           function startTimer() {
@@ -58,22 +59,40 @@
               setTimeout(displayNextImage, 32000);
               setTimeout(displayNextImage, 36000);
 
-              document.getElementById("img1").onclick=function menuIcon(params) {
-                document.getElementById("dropdown-content-mobile").style.display="block";
-              }
+              /*document.getElementById("img1").onclick=function menuIcon(params) {
+                document.getElementById("dropdown-content").style.display="block";
+              }*/
               document.getElementById("about").onclick=function open_About(params) {
-                window.open("About.html");
+                window.open("About.html","_self");
               }
               document.getElementById("skills").onclick=function open_About(params) {
-                window.open("Skills.html");
+                window.open("Skills.html","_self");
               }
               document.getElementById("works").onclick=function open_About(params) {
-                window.open("Works.html");
+                window.open("Works.html","_self");
               }
               document.getElementById("contact").onclick=function open_About(params) {
-                window.open("Contact.html");
+                window.open("Contact.html","_self");
               }
 
+              document.onclick=function hide_menu(){
+                if( document.getElementById("dropdown-content").style.display=="block")
+                {
+                  document.getElementById("dropdown-content").style.display="none";
+                }
+              }
+
+              document.onclick=function menu(){
+                if(click_counter%2==0)
+                {
+                  document.getElementById("dropdown-content").style.display="block";
+                }
+                if(click_counter%2==1)
+                {
+                  document.getElementById("dropdown-content").style.display="none";
+                }
+                click_counter=click_counter+1;
+              }
           }
 
            /*******************************************************************************************************
@@ -804,23 +823,13 @@
 
        <div class="dropdown"> 
         <a id="menu_a" ><img id="img1"  src="images/design/hamburger1.png"></a>
-        <div class="dropdown-content">
-          <a href="About.html">About</a>
-          <a href="Skills.html">Skills</a>
-          <a href="Works.html">Works</a>
-          <a href="Contact.html">Contact</a>
-        </div>
-       </div>    
-
-       <div class="dropdown_mobile"> 
-        <a ><img id="img1"  src="images/design/hamburger1.png"></a>
-        <div id="dropdown-content-mobile">
+        <div id="dropdown-content">
           <a id="about">About</a>
           <a id="skills">Skills</a>
           <a id="works">Works</a>
           <a id="contact">Contact</a>
         </div>
-       </div>    
+       </div>       
 
        <img id="avatar_lying" src="images/design/avatar_lying.png">
 
