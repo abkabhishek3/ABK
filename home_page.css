@@ -1939,6 +1939,8 @@
         font-family: Pirata One;
         src:url(/fonts/pirata_one.ttf)
     }
+
+    
     
             
     @keyframes textclip {
@@ -2478,7 +2480,11 @@
  
     @font-face{
         font-family: Pirata One;
-        src:url(/fonts/pirata_one.ttf)
+        src:url(/fonts/pirata_one.ttf);
+    }
+    @font-face{
+        font-family: Grenze Gotisch;
+        src:url(/fonts/grenzo.ttf);
     }
     
             
@@ -2502,7 +2508,7 @@
             
            
             
-            font-family: 'Pirata One';
+            font-family: 'Grenze Gotisch', cursive;
           
             background: linear-gradient(to left, white 10%, red 60%, rgb(236, 236, 104) 30%);
             background-size: auto auto;
