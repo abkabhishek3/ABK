@@ -10,21 +10,21 @@ body{
     width:30%;
 }
 #coding_img:hover{
-    content: url("/images/skills/coding1.png");
+    content: url("images/skills/coding1.png");
 }
 #webd_img{
     width:30%;
     margin-left: 4%;
 }
 #webd_img:hover{
-    content: url("/images/skills/webd1.png");
+    content: url("images/skills/webd1.png");
 }
 #editing_img{
     width:30%;
     margin-left: 4%;
 }
 #editing_img:hover{
-    content: url("/images/skills/editing1.png");
+    content: url("images/skills/editing1.png");
 }
 
 #images{
@@ -184,7 +184,7 @@ body{
         width:30%;
     }
     #coding_img:hover{
-        content: url("/images/skills/coding1.png");
+        content: url("images/skills/coding1.png");
     }
     #webd_img{
       
@@ -192,14 +192,14 @@ body{
         margin-left: 4%;
     }
     #webd_img:hover{
-        content: url("/images/skills/webd1.png");
+        content: url("images/skills/webd1.png");
     }
     #editing_img{
         width:30%;
         margin-left: 4%;
     }
     #editing_img:hover{
-        content: url("/images/skills/editing1.png");
+        content: url("images/skills/editing1.png");
     }
     
     #images{
@@ -355,7 +355,7 @@ body{
         margin-left: 6.7%;
     }
     #coding_img:hover{
-        content: url("/images/skills/coding1.png");
+        content: url("images/skills/coding1.png");
     }
     #webd_img{
       
@@ -363,14 +363,14 @@ body{
         margin-left: 10%;
     }
     #webd_img:hover{
-        content: url("/images/skills/webd1.png");
+        content: url("images/skills/webd1.png");
     }
     #editing_img{
         width:37%;
         margin-left: 29.5%;
     }
     #editing_img:hover{
-        content: url("/images/skills/editing1.png");
+        content: url("images/skills/editing1.png");
     }
     
     
@@ -535,7 +535,7 @@ body{
         margin-top: -8%;
     }
     #coding_img:hover{
-        content: url("/images/skills/coding1.png");
+        content: url("images/skills/coding1.png");
     }
     #webd_img{
         width:43%;
@@ -543,7 +543,7 @@ body{
         margin-top: -8%;
     }
     #webd_img:hover{
-        content: url("/images/skills/webd1.png");
+        content: url("images/skills/webd1.png");
     }
     #editing_img{
         width:45%;
@@ -551,7 +551,7 @@ body{
         margin-top: -3.5%;
     }
     #editing_img:hover{
-        content: url("/images/skills/editing1.png");
+        content: url("images/skills/editing1.png");
     }
     
     
@@ -720,7 +720,7 @@ body{
         margin-top: -2%;
     }
     #coding_img:hover{
-        content: url("/images/skills/coding1.png");
+        content: url("images/skills/coding1.png");
     }
     #webd_img{
         width:51%;
@@ -728,7 +728,7 @@ body{
         margin-top: 2%;
     }
     #webd_img:hover{
-        content: url("/images/skills/webd1.png");
+        content: url("images/skills/webd1.png");
     }
     #editing_img{
         width:53.5%;
@@ -736,7 +736,7 @@ body{
         margin-top: 3%;
     }
     #editing_img:hover{
-        content: url("/images/skills/editing1.png");
+        content: url("images/skills/editing1.png");
     }
     
     
@@ -904,7 +904,7 @@ body{
         margin-top: -2%;
     }
     #coding_img:hover{
-        content: url("/images/skills/coding1.png");
+        content: url("images/skills/coding1.png");
     }
     #webd_img{
         width:51%;
@@ -912,7 +912,7 @@ body{
         margin-top: 2%;
     }
     #webd_img:hover{
-        content: url("/images/skills/webd1.png");
+        content: url("images/skills/webd1.png");
     }
     #editing_img{
         width:53.5%;
@@ -920,7 +920,7 @@ body{
         margin-top: 3%;
     }
     #editing_img:hover{
-        content: url("/images/skills/editing1.png");
+        content: url("images/skills/editing1.png");
     }
     
     
