@@ -59,7 +59,19 @@
               setTimeout(displayNextImage, 36000);
 
               document.getElementById("img1").onclick=function menuIcon(params) {
-                document.getElementById("dropdown-content").style.display="block";
+                document.getElementById("dropdown-content-mobile").style.display="block";
+              }
+              document.getElementById("about").onclick=function open_About(params) {
+                window.open("About.html");
+              }
+              document.getElementById("skills").onclick=function open_About(params) {
+                window.open("Skills.html");
+              }
+              document.getElementById("works").onclick=function open_About(params) {
+                window.open("Works.html");
+              }
+              document.getElementById("contact").onclick=function open_About(params) {
+                window.open("Contact.html");
               }
 
           }
@@ -796,7 +808,17 @@
           <a href="About.html">About</a>
           <a href="Skills.html">Skills</a>
           <a href="Works.html">Works</a>
-          <a href="#">Contact</a>
+          <a href="Contact.html">Contact</a>
+        </div>
+       </div>    
+
+       <div class="dropdown_mobile"> 
+        <a ><img id="img1"  src="images/design/hamburger1.png"></a>
+        <div class="dropdown-content-mobile">
+          <a id="about">About</a>
+          <a id="skills">Skills</a>
+          <a id="works">Works</a>
+          <a id="contact">Contact</a>
         </div>
        </div>    
 

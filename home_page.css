@@ -500,6 +500,16 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   
   }
+  .dropdown-content-mobile {
+    margin-top: -13.3%;
+    margin-left: 78%; 
+    display: none;
+    position: absolute;
+    background-color:#1a1a1a;
+    width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  }
   
   /* Links inside the dropdown */
   .dropdown-content a {
@@ -1033,6 +1043,17 @@
     position: absolute;
     background-color:#1a1a1a;
     width: 110px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  }
+
+  .dropdown-content-mobile {
+    margin-top: -13.3%;
+    margin-left: 78%; 
+    display: none;
+    position: absolute;
+    background-color:#1a1a1a;
+    width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   
   }
@@ -1583,6 +1604,17 @@
     font-size: 19px;
   }
   
+  .dropdown-content-mobile {
+    margin-top: -13.3%;
+    margin-left: 78%; 
+    display: none;
+    position: absolute;
+    background-color:#1a1a1a;
+    width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  }
+
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {background-color:	#c80000;}
   
@@ -2109,6 +2141,17 @@
     position: absolute;
     background-color:#1a1a1a;
     width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  }
+
+  .dropdown-content-mobile {
+    margin-top: -13.3%;
+    margin-left: 78%; 
+    display: none;
+    position: absolute;
+    background-color:#1a1a1a;
+    width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   
   }
@@ -2660,12 +2703,23 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   
   }
+
+  .dropdown-content-mobile {
+    margin-top: -30.3%;
+    margin-left: 78%; 
+    display: none;
+    position: absolute;
+    background-color:#1a1a1a;
+    width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  }
   
   /* Links inside the dropdown */
-  .dropdown-content a {
+  .dropdown-content-mobile a {
     color: white;
     size: 1;
-    padding: 5px 5px;
+    padding: 10px 10px;
     text-decoration: none;
     display: block;
     font-size: 20px;
@@ -2674,7 +2728,7 @@
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {background-color:	#c80000;}
   
-  /* Show the dropdown menu on hover */
+
 
   /*___________________________DropDown end____________________________________________________*/
    }
