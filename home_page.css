@@ -2168,18 +2168,18 @@
     }
     /*_______________________________Social Media__________________________*/
     #facebook{
-        width:5%;
+        width:4.5%;
         display: block;
         position: absolute;
         margin-left: 60%;
-        margin-top: 100%;
+        margin-top: 100.5%;
         
     }
     #instagram{
         width:6%;
         display: block;
         position: absolute;
-        margin-left: 70%;
+        margin-left: 70.5%;
         margin-top: 101%;
         
     }
@@ -2187,12 +2187,12 @@
         width:7.5%;
         display: block;
         position: absolute;
-        margin-left: 81.6%;
+        margin-left: 81.7%;
         margin-top: 100.5%;
         
     }
     #linkedin{
-        width:6.5%;
+        width:6.6%;
         display: block;
         position: absolute;
         margin-left: 60%;
@@ -2203,7 +2203,7 @@
         width:6%;
         display: block;
         position: absolute;
-        margin-left: 70.5%;
+        margin-left: 70.8%;
         margin-top: 110%;
         
     }
@@ -2477,10 +2477,10 @@
     #img1{
         position: absolute;
      
-        margin-top: -33%;
+        margin-top: -29%;
         margin-left: 91%;     
         margin-right: 1%;
-        width:2.2%;
+        width:6.2%;
     }
 
     #menu_a:hover{
@@ -2506,14 +2506,14 @@
         font-size: 8vw;
         float: left;
                                  /*HELLO*/    
-        margin-top: 17.4%;         
+        margin-top: 24.4%;         
         /*_*/
         
             
             
            
             
-            font-family: 'Pirata One', cursive;
+            font-family: 'Pirata One';
           
             background: linear-gradient(to left, white 10%, red 60%, rgb(236, 236, 104) 30%);
             background-size: auto auto;
@@ -2526,7 +2526,7 @@
            
 
         /*__*/
-        margin-left: 13%;
+        margin-left: 17%;
         writing-mode: vertical-rl;
         text-orientation: upright;
     
@@ -2541,7 +2541,7 @@
         margin-right: 2%;
         margin-top: 28%;
         display: block;
-        font-size:9vw;           /*Im Abhishek*/
+        font-size:10.5vw;           /*Im Abhishek*/
         font-weight: 50px;
          /*_*/
         
@@ -2549,7 +2549,7 @@
             
         
             
-         font-family: 'Pirata One', cursive;
+         font-family: 'Pirata One';
        
          background: linear-gradient(to left, white 10%, red 60%, rgb(236, 236, 104) 30%);
          background-size: auto auto;
@@ -2568,7 +2568,7 @@
     }
     #text3{
         float: left;
-        font-size:5vw;
+        font-size:6vw;
         font-weight: 50px;          /*Im a web developer*/
              /*_*/
         
@@ -2576,7 +2576,7 @@
             
             
             
-             font-family: 'Pirata One', cursive;
+             font-family: 'Pirata One';
            
              background: linear-gradient(to left, white 10%, red 60%, rgb(236, 236, 104) 30%);
              background-size: auto auto;
@@ -2589,7 +2589,7 @@
           
     
          /*__*/
-         margin-top: 28%;
+         margin-top: 22%;
      
         margin-left: -7%;  
        
@@ -2600,7 +2600,7 @@
     #text4{
         float: right;
         display: block;
-        font-size: 4.7vw;
+        font-size: 5.5vw;
         font-weight: 50px;          /*Im a CSE student*/
              /*_*/
         
@@ -2608,7 +2608,7 @@
             
              
             
-             font-family: 'Pirata One', cursive;
+             font-family: 'Pirata One';
            
              background: linear-gradient(to left, white 10%, red 60%, rgb(236, 236, 104) 30%);
              background-size: auto auto;
@@ -2622,7 +2622,7 @@
     
          /*__*/
     
-        margin-right: -2%;  
+        margin-right: -1%;  
         margin-top: 10%;
         display: none;
       
@@ -2651,12 +2651,12 @@
       position: relative;
   }
   .dropdown-content {
-    margin-top: -33%;
-    margin-left: 87%; 
+    margin-top: -29%;
+    margin-left: 80%; 
     display: none;
     position: absolute;
     background-color:#1a1a1a;
-    width: 50px;
+    width: 80px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   
   }
@@ -2665,17 +2665,16 @@
   .dropdown-content a {
     color: white;
     size: 1;
-    padding: 2px 5px;
+    padding: 5px 5px;
     text-decoration: none;
     display: block;
-    font-size: 10px;
+    font-size: 20px;
   }
   
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {background-color:	#c80000;}
   
   /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
 
   /*___________________________DropDown end____________________________________________________*/
    }
