@@ -263,7 +263,7 @@
       /* ________________________________________Dropdown Content________________________ */
     
       
-      .menu_icon{
+      #menu_icon{
        
         width:3%;
       display: block;
@@ -276,7 +276,7 @@
       .dropdown{
         position: relative;
     }
-    .dropdown-content {
+    #dropdown-content {
       margin-top: 0.8%;
       margin-left: 92%; 
       display: none;
@@ -288,21 +288,20 @@
     }
     
     /* Links inside the dropdown */
-    .dropdown-content a {
+    #dropdown-content a {
       color: white;
       size: 1;
       padding: 12px 10px;
       text-decoration: none;
       display: block;
       font-size: 22px;
-      font-family: 'Pirata One', cursive;
+      font-family: 'Pirata One';
     }
     
     /* Change color of dropdown links on hover */
-    .dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
+    #dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
     
-    /* Show the dropdown menu on hover */
-    .dropdown:hover .dropdown-content {display: block;}
+
     
     /*___________________________DropDown end____________________________________________________*/
     

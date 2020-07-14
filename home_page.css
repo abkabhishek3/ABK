@@ -2106,7 +2106,7 @@
   }
   
   /* Links inside the dropdown */
-  .dropdown-content a {
+  #dropdown-content a {
     color: white;
     size: 1;
     padding: 5px 1px;

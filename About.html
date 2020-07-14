@@ -6,7 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <title>About</title>
-  <body>
+  <body onload="start()">
+    <script type = "text/javascript">
+    var click_counter=0;
+      function start(){
+        document.getElementById("about").onclick=function open_About(params) {
+                window.open("About.html","_self");
+              }
+              document.getElementById("skills").onclick=function open_About(params) {
+                window.open("Skills.html","_self");
+              }
+              document.getElementById("works").onclick=function open_About(params) {
+                window.open("Works.html","_self");
+              }
+              document.getElementById("contact").onclick=function open_About(params) {
+                window.open("Contact.html","_self");
+              }
+
+  
+
+              document.onclick=function menu(){
+                if(click_counter%2==0)
+                {
+                  document.getElementById("dropdown-content").style.display="block";
+                }
+                if(click_counter%2==1)
+                {
+                  document.getElementById("dropdown-content").style.display="none";
+                }
+                click_counter=click_counter+1;
+              }
+
+      }
+    
+    </script>
 
     <div class="container">                  <!--0th-->
         <div class="circle"></div>
@@ -24,16 +57,16 @@
         </div>
         <div class="topbar_mobile"></div>
 
-         <div class="dropdown"> 
-          <a id="menu_a" ><img class="menu_icon"  src="images/design/hamburger_gold.png"></a>
-          <div class="dropdown-content">
-            <a href="About.html">About</a>
-            <a href="Skills.html">Skills</a>
-            <a href="Works.html">Works</a>
-            <a href="#">Contact</a>
+        <div class="dropdown"> 
+          <a id="menu_a" ><img id="menu_icon"  src="images/design/hamburger_gold.png"></a>
+          <div id="dropdown-content">
+            <a id="about">About</a>
+            <a id="skills">Skills</a>
+            <a id="works">Works</a>
+            <a id="contact">Contact</a>
           </div>
-         </div>  
-      </div>
+         </div>       
+  
 
       
    
