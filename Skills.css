@@ -650,7 +650,7 @@ body{
     }
     #dropdown-content {
         width:2.5%;
-        margin-top: -135%;
+        margin-top: -138%;
         float: right;
         margin-right: -3%;
       display: none;
@@ -700,10 +700,19 @@ body{
 
   @media screen and (max-width:414px)
   {
+      #wrapper{
+          width: 100%;
+          overflow-x: hidden;
+         
+      
+      }
+ 
  
     body{
         background: rgb(0,0,0);
-        overflow: hidden;
+        overflow-y: scroll;
+    
+
     }
     #logo{
         margin-left: 1%;
@@ -715,25 +724,25 @@ body{
     }
     
     #coding_img{
-        width:50.5%;
-        margin-left: 2.7%;
-        margin-top: -2%;
+        width:90.5%;
+        margin-left: 3.5%;
+        margin-top: 20%;
     }
     #coding_img:hover{
         content: url("images/skills/coding1.png");
     }
     #webd_img{
-        width:51%;
-        margin-left: 50%;
-        margin-top: 2%;
+        width:91%;
+        margin-left: 4%;
+        margin-top: 50%;
     }
     #webd_img:hover{
         content: url("images/skills/webd1.png");
     }
     #editing_img{
-        width:53.5%;
-        margin-left: 2.7%;
-        margin-top: 3%;
+        width:93.5%;
+        margin-left: 3%;
+        margin-top: 30%;
     }
     #editing_img:hover{
         content: url("images/skills/editing1.png");
@@ -763,10 +772,10 @@ body{
     #coding_text{
         position: absolute;
               font-family: 'Fondamento';
-              font-size: 11vw;
+              font-size: 18vw;
               color: #7a7f87;
-              margin-top:14%;
-              margin-left: 58%;
+              margin-top:-5%;
+              margin-left: 22%;
               background: linear-gradient(to left, 
               #fa3a00 10%, #faa300 60%, #facd00 30%);
                     background-size: auto auto; 
@@ -782,10 +791,10 @@ body{
         line-break: normal;
         position: absolute;
               font-family: 'Fondamento';
-              font-size: 8.7vw;
+              font-size: 15vw;
               color: #7a7f87;
-              margin-top: 65%;
-              margin-left: -1%;
+              margin-top: 115%;
+              margin-left: 7%;
               background: linear-gradient(to left, 
               #00f9fa 10%, #0090fa 60%, #009cfa 30%);
                     background-size: auto auto; 
@@ -802,10 +811,10 @@ body{
     #editing_text{
         position: absolute;
               font-family: 'Fondamento';
-              font-size: 11.5vw;
+              font-size: 18.5vw;
               color: #7a7f87;
-              margin-top: 122.5%;
-              margin-left:58%;
+              margin-top:252.5%;
+              margin-left:22%;
               background: linear-gradient(to left, 
               #dffa00 10%, #98fa00 60%, #65fa00 30%);
                     background-size: auto auto; 
@@ -825,7 +834,7 @@ body{
     
     #menu_icon{
         width:7.5%;
-     margin-top: -180%;
+     margin-top: -393%;
      float: right;
      margin-right: 0.5%;
     }
@@ -835,7 +844,7 @@ body{
     }
     #dropdown-content {
         width:2.5%;
-        margin-top: -180%;
+        margin-top: -394%;
         float: right;
         margin-right: -2.5%;
       display: none;
@@ -870,188 +879,6 @@ body{
         width:5900px;
         height: 68px;
         margin-top:-186%;
-        margin-left: -10%;
-        
-    }
-
-}
-/*******************************************************************************************************
-  ********************************************************************************************************
-  *********************************************Mobile2***********************************************************
-  **************************************************************************************************
-  ********************************************************************************************************
-  *******************************************************************************************************/
-
-  @media screen and (max-width:320px)
-  {
- 
-    body{
-        background: rgb(0,0,0);
-        overflow: hidden;
-    }
-    #logo{
-        margin-left: 1%;
-        width:20%;
-    }
-   
-    #images{
-        position: relative;
-    }
-    
-    #coding_img{
-        width:50.5%;
-        margin-left: 2.7%;
-        margin-top: -2%;
-    }
-    #coding_img:hover{
-        content: url("images/skills/coding1.png");
-    }
-    #webd_img{
-        width:51%;
-        margin-left: 50%;
-        margin-top: 2%;
-    }
-    #webd_img:hover{
-        content: url("images/skills/webd1.png");
-    }
-    #editing_img{
-        width:53.5%;
-        margin-left: 2.7%;
-        margin-top: 3%;
-    }
-    #editing_img:hover{
-        content: url("images/skills/editing1.png");
-    }
-    
-    
-    #images{
-        margin-left: 2%;
-        margin-top: 11%;
-    }
-    
-       
-    @font-face{
-        font-family: Pirata One;
-        src:url(/fonts/pirata_one.ttf)
-    }
-    @font-face{
-        font-family:Fondamento;
-        src:url(/fonts/Fondamento-Regular.ttf)
-    }
-    @keyframes textclip {
-        to {
-            background-position: 200% center;
-        }
-    }
-    
-    #coding_text{
-        position: absolute;
-              font-family: 'Fondamento';
-              font-size: 11vw;
-              color: #7a7f87;
-              margin-top:14%;
-              margin-left: 58%;
-              background: linear-gradient(to left, 
-              #fa3a00 10%, #faa300 60%, #facd00 30%);
-                    background-size: auto auto; 
-                    background-clip: border-box;
-                    background-size: 200% auto;
-                    background-clip: text;
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                    animation: textclip 2s linear infinite;
-    }
-    #webd_text1{
-        display: block;
-        line-break: normal;
-        position: absolute;
-              font-family: 'Fondamento';
-              font-size: 8.7vw;
-              color: #7a7f87;
-              margin-top: 65%;
-              margin-left: -1%;
-              background: linear-gradient(to left, 
-              #00f9fa 10%, #0090fa 60%, #009cfa 30%);
-                    background-size: auto auto; 
-                    background-clip: border-box;
-                    background-size: 200% auto;
-                    background-clip: text;
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                    animation: textclip 4s linear infinite;
-    }
-    #webd_text{
-        display: none;
-    }
-    #editing_text{
-        position: absolute;
-              font-family: 'Fondamento';
-              font-size: 11.5vw;
-              color: #7a7f87;
-              margin-top: 122.5%;
-              margin-left:58%;
-              background: linear-gradient(to left, 
-              #dffa00 10%, #98fa00 60%, #65fa00 30%);
-                    background-size: auto auto; 
-                    background-clip: border-box;
-                    background-size: 200% auto;
-                    background-clip: text;
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                    animation: textclip 2s linear infinite;
-    }
-    #text{
-        position: relative;
-        margin-top: 10%;
-        margin-left: 0.2%;
-    }
-    /* ________________________________________Dropdown Content________________________ */
-    
-    #menu_icon{
-        width:7.5%;
-     margin-top: -180%;
-     float: right;
-     margin-right: 0.5%;
-    }
-    
-      .dropdown{
-        position: relative;
-    }
-    #dropdown-content {
-        width:2.5%;
-        margin-top: -180%;
-        float: right;
-        margin-right: -1%;
-      display: none;
-    
-      background-color:black;
-      width:65px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    
-    }
-    
-    /* Links inside the dropdown */
-    #dropdown-content a {
-      color: white;
-      size: 1;
-      padding: 5px 12px;
-      text-decoration: none;
-      display: block;
-      font-size: 13px;
-      font-family: 'Pirata One', cursive;
-    }
-    
-    /* Change color of dropdown links on hover */
-    #dropdown-content a:hover { background: rgb(33,150,217);
-        background: linear-gradient(138deg, rgba(33,150,217,1) 0%, rgba(0,156,250,1) 30%, rgba(0,250,33,1) 68%);}
-    
- 
-    /*___________________________DropDown end____________________________________________________*/
-    .rectangle{
-        background-color: #262424;
-        width:5900px;
-        height: 52px;
-        margin-top:-185.5%;
         margin-left: -10%;
         
     }
