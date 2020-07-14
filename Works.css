@@ -338,7 +338,7 @@ body{
 .dropdown{
     position: relative;
 }
-.dropdown-content {
+#dropdown-content {
     position: absolute;
     width:32.5%;
     margin-top: 0%;
@@ -352,7 +352,7 @@ body{
 }
 
 /* Links inside the dropdown */
-.dropdown-content a {
+#dropdown-content a {
   color: white;
   size: 1;
   padding: 10px 12px;
@@ -363,11 +363,11 @@ body{
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover { background: rgb(33,150,217);
+#dropdown-content a:hover { background: rgb(33,150,217);
     background: linear-gradient(138deg, rgba(33,150,217,1) 0%, rgba(0,156,250,1) 30%, rgba(0,250,33,1) 68%);}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+#dropdown:hover .dropdown-content {display: block;}
 
 /*___________________________DropDown end____________________________________________________*/
 
@@ -720,7 +720,7 @@ body{
   .dropdown{
       position: relative;
   }
-  .dropdown-content {
+  #dropdown-content {
       position: absolute;
       width:32.5%;
       margin-top: 0%;
@@ -734,7 +734,7 @@ body{
   }
   
   /* Links inside the dropdown */
-  .dropdown-content a {
+  #dropdown-content a {
     color: white;
     size: 1;
     padding: 10px 12px;
@@ -745,11 +745,11 @@ body{
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover { background: rgb(33,150,217);
+  #dropdown-content a:hover { background: rgb(33,150,217);
       background: linear-gradient(138deg, rgba(33,150,217,1) 0%, rgba(0,156,250,1) 30%, rgba(0,250,33,1) 68%);}
   
   /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
+  #dropdown:hover .dropdown-content {display: block;}
   
   /*___________________________DropDown end____________________________________________________*/
   }
@@ -1103,7 +1103,7 @@ body{
   .dropdown{
       position: relative;
   }
-  .dropdown-content {
+  #dropdown-content {
       position: absolute;
       width:32.5%;
       margin-top: 0%;
@@ -1117,7 +1117,7 @@ body{
   }
   
   /* Links inside the dropdown */
-  .dropdown-content a {
+  #dropdown-content a {
     color: white;
     size: 1;
     padding: 10px 12px;
@@ -1128,11 +1128,11 @@ body{
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover { background: rgb(33,150,217);
+  #dropdown-content a:hover { background: rgb(33,150,217);
       background: linear-gradient(138deg, rgba(33,150,217,1) 0%, rgba(0,156,250,1) 30%, rgba(0,250,33,1) 68%);}
   
   /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
+  #dropdown:hover .dropdown-content {display: block;}
   
   /*___________________________DropDown end____________________________________________________*/
   }
@@ -1491,7 +1491,7 @@ body{
   .dropdown{
       position: relative;
   }
-  .dropdown-content {
+  #dropdown-content {
       position: absolute;
       width:32.5%;
       margin-top: -4%;
@@ -1505,7 +1505,7 @@ body{
   }
   
   /* Links inside the dropdown */
-  .dropdown-content a {
+  #dropdown-content a {
     color: white;
     size: 1;
     padding: 10px 12px;
@@ -1516,11 +1516,11 @@ body{
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover { background: rgb(33,150,217);
+  #dropdown-content a:hover { background: rgb(33,150,217);
       background: linear-gradient(138deg, rgba(33,150,217,1) 0%, rgba(0,156,250,1) 30%, rgba(0,250,33,1) 68%);}
   
   /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
+  #dropdown:hover .dropdown-content {display: block;}
   
   /*___________________________DropDown end____________________________________________________*/
   }
@@ -1880,7 +1880,7 @@ body{
   .dropdown{
       position: relative;
   }
-  .dropdown-content {
+  #dropdown-content {
       position: absolute;
       width:32.5%;
       margin-top: -11%;
@@ -1894,7 +1894,7 @@ body{
   }
   
   /* Links inside the dropdown */
-  .dropdown-content a {
+  #dropdown-content a {
     color: white;
     size: 1;
     padding: 10px 12px;
@@ -1905,11 +1905,11 @@ body{
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover { background: rgb(33,150,217);
+  #dropdown-content a:hover { background: rgb(33,150,217);
       background: linear-gradient(138deg, rgba(33,150,217,1) 0%, rgba(0,156,250,1) 30%, rgba(0,250,33,1) 68%);}
   
   /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
+  #dropdown:hover .dropdown-content {display: block;}
   
   /*___________________________DropDown end____________________________________________________*/
   }
@@ -2271,7 +2271,7 @@ body{
   .dropdown{
       position: relative;
   }
-  .dropdown-content {
+  #dropdown-content {
       position: absolute;
       width:32.5%;
       margin-top: -11.5%;
@@ -2285,7 +2285,7 @@ body{
   }
   
   /* Links inside the dropdown */
-  .dropdown-content a {
+  #dropdown-content a {
     color: white;
     size: 1;
     padding: 10px 12px;
@@ -2296,11 +2296,11 @@ body{
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover { background: rgb(33,150,217);
+  #dropdown-content a:hover { background: rgb(33,150,217);
       background: linear-gradient(138deg, rgba(33,150,217,1) 0%, rgba(0,156,250,1) 30%, rgba(0,250,33,1) 68%);}
   
   /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
+  #dropdown:hover .dropdown-content {display: block;}
   
   /*___________________________DropDown end____________________________________________________*/
   }
@@ -2662,7 +2662,7 @@ body{
   .dropdown{
       position: relative;
   }
-  .dropdown-content {
+  #dropdown-content {
       position: absolute;
       width:32.5%;
       margin-top: -11.5%;
@@ -2676,7 +2676,7 @@ body{
   }
   
   /* Links inside the dropdown */
-  .dropdown-content a {
+  #dropdown-content a {
     color: white;
     size: 1;
     padding: 10px 12px;
@@ -2687,16 +2687,16 @@ body{
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover { background: rgb(33,150,217);
+  #dropdown-content a:hover { background: rgb(33,150,217);
       background: linear-gradient(138deg, rgba(33,150,217,1) 0%, rgba(0,156,250,1) 30%, rgba(0,250,33,1) 68%);}
   
   /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
+  #dropdown:hover .dropdown-content {display: block;}
   
   /*___________________________DropDown end____________________________________________________*/
   }
 
-/*******************************************************************************************************
+  /*******************************************************************************************************
   *******************************************************************************************************
   ********************************************************************************************************
   *********************************************Mobile***********************************************************
@@ -3052,11 +3052,11 @@ body{
   .dropdown{
       position: relative;
   }
-  .dropdown-content {
+  #dropdown-content {
       position: absolute;
-      width:32.5%;
-      margin-top: -17.5%;
-      margin-left: 84%;
+      width:82.5%;
+      margin-top: -18.5%;
+      margin-left: 79%;
     display: none;
   
     background-color:black;
@@ -3066,22 +3066,417 @@ body{
   }
   
   /* Links inside the dropdown */
-  .dropdown-content a {
+  #dropdown-content a {
     color: white;
     size: 1;
     padding: 10px 12px;
     text-decoration: none;
     display: block;
-    font-size: 12px;
+    font-size: 18px;
     font-family: 'Pirata One', cursive;
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover { background: rgb(33,150,217);
+  #dropdown-content a:hover { background: rgb(33,150,217);
       background: linear-gradient(138deg, rgba(33,150,217,1) 0%, rgba(0,156,250,1) 30%, rgba(0,250,33,1) 68%);}
   
   /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
+  #dropdown:hover .dropdown-content {display: block;}
+  
+  /*___________________________DropDown end____________________________________________________*/
+  }
+
+/*******************************************************************************************************
+  *******************************************************************************************************
+  ********************************************************************************************************
+  *********************************************Mobile1***********************************************************
+  ********************************************************************************************************
+  ********************************************************************************************************
+  *******************************************************************************************************/
+  @media screen and (max-width:375px)
+  {
+    #wrapper{
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+
+    body{
+      background: rgb(0, 0, 0);
+     overflow-y: scroll;
+  }
+  #logo{
+      width:18.3%;
+      float: left;
+      margin-top: -305.3%;
+      margin-left: -98.5%;
+  }
+  
+  .column1 {
+      float: left;
+      width: 350px;
+      height: 500px;
+      margin-top: 7.6%;
+      margin-left: -11.5%;
+    }
+    .column2 {
+      float: left;
+      width: 350px;
+      height: 500px;
+      margin-top: 10.6%;
+      margin-left: -11.5%;
+    }
+    .column3 {
+      float: left;
+      width: 350px;
+      height: 500px;
+      margin-top: 10.6%;
+      margin-left: -11.5%;
+    }
+    #row{
+    
+        margin-left: 11.7%;
+        margin-top:10%;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  
+    /*_________________________Works Content Start____________________________________________________*/
+   #portfolio{
+       position: absolute;
+       width:88.3%;
+       height:32%;
+       margin-left:-90.9%;
+       margin-top:21%
+   }
+   #meme{
+    position: absolute;
+    width:88%;
+    height:33%;
+    margin-left:-90.5%;
+    margin-top:77.7%
+  }
+  #music{
+    width:88.6%;
+    height: 50%;
+    position: absolute;
+    margin-left: -91%;
+    margin-top: 180%;
+  }
+  #mnews{
+    width:88.5%;
+    height: 32%;
+    position: absolute;
+    margin-left: -90.9%;
+    margin-top: 305.6%;
+  }
+  #bob{
+    width:88.5%;
+    height: 32%;
+    position: absolute;
+    margin-left: -90.9%;
+    margin-top: 362%;
+  }
+   /*___________________________________Buttons____________________________________________________*/
+  #orange_button{
+    height: 5%;  
+    width: 18%;                                                           
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 44%;                                                /*ORANGE BUTTON*/
+    border-radius: 8px;
+    transition: all 0.5s;
+  
+    font-family: Fondamento;
+    font-size: 90%;
+    background-color: #fb5d2d;
+    color: azure;
+    display: block;
+  }
+    #orange_button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #orange_button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #orange_button:hover span {
+      padding-right: 25px;
+    }
+    #orange_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+  
+    #orange_button1{
+      height: 5%;  
+    width: 18%;                                                           
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 100%;   
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 90%;
+      background-color: #fb5d2d;
+      color: azure;
+      display: block;
+    }
+    #orange_button1 span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #orange_button1 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #orange_button1:hover span {
+      padding-right: 25px;
+    }
+    #orange_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+  
+    #blue_button{                                 /*BLUE BUTTON*/
+      height: 5%;  
+      width: 21%;                                                           
+      position: absolute;
+      margin-left: 39%;
+      margin-top: 220%;   
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 100%;
+      background-color: #12dcf7;
+      color: azure;
+      display: block;
+    }
+    #blue_button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #blue_button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #blue_button:hover span {
+      padding-right: 25px;
+    }
+    #blue_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+    #green_button{                                 /*GREEN BUTTON*/
+      height: 5%;  
+      width: 35%;                                                           
+      position: absolute;
+      margin-left: 31%;
+      margin-top: 326%;   
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 90%;
+      background-color: #00ff18;
+      color: azure;
+      display: block;
+    }
+    #green_button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #green_button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #green_button:hover span {
+      padding-right: 25px;
+    }
+    #green_button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+    #green_button1{                                 /*GREEN BUTTON1*/
+      height: 5%;  
+      width: 35%;                                                           
+      position: absolute;
+      margin-left: 31%;
+      margin-top: 390%;   
+      border-radius: 8px;
+      transition: all 0.5s;
+  
+      font-family: Fondamento;
+      font-size: 90%;
+      background-color: #00ff18;
+      color: azure;
+      display: block;
+    }
+    #green_button1 span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    #green_button1 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    #green_button1:hover span {
+      padding-right: 25px;
+    }
+    #green_button1:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+     /*___________________________________Buttons End____________________________________________________*/
+    
+  
+  
+  @font-face{
+    font-family: Pirata One;
+    src:url(/fonts/pirata_one.ttf)
+  }
+  @font-face{
+    font-family:Fondamento;
+    src:url(/fonts/Fondamento-Regular.ttf)
+  }
+  @keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+  }
+  
+  #webd_text{                                            /*TEXTS*/
+    position: absolute;
+    font-family: 'Fondamento';
+    font-size:9vw;
+    color: #7a7f87;
+    margin-top: 7.5%;
+    margin-left:19.6%;
+    background: linear-gradient(to left, 
+    #fa3a00 10%, #faa300 60%, #facd00 30%);
+          background-size: auto auto; 
+          background-clip: border-box;
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 2s linear infinite;
+  }
+  #android_text{
+    position: absolute;
+    font-family: 'Fondamento';
+    font-size: 11vw;
+    color: #7a7f87;
+    margin-top: 149%;
+    margin-left: 16.8%;
+    background: linear-gradient(to left, 
+            #00f9fa 10%, #0090fa 60%, #009cfa 30%);
+          background-size: auto auto; 
+          background-clip: border-box;
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 2s linear infinite;
+  }
+  #editing_text{
+    position: absolute;
+    font-family: 'Fondamento';
+    font-size: 12vw;
+    color: #7a7f87;
+    margin-top: 289.5%;
+    margin-left: 29%;
+    background: linear-gradient(to left, 
+    #65fa00 10%, #98fa00 40%, #dffa00 50%);
+          background-size: auto auto; 
+          background-clip: border-box;
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: textclip 2s linear infinite;
+  }
+  /*___________________________DropDown Start____________________________________________________*/
+  #menu_icon{
+      float: right;
+      width:7.5%;
+      margin-top: -452.5%;
+      margin-right: auto;
+  }
+  .dropdown{
+      position: relative;
+  }
+  #dropdown-content {
+      position: absolute;
+      width:52.5%;
+      margin-top: -10.5%;
+      margin-left: 75%;
+    display: none;
+  
+    background-color:black;
+    width: 90px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  }
+  
+  /* Links inside the dropdown */
+  #dropdown-content a {
+    color: white;
+    size: 1;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    font-family: 'Pirata One', cursive;
+  }
+  
+  /* Change color of dropdown links on hover */
+  #dropdown-content a:hover { background: rgb(33,150,217);
+      background: linear-gradient(138deg, rgba(33,150,217,1) 0%, rgba(0,156,250,1) 30%, rgba(0,250,33,1) 68%);}
+  
+  /* Show the dropdown menu on hover */
+  #dropdown:hover .dropdown-content {display: block;}
   
   /*___________________________DropDown end____________________________________________________*/
   }

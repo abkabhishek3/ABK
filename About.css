@@ -263,7 +263,7 @@
       /* ________________________________________Dropdown Content________________________ */
     
       
-      #menu_icon{
+      .menu_icon{
        
         width:3%;
       display: block;
@@ -3375,7 +3375,7 @@
       width: 280px;
       margin-left:12%;
       margin-right: auto;
-      margin-top:180%;
+      margin-top:10%;
       background: rgb(54,51,51);
       background: linear-gradient(138deg, rgba(54,51,51,1) 0%, rgba(38,37,37,1) 0%, rgba(18,16,16,1) 34%, rgba(0,0,0,1) 58%);
       border-radius: 50%;

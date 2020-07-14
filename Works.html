@@ -7,8 +7,39 @@
         <title>Works</title>
     </head>
     <body onload="start()">
-        <script>
-            function start(){
+        <script  type = "text/javascript">
+                var click_counter=0;
+                function start(){
+                document.getElementById("about").onclick=function open_About(params) {
+                        window.open("About.html","_self");
+                      }
+                      document.getElementById("skills").onclick=function open_About(params) {
+                        window.open("Skills.html","_self");
+                      }
+                      document.getElementById("works").onclick=function open_About(params) {
+                        window.open("Works.html","_self");
+                      }
+                      document.getElementById("contact").onclick=function open_About(params) {
+                        window.open("Contact.html","_self");
+                      }
+        
+          
+        
+                      document.onclick=function menu(){
+                        if(click_counter%2==0)
+                        {
+                          document.getElementById("dropdown-content").style.display="block";
+                        }
+                        if(click_counter%2==1)
+                        {
+                          document.getElementById("dropdown-content").style.display="none";
+                        }
+                        click_counter=click_counter+1;
+                      }
+
+
+
+
                 /*ONE*/
                 document.getElementById("portfolio").onmouseover=function button(params) {
                     document.getElementById("orange_button").style.display="block";
@@ -126,6 +157,7 @@
             }
           
         </script>
+        <div id="wrapper"></div>
      
         <div id="row">
             <img class="column1" src="images/works/orange.png">
@@ -152,19 +184,20 @@
 
          <div id="topbar">
             <a href="https://abkabhishek3.github.io/ABK/index.html"><img id="logo" src="images/skills/logo.png"></a>
-            <div class="dropdown"> 
+           
+         <div class="dropdown"> 
                 <a id="menu_a" ><img id="menu_icon"  src="images/skills/hamburger.png"></a>
-                <div class="dropdown-content">
-                  <a href="About.html">About</a>
-                  <a href="Skills.html">Skills</a>
-                  <a href="Works.html">Works</a>
-                  <a href="#">Contact</a>
+                <div id="dropdown-content">
+                  <a id="about">About</a>
+                  <a id="skills">Skills</a>
+                  <a id="works">Works</a>
+                  <a id="contacts">Contact</a>
                 </div>
                </div>  
-               <div class="rectangle"></div>
+          <div class="rectangle"></div>
         </div>
     
-
+    </div>
 
     </body>
 
