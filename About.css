@@ -602,7 +602,7 @@
       .dropdown{
         position: relative;
     }
-    .dropdown-content {
+    #dropdown-content {
       margin-top: 0.8%;
       margin-left: 90%; 
       display: none;
@@ -614,7 +614,7 @@
     }
     
     /* Links inside the dropdown */
-    .dropdown-content a {
+    #dropdown-content a {
       color: white;
       size: 1;
       padding: 12px 10px;
@@ -625,10 +625,9 @@
     }
     
     /* Change color of dropdown links on hover */
-    .dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
+    #dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
     
-    /* Show the dropdown menu on hover */
-    .dropdown:hover .dropdown-content {display: block;}
+  
     
     /*___________________________DropDown end____________________________________________________*/
     
@@ -930,7 +929,7 @@
       .dropdown{
         position: relative;
     }
-    .dropdown-content {
+    #dropdown-content {
       margin-top: 0.8%;
       margin-left: 90%; 
       display: none;
@@ -942,7 +941,7 @@
     }
     
     /* Links inside the dropdown */
-    .dropdown-content a {
+    #dropdown-content a {
       color: white;
       size: 1;
       padding: 12px 10px;
@@ -953,10 +952,9 @@
     }
     
     /* Change color of dropdown links on hover */
-    .dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
+    #dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
     
-    /* Show the dropdown menu on hover */
-    .dropdown:hover .dropdown-content {display: block;}
+  
     
     /*___________________________DropDown end____________________________________________________*/
     
@@ -1258,7 +1256,7 @@
       .dropdown{
         position: relative;
     }
-    .dropdown-content {
+    #dropdown-content {
       margin-top: 0.8%;
       margin-left: 90%; 
       display: none;
@@ -1270,7 +1268,7 @@
     }
     
     /* Links inside the dropdown */
-    .dropdown-content a {
+    #dropdown-content a {
       color: white;
       size: 1;
       padding: 12px 10px;
@@ -1281,10 +1279,8 @@
     }
     
     /* Change color of dropdown links on hover */
-    .dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
+    #dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
     
-    /* Show the dropdown menu on hover */
-    .dropdown:hover .dropdown-content {display: block;}
     
     /*___________________________DropDown end____________________________________________________*/
     
@@ -1586,7 +1582,7 @@
       .dropdown{
         position: relative;
     }
-    .dropdown-content {
+    #dropdown-content {
       margin-top: 0.8%;
       margin-left: 90%; 
       display: none;
@@ -1598,7 +1594,7 @@
     }
     
     /* Links inside the dropdown */
-    .dropdown-content a {
+    #dropdown-content a {
       color: white;
       size: 1;
       padding: 12px 10px;
@@ -1609,10 +1605,8 @@
     }
     
     /* Change color of dropdown links on hover */
-    .dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
-    
-    /* Show the dropdown menu on hover */
-    .dropdown:hover .dropdown-content {display: block;}
+    #dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
+
     
     /*___________________________DropDown end____________________________________________________*/
     
@@ -1914,7 +1908,7 @@
       .dropdown{
         position: relative;
     }
-    .dropdown-content {
+    #dropdown-content {
       margin-top: 0.8%;
       margin-left: 89%; 
       display: none;
@@ -1926,7 +1920,7 @@
     }
     
     /* Links inside the dropdown */
-    .dropdown-content a {
+    #dropdown-content a {
       color: white;
       size: 1;
       padding: 12px 10px;
@@ -1937,10 +1931,8 @@
     }
     
     /* Change color of dropdown links on hover */
-    .dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
+    #dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
     
-    /* Show the dropdown menu on hover */
-    .dropdown:hover .dropdown-content {display: block;}
     
     /*___________________________DropDown end____________________________________________________*/
     
@@ -2242,7 +2234,7 @@
       .dropdown{
         position: relative;
     }
-    .dropdown-content {
+    #dropdown-content {
       margin-top: 0.8%;
       margin-left: 89%; 
       display: none;
@@ -2254,7 +2246,7 @@
     }
     
     /* Links inside the dropdown */
-    .dropdown-content a {
+    #dropdown-content a {
       color: white;
       size: 1;
       padding: 12px 10px;
@@ -2265,10 +2257,9 @@
     }
     
     /* Change color of dropdown links on hover */
-    .dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
+    #dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
     
-    /* Show the dropdown menu on hover */
-    .dropdown:hover .dropdown-content {display: block;}
+
     
     /*___________________________DropDown end____________________________________________________*/
     
@@ -2570,7 +2561,7 @@
       .dropdown{
         position: relative;
     }
-    .dropdown-content {
+    #dropdown-content {
       margin-top: 2.2%;
       margin-left: 87%; 
       display: none;
@@ -2582,7 +2573,7 @@
     }
     
     /* Links inside the dropdown */
-    .dropdown-content a {
+    #dropdown-content a {
       color: white;
       size: 1;
       padding: 12px 10px;
@@ -2593,10 +2584,9 @@
     }
     
     /* Change color of dropdown links on hover */
-    .dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
+    #dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
     
-    /* Show the dropdown menu on hover */
-    .dropdown:hover .dropdown-content {display: block;}
+    
     
     /*___________________________DropDown end____________________________________________________*/
     
@@ -2902,7 +2892,7 @@
   .dropdown{
     position: relative;
 }
-.dropdown-content {
+#dropdown-content {
   margin-top: -7.7%;
   margin-left: 242%; 
   display: none;
@@ -2914,7 +2904,7 @@
 }
 
 /* Links inside the dropdown */
-.dropdown-content a {
+#dropdown-content a {
   color: white;
   size: 1;
   padding: 6px 6px;
@@ -2925,10 +2915,8 @@
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
+#dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
 
 /*___________________________DropDown end____________________________________________________*/
 
@@ -3244,7 +3232,7 @@
     .dropdown{
       position: relative;
   }
-  .dropdown-content {
+  #dropdown-content {
     margin-top: -8.7%;
     margin-left: 215%; 
     display: none;
@@ -3256,7 +3244,7 @@
   }
   
   /* Links inside the dropdown */
-  .dropdown-content a {
+  #dropdown-content a {
     color: white;
     size: 1;
     padding: 6px 6px;
@@ -3267,10 +3255,9 @@
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
+  #dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
   
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
+ 
   
   /*___________________________DropDown end____________________________________________________*/
   
@@ -3586,9 +3573,9 @@
     .dropdown{
       position: relative;
   }
-  .dropdown-content {
+  #dropdown-content {
     margin-top: -8.7%;
-    margin-left: 215%; 
+    margin-left: 200%; 
     display: none;
     position: absolute;
     background-color:black;
@@ -3598,10 +3585,10 @@
   }
   
   /* Links inside the dropdown */
-  .dropdown-content a {
+  #dropdown-content a {
     color: white;
     size: 1;
-    padding: 6px 6px;
+    padding: 9px 6px;
     text-decoration: none;
     display: block;
     font-size: 20px;
@@ -3609,10 +3596,10 @@
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
+  #dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
   
   /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
+
   
   /*___________________________DropDown end____________________________________________________*/
   
@@ -3927,7 +3914,7 @@
     .dropdown{
       position: relative;
   }
-  .dropdown-content {
+  #dropdown-content {
     margin-top: -5.7%;
     margin-left: 180%; 
     display: none;
@@ -3939,7 +3926,7 @@
   }
   
   /* Links inside the dropdown */
-  .dropdown-content a {
+  #dropdown-content a {
     color: white;
     size: 1;
     padding: 6px 6px;
@@ -3950,10 +3937,9 @@
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
+  #dropdown-content a:hover {background-color:	/*#464b53*/#e7c613;}
   
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
+
   
   /*___________________________DropDown end____________________________________________________*/
   
