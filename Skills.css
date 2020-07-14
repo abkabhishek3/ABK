@@ -742,7 +742,7 @@ body{
     #editing_img{
         width:93.5%;
         margin-left: 3%;
-        margin-top: 30%;
+        margin-top: 27%;
     }
     #editing_img:hover{
         content: url("images/skills/editing1.png");
@@ -834,7 +834,7 @@ body{
     
     #menu_icon{
         width:7.5%;
-     margin-top: -393%;
+     margin-top: -390%;
      float: right;
      margin-right: 0.5%;
     }
@@ -844,7 +844,7 @@ body{
     }
     #dropdown-content {
         width:2.5%;
-        margin-top: -394%;
+        margin-top: -392%;
         float: right;
         margin-right: -2.5%;
       display: none;
@@ -874,13 +874,6 @@ body{
 
     
     /*___________________________DropDown end____________________________________________________*/
-    .rectangle{
-        background-color: #262424;
-        width:5900px;
-        height: 68px;
-        margin-top:-186%;
-        margin-left: -10%;
-        
-    }
+
 
 }
