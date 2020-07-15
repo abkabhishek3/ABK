@@ -3785,10 +3785,10 @@ body{
   #webd_text{                                            /*TEXTS*/
     position: absolute;
     font-family: 'Fondamento';
-    font-size:9vw;
+    font-size:10vw;
     color: #7a7f87;
-    margin-top: 7.5%;
-    margin-left:19.6%;
+    margin-top: 7.8%;
+    margin-left:16.6%;
     background: linear-gradient(to left, 
     #fa3a00 10%, #faa300 60%, #facd00 30%);
           background-size: auto auto; 
@@ -3804,7 +3804,7 @@ body{
     font-family: 'Fondamento';
     font-size: 11vw;
     color: #7a7f87;
-    margin-top: 154%;
+    margin-top: 155.1%;
     margin-left: 16.8%;
     background: linear-gradient(to left, 
             #00f9fa 10%, #0090fa 60%, #009cfa 30%);
@@ -3821,7 +3821,7 @@ body{
     font-family: 'Fondamento';
     font-size: 12vw;
     color: #7a7f87;
-    margin-top: 301.5%;
+    margin-top: 301.9%;
     margin-left: 29%;
     background: linear-gradient(to left, 
     #65fa00 10%, #98fa00 40%, #dffa00 50%);
