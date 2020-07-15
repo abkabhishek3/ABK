@@ -2,9 +2,13 @@ body{
     background: rgb(0,0,0);
     overflow: hidden;
 }
+#wrapper{
+    position: relative;
+}
 #logo{
     width:8%;
 }
+
 
 #coding_img{
     width:30%;

@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Contact.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Contact</title>
+    </head>
+    <body onload="start">
+        <script type = "text/javascript">
+            var click_counter=0;
+              function start(){
+                      document.getElementById("about").onclick=function open_About(params) {
+                        window.open("About.html","_self");
+                      }
+                      document.getElementById("skills").onclick=function open_About(params) {
+                        window.open("Skills.html","_self");
+                      }
+                      document.getElementById("works").onclick=function open_About(params) {
+                        window.open("Works.html","_self");
+                      }
+                      document.getElementById("contact").onclick=function open_About(params) {
+                        window.open("Contact.html","_self");
+                      }
+        
+          
+        
+                      document.onclick=function menu(){
+                        if(click_counter%2==0)
+                        {
+                          document.getElementById("dropdown-content").style.display="block";
+                        }
+                        if(click_counter%2==1)
+                        {
+                          document.getElementById("dropdown-content").style.display="none";
+                        }
+                        click_counter=click_counter+1;
+                      }
+        
+              }
+            
+            </script>
+
+        <div class="wrapper">
+            <img id="logo" src="images/Logo.png">
+            <h1>Contact Me</h1>
+           <div id="avatar" ><img id="avatar" src="images/contact/avatar.png">
+           </div> 
+           
+        <div class="dropdown"> 
+            <a id="menu_a" ><img id="menu_icon"  src="images/skills/hamburger.png"></a>
+            <div id="dropdown-content">
+              <a id="about">About</a>
+              <a id="skills">Skills</a>
+              <a id="works">Works</a>
+              <a id="contact">Contact</a>
+            </div>
+           </div>  
+        
+
+        </div>
+    </body>
+</html>    

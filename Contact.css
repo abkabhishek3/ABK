@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+}
+.wrapper{
+    position: relative;
+}
+@font-face{
+    font-family:Fondamento;
+    src:url(/fonts/Fondamento-Regular.ttf)
+  }
+h1{
+    color: aquamarine;
+    font-family: 'Fondamento';
+    font-size: 5vw;
+    margin-top:-6.5%;
+    margin-left: 34%;
+    text-decoration: underline blanchedalmond;
+    padding-bottom: 80%;
+    border-bottom: 80%;
+}
+
+#avatar{
+    width:44%;
+    margin-top: -56%;
+    float: right;
+}
+#logo{
+    width:11%;
+}
+/*___________________________DropDown Start____________________________________________________*/
+
+
+
+.dropdown{
+    position: relative;
+}
+#dropdown-content {
+  margin-top: -13.3%;
+  margin-left: 75%; 
+  display: none;
+  position: absolute;
+  background-color:#1a1a1a;
+  width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  cursor: pointer;
+
+}
+
+/* Links inside the dropdown */
+#dropdown-content a {
+  color: white;
+  size: 1;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+}
+
+/* Change color of dropdown links on hover */
+#dropdown-content a:hover {background-color:	#c80000;}
+
+
+
+/*___________________________DropDown end____________________________________________________*/
+
