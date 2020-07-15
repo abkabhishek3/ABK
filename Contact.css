@@ -1,5 +1,7 @@
 body{
     background-color: black;
+    overflow: hidden;
+
 }
 .wrapper{
     position: relative;
@@ -9,14 +11,15 @@ body{
     src:url(/fonts/Fondamento-Regular.ttf)
   }
 h1{
-    color: aquamarine;
+    color: #c80000;
     font-family: 'Fondamento';
     font-size: 5vw;
     margin-top:-6.5%;
-    margin-left: 34%;
-    text-decoration: underline blanchedalmond;
+    margin-left: 36%;
+    text-decoration: underline #c80000;
     padding-bottom: 80%;
     border-bottom: 80%;
+    text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
 }
 
 #avatar{
@@ -27,22 +30,34 @@ h1{
 #logo{
     width:11%;
 }
+@font-face{
+    font-family: Pirata One;
+    src:url(/fonts/pirata_one.ttf)
+}
 /*___________________________DropDown Start____________________________________________________*/
 
-
+#menu_icon{
+    width:10%;
+    cursor: pointer;
+   
+}
 
 .dropdown{
     position: relative;
+    margin-top: -89%;
+    float: right;
+    margin-right: -25%;
 }
 #dropdown-content {
-  margin-top: -13.3%;
-  margin-left: 75%; 
+  margin-top: -10.3%;
+  margin-left: -15%; 
   display: none;
   position: absolute;
-  background-color:#1a1a1a;
-  width: 120px;
+  background-color:black;
+  width: 105px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   cursor: pointer;
+  
 
 }
 
@@ -54,6 +69,7 @@ h1{
   text-decoration: none;
   display: block;
   font-size: 20px;
+  font-family: 'Pirata One',cursive;
 }
 
 /* Change color of dropdown links on hover */

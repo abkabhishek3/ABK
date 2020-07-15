@@ -6,10 +6,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Contact</title>
     </head>
-    <body onload="start">
+    <body onload="start()">
         <script type = "text/javascript">
             var click_counter=0;
               function start(){
+        
+             
+                     document.onclick=function menu(){
+                        if(click_counter%2==0)
+                        {
+                          document.getElementById("dropdown-content").style.display="block";
+                        }
+                        if(click_counter%2==1)
+                        {
+                          document.getElementById("dropdown-content").style.display="none";
+                        }
+                        click_counter=click_counter+1;
+                      }
+
                       document.getElementById("about").onclick=function open_About(params) {
                         window.open("About.html","_self");
                       }
@@ -23,32 +37,18 @@
                         window.open("Contact.html","_self");
                       }
         
-          
-        
-                      document.onclick=function menu(){
-                        if(click_counter%2==0)
-                        {
-                          document.getElementById("dropdown-content").style.display="block";
-                        }
-                        if(click_counter%2==1)
-                        {
-                          document.getElementById("dropdown-content").style.display="none";
-                        }
-                        click_counter=click_counter+1;
-                      }
-        
               }
             
             </script>
 
         <div class="wrapper">
-            <img id="logo" src="images/Logo.png">
+            <a href="https://abkabhishek3.github.io/ABK/index.html"><img id="logo" src="images/Logo.png"></a>
             <h1>Contact Me</h1>
            <div id="avatar" ><img id="avatar" src="images/contact/avatar.png">
            </div> 
            
-        <div class="dropdown"> 
-            <a id="menu_a" ><img id="menu_icon"  src="images/skills/hamburger.png"></a>
+           <div class="dropdown"> 
+            <a id="menu_a" ><img id="menu_icon"  src="images/design/hamburger1.png"></a>
             <div id="dropdown-content">
               <a id="about">About</a>
               <a id="skills">Skills</a>
