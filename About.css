@@ -3429,9 +3429,9 @@ margin-top:-25%
 
 .circle {
     position: absolute;
-    height: 280px;
-    width: 280px;
-    margin-left:6%;
+    height: 320px;
+    width: 320px;
+    margin-left:1%;
     margin-right: auto;
     margin-top:180%;
     background: rgb(54,51,51);
@@ -3441,7 +3441,7 @@ margin-top:-25%
   }
 
   .myimage{
-      margin-left: -120%;
+      margin-left: -109%;
       width: 480%;
       margin-top:120% ;
       
@@ -3623,7 +3623,7 @@ margin-top:-25%
     width:16%;
   display: block;
   position: absolute;
-  margin-left: 214.5%;
+  margin-left: 249.5%;
   margin-top: -5%;
   cursor: pointer;
 
@@ -3634,7 +3634,7 @@ margin-top:-25%
 }
 #dropdown-content {
   margin-top: -8.7%;
-  margin-left: 165%; 
+  margin-left: 200%; 
   display: none;
   position: absolute;
   background-color:black;
@@ -3679,7 +3679,7 @@ margin-top:-25%
 }
 
 .social_media{
-  margin-left: 37.5%;
+  margin-left: 53.5%;
   margin-top:-25%
   
 }
